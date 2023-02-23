@@ -1,25 +1,20 @@
 <script>
     window.onload = () => {
         currentURL = window.location.href;
-        const myREPOS = '{ "https://hackhpc.github.io/hackthethreat23":"https://hackhpc.github.io/HacktheThreat23", \
-                "https://hackhpc.github.io/hpcinthecity22":"https://hackhpc.github.io/HPCintheCity22", \
-                "https://hackhpc.github.io/bigdatahack-2022":"https://hackhpc.github.io/BigDataHack-2022",\
-                "https://hackhpc.github.io/studenthackatsc22":"https://hackhpc.github.io/StudentHackatSC22",\
-                "https://hackhpc.github.io/facultyhack-gateways22":"https://hackhpc.github.io/FacultyHack-Gateways22",\
-                "https://hackhpc.github.io/hackattacc-2022":"https://hackhpc.github.io/HackatTACC-2022",\
-                "https://hackhpc.github.io/admi22":"https://hackhpc.github.io/ADMI22/",\
-                "https://hackhpc.github.io/certifiedhackathoninternationalprofessional":"https://hackhpc.github.io/CertifiedHackathonInternationalProfessional/",\
-                "https://hackhpc.github.io/hpcinthecity21":"https://hackhpc.github.io/HPCintheCity21/",\
-                "https://hackhpc.github.io/pearc21":"https://hackhpc.github.io/Pearc21/",\
-                "https://hackhpc.github.io/hpcinthecity20":"https://hackhpc.github.io/HPCintheCity20/" \
-                }';
+        
         lowerCaseURL = currentURL.toLowerCase();
-        location.replace(myREPOS[lowerCaseURL]);
-        //if (lowerCaseURL == 'https://hackhpc.github.io/hackthethreat23'){
-        //    location.replace('https://hackhpc.github.io/HacktheThreat23');
-    //}
-    //    else if (currentURL != lowerCaseURL) {
-     //       location.replace(lowerCaseURL);
-      //  }
+        if  (lowerCaseURL == "https://hackhpc.github.io/hackthethreat23"){location.replace("https://hackhpc.github.io/HacktheThreat23");} 
+        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity22"){location.replace("https://hackhpc.github.io/HPCintheCity22");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/bigdatahack-2022"){location.replace("https://hackhpc.github.io/BigDataHack-2022");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/studenthackatsc22"){location.replace("https://hackhpc.github.io/StudentHackatSC22");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/facultyhack-gateways22"){location.replace("https://hackhpc.github.io/FacultyHack-Gateways22");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/hackattacc-2022"){location.replace("https://hackhpc.github.io/HackatTACC-2022");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/admi22"){location.replace("https://hackhpc.github.io/ADMI22/");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/certifiedhackathoninternationalprofessional"){location.replace("https://hackhpc.github.io/CertifiedHackathonInternationalProfessional/");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity21"){location.replace("https://hackhpc.github.io/HPCintheCity21/");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/pearc21"){location.replace("https://hackhpc.github.io/Pearc21/");}
+        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity20"){location.replace("https://hackhpc.github.io/HPCintheCity20/");}
+        else (currentURL != lowerCaseURL) {location.replace(lowerCaseURL);}
+       
     };
 </script>
