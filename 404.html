@@ -2,7 +2,10 @@
     window.onload = () => {
         currentURL = window.location.href;
         lowerCaseURL = currentURL.toLowerCase();
-        if (currentURL != lowerCaseURL) {
+        if (lowerCaseURL == 'https://hackhpc.github.io/hackthethreat23'){
+            location.replace('https://hackhpc.github.io/HacktheThreat23');
+    }
+        else if (currentURL != lowerCaseURL) {
             location.replace(lowerCaseURL);
         }
     };
