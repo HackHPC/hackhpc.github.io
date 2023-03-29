@@ -1,6 +1,8 @@
 // -------------------------------------------
 //   Author: Seyon Rajagopal
 //   Copyright (c) 2022 Seyon Rajagopal
+//   Modified by: Je'aime Powell
+//
 // -------------------------------------------
 
 
@@ -37,6 +39,7 @@ function genRepo(user) {
                         var repo_language = request[i].language;
                         var repo_stars = request[i].stargazers_count;
                         var repo_forks = request[i].forks;
+                        var has_pages = request[i].has_pages;
 
                         // replaces null values to be better represented when displayed
                         if (repo_description == null) {
@@ -45,16 +48,20 @@ function genRepo(user) {
                         if (repo_language == null) {
                             repo_language = "-";
                         }
-
-                        // Puts repo information into div
-                        $("#repo-box").append("<a href='https://hackhpc.github.io/" + repo_name + "' target='_blank'><div class='repo-item'><h1 class='title'>" +
-                            //username + 
-                            "/" +
-                            repo_name + "</h1><p class='description'>" + repo_description + "</p> </h1> <a href='" + repo_url + "'target='_blank'><span class='img' uk-icon='github' class='uk-icon'></span></a>" + //"<div class='bottom'><div class='language'><span class='img' uk-icon='code' class='uk-icon'></span>" +
-                            // repo_language + "</div>  <div class='star'><span class='img' uk-icon='star' class='uk-icon'></span>" +
-                            //repo_stars + "  </div> <div class='fork'><span class='img' uk-icon='git-fork' class='uk-icon'></span>" +
-                            //repo_forks + 
-                            "</div></div></div>");
+                        if (repo_name != "hackhpc.github.io"){
+                            if (has_pages){
+                                // Puts repo information into div
+                                $("#repo-box").append("<a href='https://hackhpc.github.io/" + repo_name + "' target='_blank'><div class='repo-item'><h1 class='title'>" +
+                                    //username + 
+                                    "/" +
+                                    repo_name + "</h1><p class='description'>" + repo_description + "</p> </h1> <a href='" + repo_url + "'target='_blank'><span class='img' uk-icon='github' class='uk-icon'></span></a>" + //"<div class='bottom'><div class='language'><span class='img' uk-icon='code' class='uk-icon'></span>" +
+                                    // repo_language + "</div>  <div class='star'><span class='img' uk-icon='star' class='uk-icon'></span>" +
+                                    //repo_stars + "  </div> <div class='fork'><span class='img' uk-icon='git-fork' class='uk-icon'></span>" +
+                                    //repo_forks + 
+                                    // has_pages + 
+                                    "</div></div></div>");
+                        }
+                    }
                     }
                 }
             });
