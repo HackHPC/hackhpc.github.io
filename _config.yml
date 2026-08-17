@@ -1,0 +1,24 @@
+title: HackHPC
+tagline: Building the next generation of research computing through hands-on collaboration
+description: >-
+  HackHPC brings students, faculty, researchers, mentors, national laboratories,
+  research computing centers, and industry together through hackathons, codeathons,
+  training institutes, and faculty development programs.
+url: "https://hackhpc.github.io"
+baseurl: ""
+lang: en
+
+github_org: HackHPC
+github_org_url: https://github.com/HackHPC
+
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - LICENSE

@@ -1,0 +1,72 @@
+---
+layout: default
+title: Partners
+description: Organizations that have sponsored, hosted, or co-run HackHPC events since 2020.
+---
+{% assign core = site.data.partners | where: "tier", "core" %}
+{% assign program = site.data.partners | where: "tier", "program" %}
+{% assign collaborating = site.data.partners | where: "tier", "collaborating" %}
+
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">Partners</span>
+    <h1 class="mt-0">{{ site.data.partners.size }} organizations behind HackHPC</h1>
+    <p style="max-width:720px;">Every HackHPC event is run with partner organizations — national laboratories, research computing centers, professional societies, and industry sponsors. Tiers below reflect how many HackHPC events each organization has supported, counted from the <a href="/events/">Events Archive</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Core Partners</span>
+    <h2 class="mt-0">Supported 5+ HackHPC events</h2>
+    <div class="grid-3">
+      {% for p in core %}
+      <div class="card">
+        <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
+        <p>{{ p.description }}</p>
+        <span class="small">{{ p.mentions }} events</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Program & Event Partners</span>
+    <h2 class="mt-0">Supported multiple events</h2>
+    <div class="grid-3">
+      {% for p in program %}
+      <div class="card card--soft">
+        <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
+        <p>{{ p.description }}</p>
+        <span class="small">{{ p.mentions }} events</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Collaborating Organizations</span>
+    <h2 class="mt-0">Event-specific partners</h2>
+    <div class="grid-4">
+      {% for p in collaborating %}
+      <div class="card card--soft">
+        <h3 style="font-size:1.05rem;"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
+        <p class="small">{{ p.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark text-center">
+  <div class="container">
+    <h2>Interested in partnering with HackHPC?</h2>
+    <div class="cta-row" style="justify-content:center;">
+      <a href="/get-involved/" class="btn btn-primary">Become a Partner</a>
+    </div>
+  </div>
+</section>

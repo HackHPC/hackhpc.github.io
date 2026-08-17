@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Mentor Gallery",
+    "url": "https://hackhpc.github.io/mentorgallery/",
+    "github_repo": "https://github.com/HackHPC/mentorgallery",
+    "type": "Mentor Directory",
+    "description": "Profiles of the experienced professionals and academics who guide, inspire, and mentor HackHPC participants across events."
+  },
+  {
+    "name": "Certified Hackathon International Professional",
+    "url": "https://hackhpc.github.io/CertifiedHackathonInternationalProfessional/",
+    "github_repo": "https://github.com/HackHPC/CertifiedHackathonInternationalProfessional",
+    "type": "Curriculum",
+    "description": "A curriculum defining training sessions on standards, logistics, tools, and methods for becoming a capable hackathon organizer or consultant."
+  },
+  {
+    "name": "PEARC26 HPC Resources",
+    "url": "https://hackhpc.github.io/hpcresources-pearc26/",
+    "github_repo": "https://github.com/HackHPC/hpcresources-pearc26",
+    "type": "Resource List",
+    "description": "Curated list of HPC resources compiled for the PEARC26 Student Program."
+  }
+]

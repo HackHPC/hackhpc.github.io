@@ -1,0 +1,61 @@
+---
+layout: default
+title: Events
+description: Browse every HackHPC hackathon, codeathon, training institute, and faculty development event since 2020.
+---
+{% assign events = site.data.events | sort: "start_date" | reverse %}
+{% assign years = events | map: "start_date" %}
+{% assign year_list = "" | split: "" %}
+{% for d in years %}{% assign y = d | slice: 0, 4 %}{% unless year_list contains y %}{% assign year_list = year_list | push: y %}{% endunless %}{% endfor %}
+{% assign year_list = year_list | sort | reverse %}
+
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">Events Archive</span>
+    <h1 class="mt-0">{{ events.size }} HackHPC Events Since 2020</h1>
+    <p>Hackathons, codeathons, training institutes, and faculty development programs — filter or search to find what you're looking for.</p>
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="container">
+    <div class="filters">
+      <input type="search" id="eventSearch" placeholder="Search events by name, partner, or category...">
+      <select id="typeFilter">
+        <option value="">All Types</option>
+        <option value="hackathon">Hackathons</option>
+        <option value="codeathon">Codeathons</option>
+        <option value="faculty">Faculty Development</option>
+        <option value="training">Training Institutes</option>
+      </select>
+      <select id="yearFilter">
+        <option value="">All Years</option>
+        {% for y in year_list %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
+      </select>
+    </div>
+    <p class="results-count"><span id="resultsCount">{{ events.size }} events</span> shown</p>
+
+    <div id="eventsGrid" class="events-grid">
+      {% for event in events %}
+      {% assign search_blob = event.name | append: " " | append: event.category | append: " " | append: event.partners | join: " " | downcase %}
+      <div class="card event-card" data-type="{{ event.type }}" data-year="{{ event.start_date | slice: 0, 4 }}" data-search="{{ search_blob }}">
+        <span class="badge badge-{{ event.type }}">{{ event.type }}</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <p>{{ event.description }}</p>
+        <div class="partner-tags">
+          {% for p in event.partners %}<span class="partner-tag">{{ p }}</span>{% endfor %}
+        </div>
+        <div class="card-links">
+          <a href="{{ event.url }}" class="btn btn-outline btn-small">Event Site</a>
+          {% if event.teams_url %}<a href="{{ event.teams_url }}" class="small">Teams</a>{% endif %}
+          {% if event.schedule_url %}<a href="{{ event.schedule_url }}" class="small">Schedule</a>{% endif %}
+          {% if event.mentors_url %}<a href="{{ event.mentors_url }}" class="small">Mentors</a>{% endif %}
+          <a href="{{ event.github_repo }}" class="small" target="_blank" rel="noopener">Repo ↗</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p id="noResults" class="no-results">No events match your filters. Try clearing the search or filters above.</p>
+  </div>
+</section>

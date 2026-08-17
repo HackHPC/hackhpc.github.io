@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="container navbar">
+    <a href="/" class="navbar-logo">
+      <img src="/assets/img/logos/HackHPC-bar-whitebg.svg" alt="HackHPC">
+    </a>
+
+    <nav class="navbar-menu" id="navbarMenu">
+      <a href="/about/" {% if page.url contains '/about/' %}class="active"{% endif %}>About</a>
+      <a href="/events/" {% if page.url contains '/events/' %}class="active"{% endif %}>Events</a>
+      <a href="/programs/" {% if page.url contains '/programs/' %}class="active"{% endif %}>Programs</a>
+      <a href="/partners/" {% if page.url contains '/partners/' %}class="active"{% endif %}>Partners</a>
+      <a href="/resources/" {% if page.url contains '/resources/' %}class="active"{% endif %}>Resources</a>
+      <a href="/get-involved/" class="btn btn-primary btn-small">Get Involved</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>

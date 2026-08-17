@@ -1,0 +1,54 @@
+---
+layout: default
+title: For Participants
+description: Why join a HackHPC hackathon or codeathon, and what to expect.
+---
+{% assign events = site.data.events %}
+{% assign today = site.time | date: '%Y-%m-%d' %}
+{% assign upcoming = events | where_exp: "e", "e.start_date >= today" | sort: "start_date" %}
+
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">For Participants</span>
+    <h1 class="mt-0">Get hands-on with real research computing problems</h1>
+    <p style="max-width:700px;">HackHPC events pair you with mentors from national labs, universities, and industry to work on real HPC, AI, and science-gateway challenges — no prior HPC experience required for most events.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid-3">
+      <div class="card">
+        <h3>What you'll learn</h3>
+        <p>Hands-on exposure to high-performance computing systems, AI/ML tooling, science gateways, and collaborative software development — skills directly transferable to research and industry roles.</p>
+      </div>
+      <div class="card">
+        <h3>Event types</h3>
+        <p><strong>Hackathons</strong> and <strong>codeathons</strong> are short, intensive team challenges (days). <strong>Training institutes</strong> are longer, skills-focused programs (weeks).</p>
+      </div>
+      <div class="card">
+        <h3>Mentorship</h3>
+        <p>Every team is paired with mentors — see who has mentored past events in the <a href="https://hackhpc.github.io/mentorgallery/">Mentor Gallery</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Find an Event</span>
+    <h2 class="mt-0">{% if upcoming.size > 0 %}Upcoming events{% else %}Recent events{% endif %}</h2>
+    <div class="grid-3">
+      {% assign show = upcoming | default: events %}
+      {% for event in show limit: 3 %}
+      <div class="card event-card">
+        <span class="badge badge-{{ event.type }}">{{ event.type }}</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <div class="card-links"><a href="{{ event.url }}" class="btn btn-outline btn-small">View Event</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="cta-row"><a href="/events/" class="btn btn-primary">Browse All Events</a></div>
+  </div>
+</section>

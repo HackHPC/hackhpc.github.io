@@ -1,20 +1,38 @@
+---
+layout: default
+title: Page Not Found
+permalink: /404.html
+description: The page you're looking for couldn't be found.
+---
+<section class="section text-center" style="padding: 6rem 0;">
+  <div class="container">
+    <span class="eyebrow">404</span>
+    <h1 class="mt-0">Page not found</h1>
+    <p style="max-width:520px; margin:0 auto 1.5rem;">The page you're looking for doesn't exist, or its URL may have changed case (older HackHPC event links were case-sensitive).</p>
+    <div class="cta-row" style="justify-content:center;">
+      <a href="/" class="btn btn-primary">Go to Homepage</a>
+      <a href="/events/" class="btn btn-outline">Browse Events</a>
+    </div>
+  </div>
+</section>
+
 <script>
-    window.onload = () => {
-        currentURL = window.location.href;
-        lowerCaseURL = currentURL.toLowerCase();
-        if  (lowerCaseURL == 'https://hackhpc.github.io/hackthethreat23'){location.replace('https://hackhpc.github.io/HacktheThreat23');}
-        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity23"){location.replace("https://hackhpc.github.io/hpcinthecity23");}    
-        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity22"){location.replace("https://hackhpc.github.io/HPCintheCity22");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/bigdatahack-2022"){location.replace("https://hackhpc.github.io/BigDataHack-2022");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/studenthackatsc22"){location.replace("https://hackhpc.github.io/StudentHackatSC22");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/facultyhack-gateways22"){location.replace("https://hackhpc.github.io/FacultyHack-Gateways22");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/hackattacc-2022"){location.replace("https://hackhpc.github.io/HackatTACC-2022");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/admi22"){location.replace("https://hackhpc.github.io/ADMI22/");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/certifiedhackathoninternationalprofessional"){location.replace("https://hackhpc.github.io/CertifiedHackathonInternationalProfessional/");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity21"){location.replace("https://hackhpc.github.io/HPCintheCity21/");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/pearc21"){location.replace("https://hackhpc.github.io/Pearc21/");}
-        else if (lowerCaseURL == "https://hackhpc.github.io/hpcinthecity20"){location.replace("https://hackhpc.github.io/HPCintheCity20/");}
-        else {location.replace('https://hackhpc.github.io');}
-       
+  // Preserve legacy case-sensitivity redirects for old event links that predate this redesign.
+  (function () {
+    var redirects = {
+      'https://hackhpc.github.io/hackthethreat23': 'https://hackhpc.github.io/HacktheThreat23',
+      'https://hackhpc.github.io/hpcinthecity22': 'https://hackhpc.github.io/HPCintheCity22',
+      'https://hackhpc.github.io/bigdatahack-2022': 'https://hackhpc.github.io/BigDataHack-2022',
+      'https://hackhpc.github.io/studenthackatsc22': 'https://hackhpc.github.io/StudentHackatSC22',
+      'https://hackhpc.github.io/facultyhack-gateways22': 'https://hackhpc.github.io/FacultyHack-Gateways22',
+      'https://hackhpc.github.io/hackattacc-2022': 'https://hackhpc.github.io/HackatTACC-2022',
+      'https://hackhpc.github.io/admi22': 'https://hackhpc.github.io/ADMI22/',
+      'https://hackhpc.github.io/certifiedhackathoninternationalprofessional': 'https://hackhpc.github.io/CertifiedHackathonInternationalProfessional/',
+      'https://hackhpc.github.io/hpcinthecity21': 'https://hackhpc.github.io/HPCintheCity21/',
+      'https://hackhpc.github.io/pearc21': 'https://hackhpc.github.io/Pearc21/',
+      'https://hackhpc.github.io/hpcinthecity20': 'https://hackhpc.github.io/HPCintheCity20/'
     };
+    var target = redirects[window.location.href.toLowerCase()];
+    if (target) { window.location.replace(target); }
+  })();
 </script>

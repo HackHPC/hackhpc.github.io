@@ -1,0 +1,41 @@
+---
+layout: default
+title: Resources
+description: HackHPC repositories, curricula, and the mentor directory.
+---
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">Resources</span>
+    <h1 class="mt-0">Repositories, curricula & directories</h1>
+    <p style="max-width:700px;">Every HackHPC event has its own GitHub repository (source for its event site). Browse the full organization on GitHub, or jump to these standing resources:</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid-3">
+      {% for r in site.data.resources %}
+      <div class="card">
+        <span class="badge">{{ r.type }}</span>
+        <h3><a href="{{ r.url }}">{{ r.name }}</a></h3>
+        <p>{{ r.description }}</p>
+        <div class="card-links">
+          <a href="{{ r.url }}" class="btn btn-outline btn-small">Visit</a>
+          <a href="{{ r.github_repo }}" class="small" target="_blank" rel="noopener">Repo ↗</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Event Repositories</span>
+    <h2 class="mt-0">All {{ site.data.events.size }} event site repositories</h2>
+    <p>Every event listed in the <a href="/events/">Events Archive</a> links to its own GitHub repository from its event card. For the complete, always-current list of every repository in the organization (including in-progress and internal ones not listed here), browse GitHub directly.</p>
+    <div class="cta-row">
+      <a href="{{ site.github_org_url }}?tab=repositories" target="_blank" rel="noopener" class="btn btn-primary">Browse All Repositories on GitHub</a>
+    </div>
+  </div>
+</section>

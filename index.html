@@ -1,63 +1,127 @@
-<!--
- -------------------------------------------
-   Author: Seyon Rajagopal
-   Copyright (c) 2020 Seyon Rajagopal
- ------------------------------------------- 
--->
+---
+layout: default
+title: Home
+description: >-
+  HackHPC brings students, faculty, researchers, mentors, national laboratories, research
+  computing centers, and industry together through hackathons, codeathons, training
+  institutes, and faculty development programs.
+---
+{% assign events = site.data.events %}
+{% assign today = site.time | date: '%Y-%m-%d' %}
+{% assign upcoming = events | where_exp: "e", "e.start_date >= today" | sort: "start_date" %}
+{% assign recent = events | sort: "start_date" | reverse %}
+{% assign featured = upcoming | default: recent %}
+{% assign core_partners = site.data.partners | where: "tier", "core" %}
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- UIkit used for styling and icons -->
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/script.js"></script>
-    <title>Repository List </title>
-</head>
-
-<body>
-    
-
-    <div id="title">
-        <!--
-        <h1>Enter GitHub Username:</h1>
-        <input id="user" type="text" placeholder="HackHPC">
-        <button id="btn" onclick="getusername()">View Repos</button>
-        <br><i>*Repos may appear at a slower rate compared to other content on screen.</i>
-        -->
+<section class="hero section--dark">
+  <div class="container hero-content">
+    <span class="eyebrow">Since 2020 · 2020–Present</span>
+    <h1>Building the next generation of research computing through hands-on collaboration</h1>
+    <p class="tagline">HackHPC brings students, faculty, researchers, mentors, national laboratories, research computing centers, and industry together through hackathons, codeathons, training institutes, and faculty development programs.</p>
+    <div class="cta-row">
+      <a href="/events/" class="btn btn-primary">Find an Event</a>
+      <a href="/programs/mentors.html" class="btn btn-secondary">Become a Mentor</a>
+      <a href="/partners/" class="btn btn-secondary" style="background:transparent; color:#fff; border-color:#fff;">Partner With HackHPC</a>
     </div>
+  </div>
+</section>
 
-
-    <div id="back">
-        <a href="http://hackhpc.org"><img src="img/hackHPCbadge.png"></a> 
-        <h1>Event Sites</h1>
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">HackHPC by the numbers</span>
+    <h2 class="mt-0">A decade of momentum, built one event at a time</h2>
+    <div class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-value">{{ events.size }}+</div>
+        <div class="metric-label">HackHPC Events</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">2020</div>
+        <div class="metric-label">Founded — Active Since</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">{{ site.data.partners.size }}</div>
+        <div class="metric-label">Partner Organizations</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">4</div>
+        <div class="metric-label">Program Types — Hackathons, Codeathons, Training, Faculty Dev</div>
+      </div>
     </div>
+    <p class="small" style="margin-top:1rem;">Counts reflect events and partners currently indexed in this site's <a href="{{ site.github_org_url }}/hackhpc.github.io/blob/main/_data/events.json" target="_blank" rel="noopener">event archive</a>.</p>
+  </div>
+</section>
 
-    <!-- The div below is all you need to list all repositories-->
-    <div id="repo-box"></div>
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">What HackHPC does</span>
+    <h2 class="mt-0">Three ways we build the research computing workforce</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="pillar-icon">🎓</div>
+        <h3>Workforce Development</h3>
+        <p>Hackathons and codeathons give students hands-on experience with real research-computing problems — alongside mentors from national labs, universities, and industry.</p>
+      </div>
+      <div class="card">
+        <div class="pillar-icon">🧑‍🏫</div>
+        <h3>Faculty Development</h3>
+        <p>FacultyHack helps instructors integrate HPC, AI, and science gateways into their courses through collaborative, deliverable-focused training institutes.</p>
+      </div>
+      <div class="card">
+        <div class="pillar-icon">🖥️</div>
+        <h3>Research Infrastructure Access</h3>
+        <p>Partnerships with TACC, ORNL, Science Gateways (SGX3), and the Supercomputing Conference series connect participants directly to national research computing resources.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">{% if upcoming.size > 0 %}Upcoming{% else %}Recent{% endif %} Events</span>
+    <h2 class="mt-0">See what's next</h2>
+    <div class="grid-3">
+      {% for event in featured limit: 3 %}
+      <div class="card event-card">
+        <span class="badge badge-{{ event.type }}">{{ event.type }}</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <p>{{ event.description }}</p>
+        <div class="card-links">
+          <a href="{{ event.url }}" class="btn btn-outline btn-small">View Event</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="cta-row">
+      <a href="/events/" class="btn btn-outline">Browse All {{ events.size }} Events</a>
+    </div>
+  </div>
+</section>
 
-    <script>
-            document.getElementById("back").style.display = "none";
-            function getusername() {
-                var user = "HackHPC";
-                document.getElementById("title").style.display = "none";
-                document.getElementById("repo-box").style.display = "block";
-                document.getElementById("back").style.display = "block";
-                genRepo(user);
-            }
-            window.onload = getusername;
-        </script>
-</body>
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Partner Ecosystem</span>
+    <h2 class="mt-0">Core partners powering HackHPC</h2>
+    <div class="partner-strip-grid">
+      {% for p in core_partners %}
+      <a href="{{ p.url }}" target="_blank" rel="noopener" class="card card--soft" style="text-align:center;">
+        <span class="partner-name">{{ p.name }}</span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="cta-row">
+      <a href="/partners/" class="btn btn-outline">See All Partners</a>
+    </div>
+  </div>
+</section>
 
-</html>
-
-</html>
+<section class="section section--dark text-center">
+  <div class="container">
+    <h2>Ready to get involved?</h2>
+    <p class="tagline" style="margin:0 auto;">Whether you're a student, faculty member, mentor, or organization — there's a way to join HackHPC.</p>
+    <div class="cta-row" style="justify-content:center;">
+      <a href="/get-involved/" class="btn btn-primary">Explore All Ways to Join</a>
+    </div>
+  </div>
+</section>

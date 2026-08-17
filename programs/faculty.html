@@ -1,0 +1,51 @@
+---
+layout: default
+title: Faculty Development
+description: How FacultyHack helps instructors integrate HPC, AI, and science gateways into their courses.
+---
+{% assign faculty_events = site.data.events | where: "type", "faculty" | sort: "start_date" | reverse %}
+
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">For Faculty</span>
+    <h1 class="mt-0">Bring HPC and science gateways into your courses</h1>
+    <p style="max-width:700px;">FacultyHack, run with the Science Gateways Community Institute (SGX3), is a collaborative, deliverable-focused training institute that helps instructors integrate research computing, AI tools, and reproducible workflows directly into their curricula.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid-3">
+      <div class="card">
+        <h3>Hands-on, not theoretical</h3>
+        <p>Sessions are built around producing a real course deliverable — a lesson plan, assignment, or gateway integration — not just lectures.</p>
+      </div>
+      <div class="card">
+        <h3>Mentored cohorts</h3>
+        <p>Faculty work in small groups with mentors from SGX3, TACC, and ORNL across the training period.</p>
+      </div>
+      <div class="card">
+        <h3>Runs annually</h3>
+        <p>FacultyHack@Gateways has run every year since 2022, typically in the fall alongside the Gateways Conference.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Past & Upcoming</span>
+    <h2 class="mt-0">FacultyHack@Gateways, year by year</h2>
+    <div class="events-grid">
+      {% for event in faculty_events %}
+      <div class="card event-card">
+        <span class="badge badge-faculty">faculty</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <p>{{ event.description }}</p>
+        <div class="card-links"><a href="{{ event.url }}" class="btn btn-outline btn-small">View Event</a></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
