@@ -31,6 +31,45 @@ description: HackHPC repositories, curricula, and the mentor directory.
 
 <section class="section section--soft">
   <div class="container">
+    <span class="eyebrow">FacultyHack Modified Courses</span>
+    <h2 class="mt-0">{{ site.data.courses.size }} courses redesigned with HPC & science gateways</h2>
+    <p style="max-width:760px;">Every FacultyHack@Gateways cohort redesigns a real course to integrate high-performance computing, AI, and science gateway resources — from intro programming to bioinformatics to public administration. Browse what faculty have built:</p>
+
+    {% assign event_labels = site.data.courses | map: "event" | uniq | reverse %}
+    <div class="filters">
+      <input type="search" id="courseSearch" placeholder="Search by course, school, or topic...">
+      <select id="courseEventFilter">
+        <option value="">All Years</option>
+        {% for label in event_labels %}
+        {% assign sample = site.data.courses | where: "event", label | first %}
+        <option value="{{ sample.event_id }}">{{ label }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <p class="results-count"><span id="courseResultsCount">{{ site.data.courses.size }} courses</span> shown</p>
+
+    <div id="coursesGrid" class="events-grid">
+      {% for c in site.data.courses %}
+      {% assign ev = site.data.events | where: "id", c.event_id | first %}
+      {% assign search_blob = c.course_name | append: " " | append: c.course_number | append: " " | append: c.school | append: " " | append: c.description | downcase %}
+      <div class="card course-card" data-event="{{ c.event_id }}" data-search="{{ search_blob }}">
+        {% if c.course_number %}<span class="badge">{{ c.course_number }}</span>{% endif %}
+        <h3 class="mt-0">{{ c.course_name }}</h3>
+        <div class="event-date">{{ c.school }}</div>
+        <p class="small">{{ c.description }}</p>
+        <div class="card-links">
+          {% if ev %}<a href="{{ ev.url }}" class="small">{{ c.event }}</a>{% else %}<span class="small">{{ c.event }}</span>{% endif %}
+          {% if c.github %}<a href="{{ c.github }}" class="small repo-link" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo ↗</a>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p id="coursesNoResults" class="no-results">No courses match your search.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
     <span class="eyebrow">Event Repositories</span>
     <h2 class="mt-0">All {{ site.data.events.size }} event site repositories</h2>
     <p>Every event listed in the <a href="/events/">Events Archive</a> links to its own GitHub repository from its event card. For the complete, always-current list of every repository in the organization (including in-progress and internal ones not listed here), browse GitHub directly.</p>

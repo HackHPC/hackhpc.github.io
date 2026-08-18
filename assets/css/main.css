@@ -168,8 +168,9 @@ code, .mono { font-family: var(--font-mono); }
 .results-count { font-size: 0.9rem; color: #4b5563; margin-bottom: 1rem; }
 
 .events-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
-.event-card { display: flex; flex-direction: column; gap: 0.5rem; }
-.event-card .event-date { font-size: 0.85rem; color: var(--ui-blue); font-weight: 600; }
+.event-card, .course-card { display: flex; flex-direction: column; gap: 0.5rem; }
+.event-card .event-date, .course-card .event-date { font-size: 0.85rem; color: var(--ui-blue); font-weight: 600; }
+.course-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; align-items: center; }
 .badge {
   display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.04em; padding: 0.2rem 0.6rem; border-radius: 999px;

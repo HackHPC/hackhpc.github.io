@@ -55,3 +55,36 @@
   yearFilter.addEventListener('change', applyFilters);
   applyFilters();
 })();
+
+// FacultyHack modified-courses filter/search (Resources page)
+(function () {
+  var grid = document.getElementById('coursesGrid');
+  if (!grid) return;
+
+  var searchInput = document.getElementById('courseSearch');
+  var eventFilter = document.getElementById('courseEventFilter');
+  var resultsCount = document.getElementById('courseResultsCount');
+  var noResults = document.getElementById('coursesNoResults');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.course-card'));
+
+  function applyFilters() {
+    var query = (searchInput.value || '').toLowerCase().trim();
+    var eventId = eventFilter.value;
+    var visible = 0;
+
+    cards.forEach(function (card) {
+      var matchesQuery = !query || card.dataset.search.indexOf(query) !== -1;
+      var matchesEvent = !eventId || card.dataset.event === eventId;
+      var show = matchesQuery && matchesEvent;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    resultsCount.textContent = visible + (visible === 1 ? ' course' : ' courses');
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  searchInput.addEventListener('input', applyFilters);
+  eventFilter.addEventListener('change', applyFilters);
+  applyFilters();
+})();

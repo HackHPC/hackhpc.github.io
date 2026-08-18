@@ -1,0 +1,353 @@
+[
+  {
+    "event": "Faculty Hack @ Gateways 2022",
+    "event_id": "FacultyHack-Gateways22",
+    "course_name": "Java Programming",
+    "course_number": "CSC 1311",
+    "school": "Winston-Salem State University",
+    "description": "Identify target course & HPC resources; modify course outline; write lab exercises; poster work. (Best Poster Award)",
+    "github": null
+  },
+  {
+    "event": "Faculty Hack @ Gateways 2022",
+    "event_id": "FacultyHack-Gateways22",
+    "course_name": "Data Science I",
+    "course_number": null,
+    "school": "Yvonne Phillips & Alfred Watkins (affiliation not fully listed)",
+    "description": "Get Data Science initiative help enrolling students in HPCC course; create curriculum to implement a tree-based model using a cluster.",
+    "github": null
+  },
+  {
+    "event": "Faculty Hack @ Gateways 2022",
+    "event_id": "FacultyHack-Gateways22",
+    "course_name": "Data Mining and Machine Learning",
+    "course_number": null,
+    "school": "Mohamed Elbakary & Sheryl Bradford (affiliation not fully listed)",
+    "description": "Create course description and implementation schedule.",
+    "github": null
+  },
+  {
+    "event": "Faculty Hack @ Gateways 2022",
+    "event_id": "FacultyHack-Gateways22",
+    "course_name": "Principles of Distributed Software Systems; Introduction to Programming for Science Majors",
+    "course_number": null,
+    "school": "Felicia Doswell (affiliation not fully listed)",
+    "description": "Integrate CS with scientific computing (Python, science problems, data analysis, ML); identify use cases; develop/refine course descriptions; find textbooks/materials.",
+    "github": null
+  },
+  {
+    "event": "Faculty Hack @ Gateways 2022",
+    "event_id": "FacultyHack-Gateways22",
+    "course_name": "Accounting for Non-Accounting Majors",
+    "course_number": null,
+    "school": "La Tasha Roberts & Gina Bullock (affiliation not fully listed)",
+    "description": "Create course description; simple program for accounting info; module on securing data / data breaches.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways23",
+    "event_id": "facultyhack-gateways23",
+    "course_name": "Parallel Programming and Algorithms; Wireless and Mobile Security",
+    "course_number": "CS425; CS457",
+    "school": "Kettering University",
+    "description": "Integrate HPC with cybersecurity, cryptography & ML; identify ORNL/HPC resources; create/refine course schedules & hands-on labs.",
+    "github": "https://github.com/ruikobe/KetteringTeamFacHack23"
+  },
+  {
+    "event": "FacultyHack@Gateways23",
+    "event_id": "facultyhack-gateways23",
+    "course_name": "(Flexible HPC course for students/faculty/staff)",
+    "course_number": "CSCI 5306",
+    "school": "Texas A&M University–San Antonio",
+    "description": "Flexible 1–16 week course (lectures, homework, labs); build scripts for HPC environment; customizable modules.",
+    "github": "https://github.com/alsmadi/CAMSA_Gateways_2023"
+  },
+  {
+    "event": "FacultyHack@Gateways23",
+    "event_id": "facultyhack-gateways23",
+    "course_name": "Computational and Mathematical Biology",
+    "course_number": "MATH 3390",
+    "school": "Jarvis Christian University",
+    "description": "Redesign course using HPC/Science Gateways open sources; build website; pilot Spring 2024; surveys/evaluations.",
+    "github": "https://github.com/wsamyono/BulldogTeamFacHackGW23"
+  },
+  {
+    "event": "FacultyHack@Gateways23",
+    "event_id": "facultyhack-gateways23",
+    "course_name": "Undergraduate Intro to Data Science (module)",
+    "course_number": null,
+    "school": "Southern Oregon University",
+    "description": "Add module using Jupyter Notebooks in the cloud with large dataset (and GPUs if possible) for ML model training; Jetstream2 possible.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways23",
+    "event_id": "facultyhack-gateways23",
+    "course_name": "Introduction to Electrical & Computer Engineering",
+    "course_number": "ECE 101",
+    "school": "Jackson State University",
+    "description": "Expand Intro to Computers module to include HPC; introduce cloud services (GitHub, AWS); show need for HPC professionals.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways23",
+    "event_id": "facultyhack-gateways23",
+    "course_name": "(Cybersecurity-related; ThreatTracker)",
+    "course_number": null,
+    "school": "University of North Carolina at Pembroke",
+    "description": "Project site and syllabus materials for cybersecurity/HPC integration.",
+    "github": "https://github.com/Shan-Reddy/SGX3-Faculty-Hackathon-2023"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Computer Forensics",
+    "course_number": "CISS 3342",
+    "school": "Our Lady of the Lake University",
+    "description": "Incorporate HPC into the digital forensics curriculum; make the course accessible across disciplines; lectures + hands-on labs/scripts in an HPC environment.",
+    "github": "https://github.com/aaomari45/Faculty-Hackathon-2024"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Survey of Computer Science",
+    "course_number": "CS423",
+    "school": "Mississippi Valley State University",
+    "description": "Introduce basic cybersecurity & HPC concepts; practical labs for accelerating crypto/ML tasks and analyzing datasets.",
+    "github": "https://github.com/suhbrina-perry/FacultyHackHPC"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Parallel and Distributed Computing",
+    "course_number": "CSC551",
+    "school": "Jackson State University",
+    "description": "Access HPC resources; understand architecture; large datasets; sample parallel projects (OpenMP, MPI, OpenACC) in C++.",
+    "github": "https://github.com/sbhong238/Gateways2024"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Data Science",
+    "course_number": "BTEC620",
+    "school": "Claflin University",
+    "description": "Use HPC resources with ML datasets; understand HPC environment; create cluster account and run pipelines.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Bioinformatics",
+    "course_number": "BIOL3506",
+    "school": "Albany State University",
+    "description": "Introduce basic programming/HPC early; HPC-heavy project modules later; final exam as HPC project; local GPU supercomputer setup.",
+    "github": "https://github.com/olabisiojo/facultyhackaton2024"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Terrorism Disasters and Epidemics",
+    "course_number": "PHS410",
+    "school": "Elizabeth City State University",
+    "description": "Access/use large databases; analyze data; collect real-time local data; use science gateways.",
+    "github": "https://github.com/LloydMItchell/PHS410"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Introduction to Computational Fluid Dynamics",
+    "course_number": null,
+    "school": "Mississippi Valley State University",
+    "description": "Introduce commercial codes (SolidWorks, Ansys Fluent); introduce & integrate HPC; obtain HPC system access.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Operating Systems with Linux",
+    "course_number": "CSC3055",
+    "school": "Lincoln University of Pennsylvania",
+    "description": "Include HPC components; introduce HPC resources/environments; develop HPC lab exercises & projects.",
+    "github": "https://github.com/Taotopps2006/LU_FacultyHack24"
+  },
+  {
+    "event": "FacultyHack@Gateways24",
+    "event_id": "facultyhack-gateways24",
+    "course_name": "Computational Informatics I",
+    "course_number": "CSCI-2300",
+    "school": "Albany State University",
+    "description": "Add HPC component (e.g., DNA analysis examples); give students access to HPC portal.",
+    "github": "https://github.com/whu-asurams/GatewayHPC_for_CompInfo"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Introduction to Programming I",
+    "course_number": "CSCI1010",
+    "school": "Austin Peay State University",
+    "description": "Use classroom-friendly gateways (Jetstream2, Cornell Virtual Workshop, HPC Carpentry); improve course with HPC perspectives, generative AI support, parallelism concepts, supercomputing connection.",
+    "github": "https://github.com/suhbrina-perry/FacultyHackHPC25"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Research Methods and Data Analysis",
+    "course_number": "CPAD 503",
+    "school": "Clark Atlanta University",
+    "description": "Use R & Python; supervised/unsupervised learning; Jetstream2; create reproducible projects.",
+    "github": "https://github.com/ooyerind/Research-Method-and-Data-Analysis"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Ecology",
+    "course_number": "SBIO 404 B",
+    "school": "Southern University A&M College",
+    "description": "Incorporate EcologyPlus & PlantScience; improve visualization of ecological data with SGX3 resources; generative AI; revise course.",
+    "github": "https://github.com/DrMBea/FacultyHack25"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "General Biology",
+    "course_number": "412",
+    "school": "Southern University and A&M College",
+    "description": "New ways to visualize plant physiology data with SGX3 resources; enhance engagement; incorporate AI for learning support.",
+    "github": "https://github.com/tanganjohnson-ai/Hackathon-25-Plant-Physiology-"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "GPUs for Massively Parallel Mechanistic Modeling",
+    "course_number": null,
+    "school": "University of Pittsburgh",
+    "description": "Set up student JetStream2 VMs; ACCESS allocations; teach C++ exercises in web IDE; train students to package projects.",
+    "github": "https://github.com/omsai/facultyhack-gateways25-nanda"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Intro to Programming",
+    "course_number": "CMP 224",
+    "school": "Voorhees University",
+    "description": "Introduce SGX3 resources (Jetstream2); core programming concepts, problem-solving, clean code.",
+    "github": "https://github.com/cswanier/FacultyHack"
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Cyber Security",
+    "course_number": "CMP 431",
+    "school": "Voorhees University",
+    "description": "Integrate Jetstream2 into modules and assignments.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Bioinformatics for NGS Data Analysis",
+    "course_number": "BIOL 522",
+    "school": "Elizabeth City State University",
+    "description": "Enable use of science gateway tools (EDGE-Bioinformatics, Microbial Genomes Atlas, Searching the SRA); AI/ML feasibility; integrate/visualize results; sustainable framework for new tools.",
+    "github": null
+  },
+  {
+    "event": "FacultyHack@Gateways25",
+    "event_id": "facultyhack-gateways25",
+    "course_name": "Bayesian Stats Geocomputation",
+    "course_number": "DS 400; DS 422",
+    "school": "Chaminade University of Honolulu",
+    "description": "GitHub Classroom + professional portfolios; larger datasets; Bayesian applications in climate modeling; EOSDIS gateway; JetStream VMs.",
+    "github": "https://github.com/ConnorFlynn/sgx3-facultyhack"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Intro to Open Source Future: Decolonizing Technology & Data Sovereignty",
+    "course_number": "DATA 500",
+    "school": "Howard University",
+    "description": "Understand local open-source tools, OS, automations, and ethical computing vs digital colonialism; tour open-source data skills via JupyterLab, Metabase, Python for Environmental Justice analysis; critical analysis of big tech power. Science Gateway: Jetstream2 JupyterHub; VMs and Guacamole emulation.",
+    "github": "https://github.com/TeamGhana/HUDATA500"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Anatomy & Physiology",
+    "course_number": "SBIO 221B",
+    "school": "Southern University A&M College",
+    "description": "Integrate science gateway resources into teaching/research; expand student access to computing tools, data, and hands-on learning; provide training/support. Science Gateway: BioDigital Human and Jupyter for visualization, data analysis, and interactive learning in the lab.",
+    "github": "https://github.com/francisantigone-bit/Antigone-s-Hackathon-2026--Anatomy-Unlocked"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Intro to Computing",
+    "course_number": "CMP 224",
+    "school": "Voorhees University",
+    "description": "Increase access via Jetstream2 VMs; integrate generative AI for code generation, debugging, explanation, and problem solving; develop authentic computational projects. Science Gateway: Jetstream2 + AI tools for accessible, scalable computing experiences.",
+    "github": "https://github.com/cswanier/FacultyHack"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Introduction to Python Programming",
+    "course_number": "CSC 291",
+    "school": "Hampton University",
+    "description": "Introduce programming with HPC perspectives; explore resources/datasets for reproducible projects; train students to integrate and visualize results from science gateway platforms. Science Gateway: Jetstream2, Cornell Virtual Workshop, HPC Carpentry.",
+    "github": "https://github.com/Josephogo/joseph-aneke"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Computer Architecture",
+    "course_number": "CMP 334",
+    "school": "Voorhees University",
+    "description": "Understand computer architecture; integrate cloud architecture concepts; analyze how architecture principles support AI workloads (processors, memory, storage, parallel computing, AI accelerators); cover on-prem vs cloud (IaaS/PaaS/SaaS). Science Gateway: Jetstream2 for experimenting with CPU/GPU/memory/storage impact on AI workloads.",
+    "github": "https://github.com/gestureb-cpu/Course-Syllabus"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "IoT Fundamentals (no prereqs)",
+    "course_number": "LAN 120.300",
+    "school": "Moraine Valley Community College",
+    "description": "Introduce entry-level IoT students to science gateways, public datasets, Jetstream2, Jupyter, cloud, and HPC; develop notebook/visualization skills; run/modify code and visualize IoT/industrial data; introduce AI anomaly detection/cybersecurity; transfer skills to a sensor-based final project.",
+    "github": "https://github.com/kristinechristensen/FacultyHack26"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Ecology",
+    "course_number": "404B",
+    "school": "Southern University A&M College",
+    "description": "Develop beginner-friendly CURE module guiding biology majors through ecological question development, data exploration, visualization, and interpretation; use Louisiana-focused datasets (wetlands, biodiversity, climate, water quality, coastal change); guided CloudBank/Jupyter activities. Science Gateway: NAIRR CloudBank Classroom.",
+    "github": "https://github.com/DrMBea/Bayou-Ecology-CURE-2026"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Economics and Data Science for Public Administrators",
+    "course_number": "CPAD 504",
+    "school": "Clark Atlanta University",
+    "description": "Reinforce economic concepts with public-sector applications; develop analytical skills with equations/data/quantitative methods; build R proficiency; integrate AI responsibly (SGX2 Gateways LLMs, Claude, Codex); apply real-world datasets. Science Gateways: Jetstream2, CloudBank, SGX3/SGX2 LLMs, ORNL Datasets, etc.",
+    "github": "https://github.com/ooyerind/FacultyHack-Gateways26"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Environmental Science",
+    "course_number": "UFOR 271",
+    "school": "Southern University and A&M College",
+    "description": "Develop four scaffolded CURE activities on urban heat and environmental resilience in Baton Rouge/South Louisiana; guide Discovery – Visualization – Analysis – Interpretation using gateway datasets + student field data; HPC Carpentry intro; reusable notebooks and authentic products (report, poster, community brief). Science Gateway: ACCESS CloudBank Classroom JupyterHub.",
+    "github": "https://github.com/tanganjohnson-ai/Hackathon-26-Environmental-Science"
+  },
+  {
+    "event": "FacultyHack@Gateways26",
+    "event_id": "facultyhack-gateways26",
+    "course_name": "Artificial Intelligence",
+    "course_number": "CAP-4620",
+    "school": "Florida A&M University",
+    "description": "Evaluate open-weight LLMs students can deploy/fine-tune/benchmark on HPC via science gateways; curate domain datasets and pre-configured environments; map gateway-hosted datasets to course modules (clustering, CV, NLP). Science Gateway: National Research Platform (NRP) to compare unsupervised models vs Google Colab.",
+    "github": "https://github.com/Yohnjparra/Yohn-Parra"
+  }
+]
