@@ -1531,7 +1531,11 @@
     "category": "SC",
     "description": "Cloud HPC Hackathon held at SC18 in Dallas.",
     "partners": [
-      "SC18"
+      "SC18",
+      "Omnibond Systems",
+      "NVIDIA",
+      "Google Cloud",
+      "AWS (Amazon Web Services)"
     ],
     "teams_url": null,
     "schedule_url": null,

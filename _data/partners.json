@@ -20,9 +20,9 @@
   {
     "name": "Omnibond Systems",
     "url": "https://omnibond.com/",
-    "mentions": 13,
+    "mentions": 14,
     "tier": "core",
-    "description": "Software and cyberinfrastructure sponsor across most HackHPC events since 2020.",
+    "description": "Software and cyberinfrastructure sponsor across most HackHPC events since 2018.",
     "icon": "/assets/img/partners/omnibond-systems.svg",
     "fa_icon": null
   },
@@ -65,7 +65,7 @@
   {
     "name": "AWS (Amazon Web Services)",
     "url": "https://aws.amazon.com/",
-    "mentions": 3,
+    "mentions": 4,
     "tier": "program",
     "description": "Cloud compute sponsor for several codeathons and hackathons.",
     "icon": "/assets/img/partners/aws-amazon-web-services.svg",
@@ -146,9 +146,9 @@
   {
     "name": "Google Cloud",
     "url": "https://cloud.google.com/",
-    "mentions": 1,
-    "tier": "collaborating",
-    "description": "Cloud infrastructure sponsor for HPC in the City: Dallas.",
+    "mentions": 2,
+    "tier": "program",
+    "description": "Cloud infrastructure sponsor for Cloud HPC Hack @ SC18 and HPC in the City: Dallas.",
     "icon": "/assets/img/partners/google-cloud.svg",
     "fa_icon": null
   },
@@ -241,5 +241,14 @@
     "description": "National cyberinfrastructure program partner for HackHPC@PEARC21.",
     "icon": "/assets/img/partners/xsede-extreme-science-and-engineering-discovery-environment.svg",
     "fa_icon": null
+  },
+  {
+    "name": "NVIDIA",
+    "url": "https://www.nvidia.com/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "GPU computing sponsor for the Cloud HPC Hack @ SC18 hackathon.",
+    "fa_icon": null,
+    "icon": "/assets/img/partners/nvidia.svg"
   }
 ]
