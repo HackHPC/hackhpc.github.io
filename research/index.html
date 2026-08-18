@@ -1,0 +1,65 @@
+---
+layout: default
+title: Research
+description: Peer-reviewed papers, conference proceedings, and media coverage of the HackHPC model.
+---
+{% assign papers = site.data.research | where: "category", "paper" | sort: "date" | reverse %}
+{% assign media = site.data.research | where_exp: "e", "e.category != 'paper'" | sort: "date" | reverse %}
+
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">Research</span>
+    <h1 class="mt-0">Publications & Media Coverage</h1>
+    <p style="max-width:720px;">Peer-reviewed papers and conference proceedings documenting the HackHPC model, plus news and video coverage of HackHPC events since 2019.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Conference Proceedings & Papers</span>
+    <h2 class="mt-0">{{ papers.size }} publications</h2>
+    <div class="citation-list">
+      {% for c in papers %}
+      <div class="citation-item">
+        <div class="citation-title">{{ c.title }}</div>
+        <div class="citation-meta">
+          {% if c.authors %}<span class="citation-authors">{{ c.authors }}</span> — {% endif %}
+          {% if c.venue %}{{ c.venue }}, {% endif %}{{ c.date_display }}
+        </div>
+        <div class="citation-links">
+          {% for link in c.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">News, Conference & Video Coverage</span>
+    <h2 class="mt-0">{{ media.size }} features</h2>
+    <div class="citation-list">
+      {% for c in media %}
+      <div class="citation-item">
+        <div class="citation-title">
+          {% if c.category == 'video' %}▶ {% endif %}{{ c.title }}
+        </div>
+        <div class="citation-meta">
+          {% if c.authors %}<span class="citation-authors">{{ c.authors }}</span> — {% endif %}
+          {% if c.venue %}{{ c.venue }}, {% endif %}{{ c.date_display }}
+        </div>
+        <div class="citation-links">
+          {% for link in c.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section text-center">
+  <div class="container">
+    <p class="small">Looking for a specific event site instead of research literature? See the <a href="/events/">Events Archive</a>.</p>
+  </div>
+</section>

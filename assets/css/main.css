@@ -207,6 +207,22 @@ code, .mono { font-family: var(--font-mono); }
 }
 .partner-strip-grid .partner-name { font-weight: 600; color: var(--dark-blue); font-size: 0.95rem; }
 
+/* Citations / research list */
+.citation-list { display: flex; flex-direction: column; gap: 1.25rem; }
+.citation-item {
+  padding: 1.25rem 1.5rem; background: var(--neutral-white);
+  border: 1px solid var(--line-gray); border-radius: var(--radius);
+}
+.citation-title { font-weight: 700; color: var(--dark-blue); font-size: 1.05rem; margin-bottom: 0.25rem; }
+.citation-meta { font-size: 0.9rem; color: #4b5563; margin-bottom: 0.6rem; }
+.citation-authors { font-weight: 500; }
+.citation-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.citation-links a {
+  font-size: 0.82rem; font-weight: 600; color: var(--ui-blue);
+  background: var(--soft-gray); border-radius: 999px; padding: 0.25rem 0.75rem;
+}
+.citation-links a:hover { background: var(--support-sky); text-decoration: none; }
+
 /* Tables (FAQ / resources) */
 .faq-item { border-bottom: 1px solid var(--line-gray); padding: 1.25rem 0; }
 .faq-item h3 { margin-bottom: 0.4rem; }

@@ -1,0 +1,152 @@
+# HackHPC research citations & media coverage.
+# Source: hackhpc-citations-updated.md (Conference Proceedings and Papers +
+# News, Conference, and Video Resources sections). Event-site listings from
+# that document are intentionally excluded here — they're already covered,
+# with fuller detail, on the Events Archive (/events/).
+#
+# category: paper | media | video
+# date: ISO date used for sorting (best available; day defaults to 01 when
+#   the source only gives a month/year, year-01-01 when only a year is given)
+# date_display: the human-readable date as it appears in the source citation
+
+- category: paper
+  authors: "Powell, J., Hayden, L. B., Cannon, A., Holly, J., Dey, C., and Nolte, A."
+  title: "The HackHPC Model: Fostering Workforce Development in High-Performance Computing Through Hackathons"
+  venue: "Gateways 2022 Proceedings"
+  date: "2022-10-18"
+  date_display: "October 18–20, 2022"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.5281/zenodo.7089497"
+    - label: "NSF PAR"
+      url: "https://par.nsf.gov/servlets/purl/10450534"
+
+- category: paper
+  authors: "Holmen, J. K., Powell, J., Nolte, A., MacCarthy, E., Dey, C., Vergara Larrea, V. G., Parete-Koon, S., and Hayden, L. B."
+  title: "FacultyHack Events: Faculty-Focused Hackathons for High-Performance Computing Curriculum Development"
+  venue: "Proceedings of the International Conference on Game Jams, Hackathons and Game Creation Events (ICGJ '24)"
+  date: "2024-01-01"
+  date_display: "2024"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3697789.3697796"
+
+- category: paper
+  authors: "Falk, J., Nolte, A., Huppenkothen, D., Weinzierl, M., Gama, K., Spikol, D., Tollerud, E., Chue Hong, N., Knäpper, I., and Hayden, L. B."
+  title: "The Future of Hackathon Research and Practice"
+  venue: "IEEE Access, vol. 12, 2024, pp. 133406–133425"
+  date: "2024-01-01"
+  date_display: "2024"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1109/ACCESS.2024.3455092"
+
+- category: paper
+  authors: "Powell, J., Hayden, L. Bailey, Cannon, A., et al."
+  title: "Organizing Online Hackathons for Newcomers to a Scientific Community—Lessons Learned from Two Events"
+  venue: "Proceedings of the 6th International Conference on Game Jams, Hackathons, and Game Creation Events"
+  date: "2021-01-01"
+  date_display: "2021"
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3472688.3472700"
+
+- category: paper
+  authors: "Mehringer, S., Cahill, K., Dey, C., Guilfoos, B., et al."
+  title: "HPC-ED: Building a Sustainable Community Driven CyberTraining Catalog"
+  venue: "Journal of Computational Science Education"
+  date: "2025-01-01"
+  date_display: "2025"
+  links:
+    - label: "NSF PAR"
+      url: "https://par.nsf.gov/servlets/purl/10639461"
+
+- category: paper
+  authors: "Dey, C., and Lindsey, S."
+  title: "Teaching AI Through Narrative Data: A Practical Framework for Data Science and Retrieval-Augmented Generation"
+  venue: "Journal of Computational Science Education, vol. 17, no. 1, 2026"
+  date: "2026-01-01"
+  date_display: "2026"
+  links:
+    - label: "PDF"
+      url: "https://jocse.org/downloads/jocse-17-1-7.pdf"
+
+- category: paper
+  authors: "Hayden, L. B."
+  title: "SGX3 Workforce Development Project Overview"
+  venue: null
+  date: "2023-01-01"
+  date_display: "2023"
+  links:
+    - label: "NSF PAR"
+      url: "https://par.nsf.gov/servlets/purl/10533741"
+
+- category: paper
+  authors: "Nolte, A., Pe-Than, E. P. P., Affia, A. O., et al."
+  title: "How to Organize a Hackathon—A Planning Kit"
+  venue: "arXiv"
+  date: "2020-01-01"
+  date_display: "2020"
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/abs/2008.08025"
+
+- category: paper
+  authors: null
+  title: "HackHPC@ADMI23"
+  venue: "Zenodo"
+  date: "2024-01-01"
+  date_display: "2024"
+  links:
+    - label: "Zenodo Record"
+      url: "https://zenodo.org/records/13332973"
+
+- category: media
+  authors: "Farber, Rob"
+  title: "CloudyCluster Helps Students Build Bright Futures in HPC"
+  venue: "HPCwire"
+  date: "2019-12-20"
+  date_display: "December 20, 2019"
+  links:
+    - label: "Read Article"
+      url: "https://www.hpcwire.com/2019/12/20/cloudycluster-helps-students-build-bright-futures-in-hpc/"
+
+- category: media
+  authors: null
+  title: "HPC in the Virtual City"
+  venue: "SC20: The International Conference for High Performance Computing, Networking, Storage, and Analysis"
+  date: "2020-09-04"
+  date_display: "September 4, 2020"
+  links:
+    - label: "Read Article"
+      url: "https://sc20.supercomputing.org/2020/09/04/hpc-in-the-virtual-city/"
+
+- category: video
+  authors: "TACC Training"
+  title: "TACC Bytes—Code-a-thons, Hack-a-thons, and Learning to Code w/ Charlie and Je'aime"
+  venue: "YouTube"
+  date: "2023-05-15"
+  date_display: "May 15, 2023"
+  links:
+    - label: "Watch on YouTube"
+      url: "https://www.youtube.com/watch?v=q6rbPJXYZOk"
+
+- category: media
+  authors: null
+  title: "Panel on Student Competitions"
+  venue: "PEARC21 Student Program, ACM PEARC"
+  date: "2021-07-21"
+  date_display: "July 21, 2021"
+  links:
+    - label: "Read More"
+      url: "https://pearc.acm.org/pearc21/student-program/panel-on-student-competitions/"
+
+- category: media
+  authors: null
+  title: "SC20 \"HPC in the City\" Virtual Hackathon Addressed Issues Local to Atlanta"
+  venue: "Science Gateways Community Institute"
+  date: "2021-02-01"
+  date_display: "February 1, 2021"
+  links:
+    - label: "Read Article"
+      url: "https://sciencegateways.org/about/b/s/sc20-hpc-in-the-city-virtual-hackathon-addressed-issues-local-to-atlanta"
