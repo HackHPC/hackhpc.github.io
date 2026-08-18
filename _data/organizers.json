@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Amy Cannon",
+    "slug": "amy-cannon",
+    "affiliation": "Omnibond",
+    "affiliation_url": "http://www.omnibond.com/",
+    "bio": "Amy Cannon has worked at Omnibond for 10 years, where her Business Development skills allow her to engage with customers and partners, teaching how HPC and Cloud help solve scientific problems. Outside of work she enjoys spending time in nature as well as helping others grow their HPC, HTC, AI, and Cloud Computing knowledge.",
+    "linkedin": "https://www.linkedin.com/in/amy-cannon-46230b31/",
+    "twitter": "https://twitter.com/amy__cannon",
+    "github": null,
+    "website": null,
+    "google_scholar": null,
+    "orcid": null
+  },
+  {
+    "name": "Dr. Linda Hayden",
+    "slug": "linda-hayden",
+    "affiliation": "Science Gateways Community Institute",
+    "affiliation_url": "https://sciencegateways.org/",
+    "bio": "Dr. Linda Hayden holds a Ph.D. in Mathematics and Education. She leads workforce development activities for the NSF Science Gateways Community Institute (SGCI). In that position she works to train the next generation of gateway developers and users. Professor Hayden is an NSF Presidential Awardee for Excellence in Science, Mathematics and Engineering Mentoring.",
+    "linkedin": "https://www.linkedin.com/in/linda-hayden-5a8b424/",
+    "twitter": "https://twitter.com/lhaydenecsu",
+    "github": null,
+    "website": null,
+    "google_scholar": null,
+    "orcid": null
+  },
+  {
+    "name": "Charlie Dey",
+    "slug": "charlie-dey",
+    "affiliation": "Texas Advanced Computing Center",
+    "affiliation_url": "https://www.tacc.utexas.edu/about/directory/charlie-dey",
+    "bio": "Charlie Dey (he/him) is the Director of Training and Professional Development with the User Services group at the Texas Advanced Computing Center (TACC) with a background in web development and scientific computing. Charlie's responsibilities at TACC include organizing, developing content, and building curriculums for TACC's academic course selection taught in conjunction with several departments at the University of Texas at Austin, as well as for TACC's professional development and educational training. Prior to joining TACC, he worked as a Senior Application Developer for the Carle Foundation Hospital, and as a computer science instructor at Parkland College in Champaign, IL. He was also a member of a specialized application development team at the University of Illinois and has been a contracted research consultant for NASA Ames Research Center, studying computational immunology and bioinformatics. Charlie holds a Bachelor's Degree concentrating in Computer Science and Biology from Eastern Illinois University, and certifications in 3D programming and visualization. He is currently finishing up a Master's of Science in Cybersecurity.",
+    "linkedin": "https://www.linkedin.com/in/charlie-dey-0031317a/",
+    "twitter": "https://twitter.com/DeyCharlie",
+    "github": "https://github.com/ubik10",
+    "website": null,
+    "google_scholar": null,
+    "orcid": null
+  },
+  {
+    "name": "Alexander Nolte",
+    "slug": "alexander-nolte",
+    "affiliation": "Eindhoven University of Technology",
+    "affiliation_url": "https://www.tue.nl",
+    "bio": "Alex is an Associate Professor at Eindhoven University of Technology and an Adjunct Associate Professor at Carnegie Mellon University working in the area of human computer interaction. He is an avid hackathon enthusiast and has participated in, co-organized, served as a mentor and studied countless hackathons over the past years with no end in sight. Outside of work he fiddles with any gadget he can get his hand on, plays video games, cooks and does BBQ.",
+    "linkedin": "https://www.linkedin.com/in/alexandernolte/",
+    "twitter": "https://twitter.com/alexander_nolte/",
+    "github": "https://github.com/alexandernolte",
+    "website": "https://alexandernolte.github.io/",
+    "google_scholar": "https://scholar.google.com/citations?user=0Vmn0QQAAAAJ&hl=de&oi=ao",
+    "orcid": null
+  },
+  {
+    "name": "Je'aime Powell",
+    "slug": "je-aime-powell",
+    "affiliation": "Omnibond",
+    "affiliation_url": "http://www.omnibond.com",
+    "bio": "Je'aime H. Powell is a Product Analyst and Systems Analyst at Omnibond Systems, where his work focuses on high-performance computing, Kubernetes, research computing infrastructure, and the projectEUREKA! platform. He has extensive experience supporting the deployment, integration, and evaluation of cyberinfrastructure technologies across academic and research environments. His current work includes the Texas A&M University\u2013San Antonio CAMSA project, where he contributes to the incremental integration of Kubernetes-based services, GPU resources, shared storage, authentication, and traditional HPC scheduling workflows.\n\nPrior to joining Omnibond, Powell worked at the Texas Advanced Computing Center, where he supported HPC users, scientific software, education and outreach programs, and research computing initiatives. His experience spans HPC systems administration, user support, software deployment, scientific programming, containers, science gateways, and workforce development.\n\nPowell is also an organizer and instructor with HackHPC and the Science Gateways Community Institute's SGX3 programs. Since 2017, he has helped design and lead hackathons, codeathons, faculty training programs, and student computing institutes that introduce participants to HPC, artificial intelligence, reproducible research, scientific programming, and science gateways. His work emphasizes practical pathways for lowering barriers to advanced computing and helping institutions adopt emerging cyberinfrastructure technologies incrementally.\n\nHis professional interests include bridging traditional HPC and cloud-native computing, improving the usability of research infrastructure, and developing scalable training models that help students, faculty, and research teams effectively use modern computational resources. He is particularly interested in architectures that allow institutions to modernize existing HPC environments without disrupting established scheduler-based workflows while expanding access to new services and accelerator technologies.",
+    "linkedin": "https://www.linkedin.com/in/jeaimehp/",
+    "twitter": "https://twitter.com/jeaimehp",
+    "github": "https://github.com/jeaimehp",
+    "website": "http://jeaimehpc.com",
+    "google_scholar": "https://scholar.google.com/citations?user=sd6PjdkAAAAJ",
+    "orcid": "https://orcid.org/0000-0003-1377-5422"
+  },
+  {
+    "name": "Boyd Wilson",
+    "slug": "boyd-wilson",
+    "affiliation": "Omnibond",
+    "affiliation_url": "http://www.omnibond.com/",
+    "bio": "Boyd Wilson, CEO of Omnibond Systems, has extensive experience and leadership in the areas of software development, system administration, storage architectures and business models. Formerly, Boyd served as Software CTO and also Executive Director over computing operations at Clemson University and had research computing as part of his purview. He has participated in various academic grants, papers and workshops in the areas of parallel storage, cloud computing and computational infrastructure. Boyd's current focus lies in four areas: computer vision, AI, and real-time traffic analytics with TrafficVision; high-performance computing and storage with CloudyCluster and OrangeFS; identity and security management; and wake surfing and riding a boosted board around cities while traveling.",
+    "linkedin": "https://www.linkedin.com/in/boydwilson/",
+    "twitter": "https://twitter.com/boydwilson/",
+    "github": "https://github.com/omnibond/",
+    "website": null,
+    "google_scholar": null,
+    "orcid": null
+  }
+]

@@ -1,0 +1,49 @@
+---
+layout: default
+title: Organizers
+description: The team that plans HackHPC's programs, coordinates mentors, and runs its events.
+---
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">About HackHPC</span>
+    <h1 class="mt-0">Organizers</h1>
+    <p style="max-width:720px;">The team behind HackHPC's hackathons, codeathons, training institutes, and faculty development programs — they plan the program, coordinate mentors, and run the events, virtual and in-person. Bios via <a href="https://hackhpc.github.io/facultyhack-gateways26/organizers/" target="_blank" rel="noopener">FacultyHack@Gateways 2026</a>.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="stack" style="gap:1.5rem;">
+      {% for o in site.data.organizers %}
+      <div class="card organizer-card" id="{{ o.slug }}">
+        <div class="organizer-header">
+          <h3 class="mt-0">{{ o.name }}</h3>
+          {% if o.affiliation %}
+          <p class="organizer-affiliation">
+            {% if o.affiliation_url %}<a href="{{ o.affiliation_url }}" target="_blank" rel="noopener">{{ o.affiliation }}</a>{% else %}{{ o.affiliation }}{% endif %}
+          </p>
+          {% endif %}
+        </div>
+        {% if o.bio %}<p>{{ o.bio }}</p>{% endif %}
+        <div class="organizer-links">
+          {% if o.linkedin %}<a href="{{ o.linkedin }}" target="_blank" rel="noopener" aria-label="{{ o.name }} on LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
+          {% if o.twitter %}<a href="{{ o.twitter }}" target="_blank" rel="noopener" aria-label="{{ o.name }} on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i> X</a>{% endif %}
+          {% if o.github %}<a href="{{ o.github }}" target="_blank" rel="noopener" aria-label="{{ o.name }} on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
+          {% if o.website %}<a href="{{ o.website }}" target="_blank" rel="noopener" aria-label="{{ o.name }}'s website"><i class="fa-solid fa-globe" aria-hidden="true"></i> Website</a>{% endif %}
+          {% if o.google_scholar %}<a href="{{ o.google_scholar }}" target="_blank" rel="noopener" aria-label="{{ o.name }} on Google Scholar"><i class="fa-brands fa-google-scholar" aria-hidden="true"></i> Google Scholar</a>{% endif %}
+          {% if o.orcid %}<a href="{{ o.orcid }}" target="_blank" rel="noopener" aria-label="{{ o.name }} on ORCID"><i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID</a>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft text-center">
+  <div class="container">
+    <p class="small">See also the <a href="https://hackhpc.github.io/mentorgallery/">Mentor Gallery</a> for the mentors who guide teams at individual events.</p>
+    <div class="cta-row" style="justify-content:center;">
+      <a href="/about/">Back to About</a>
+    </div>
+  </div>
+</section>

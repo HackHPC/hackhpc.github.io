@@ -289,6 +289,18 @@ code, .mono { font-family: var(--font-mono); }
 .faq-item { border-bottom: 1px solid var(--line-gray); padding: 1.25rem 0; }
 .faq-item h3 { margin-bottom: 0.4rem; }
 
+/* Organizers */
+.organizer-card { scroll-margin-top: 6rem; }
+.organizer-header { margin-bottom: 0.5rem; }
+.organizer-affiliation { font-weight: 600; color: var(--ui-blue); margin: 0; }
+.organizer-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.organizer-links a {
+  display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; font-weight: 600;
+  color: var(--ui-blue); background: var(--soft-gray); border: 1px solid var(--line-gray);
+  border-radius: 999px; padding: 0.35rem 0.85rem;
+}
+.organizer-links a:hover { background: var(--support-sky); text-decoration: none; }
+
 /* Footer */
 .site-footer { background: var(--dark-blue); color: var(--neutral-white); padding: 3rem 0 1.5rem; margin-top: 4rem; }
 .footer-grid { display: grid; grid-template-columns: 2fr repeat(3, 1fr); gap: 2rem; }
