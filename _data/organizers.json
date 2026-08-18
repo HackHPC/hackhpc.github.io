@@ -11,7 +11,8 @@
     "website": null,
     "google_scholar": null,
     "orcid": null,
-    "photo": "/assets/img/organizers/amy-cannon.png"
+    "photo": "/assets/img/organizers/amy-cannon.png",
+    "affiliation_icon": "/assets/img/partners/omnibond-systems.svg"
   },
   {
     "name": "Dr. Linda Hayden",
@@ -25,7 +26,8 @@
     "website": null,
     "google_scholar": null,
     "orcid": null,
-    "photo": "/assets/img/organizers/linda-hayden.jpeg"
+    "photo": "/assets/img/organizers/linda-hayden.jpeg",
+    "affiliation_icon": "/assets/img/partners/science-gateways-sgx3-sgci-gateways-conference.svg"
   },
   {
     "name": "Charlie Dey",
@@ -39,7 +41,8 @@
     "website": null,
     "google_scholar": null,
     "orcid": null,
-    "photo": "/assets/img/organizers/charlie-dey.jpeg"
+    "photo": "/assets/img/organizers/charlie-dey.jpeg",
+    "affiliation_icon": "/assets/img/partners/tacc-texas-advanced-computing-center.svg"
   },
   {
     "name": "Alexander Nolte",
@@ -53,7 +56,8 @@
     "website": "https://alexandernolte.github.io/",
     "google_scholar": "https://scholar.google.com/citations?user=0Vmn0QQAAAAJ&hl=de&oi=ao",
     "orcid": null,
-    "photo": "/assets/img/organizers/alexander-nolte.jpeg"
+    "photo": "/assets/img/organizers/alexander-nolte.jpeg",
+    "affiliation_icon": "/assets/img/organizers/eindhoven-university-of-technology.svg"
   },
   {
     "name": "Je'aime Powell",
@@ -67,7 +71,8 @@
     "website": "http://jeaimehpc.com",
     "google_scholar": "https://scholar.google.com/citations?user=sd6PjdkAAAAJ",
     "orcid": "https://orcid.org/0000-0003-1377-5422",
-    "photo": "/assets/img/organizers/jeaime-powell.png"
+    "photo": "/assets/img/organizers/jeaime-powell.png",
+    "affiliation_icon": "/assets/img/partners/omnibond-systems.svg"
   },
   {
     "name": "Boyd Wilson",
@@ -81,6 +86,7 @@
     "website": null,
     "google_scholar": null,
     "orcid": null,
-    "photo": "/assets/img/organizers/boyd-wilson.png"
+    "photo": "/assets/img/organizers/boyd-wilson.png",
+    "affiliation_icon": "/assets/img/partners/omnibond-systems.svg"
   }
 ]

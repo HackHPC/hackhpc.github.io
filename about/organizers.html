@@ -22,6 +22,7 @@ description: The team that plans HackHPC's programs, coordinates mentors, and ru
             <h3 class="mt-0">{{ o.name }}</h3>
             {% if o.affiliation %}
             <p class="organizer-affiliation">
+              {% if o.affiliation_icon %}<img src="{{ o.affiliation_icon }}" alt="" class="organizer-affiliation-icon" width="18" height="18" loading="lazy">{% endif %}
               {% if o.affiliation_url %}<a href="{{ o.affiliation_url }}" target="_blank" rel="noopener">{{ o.affiliation }}</a>{% else %}{{ o.affiliation }}{% endif %}
             </p>
             {% endif %}
