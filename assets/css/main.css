@@ -182,7 +182,8 @@ code, .mono { font-family: var(--font-mono); }
 .badge-doi { background: var(--accent-orange); color: var(--neutral-white); font-size: 0.65rem; padding: 0.1rem 0.45rem; margin-left: 0.3rem; }
 .partner-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.25rem; }
 .partner-tag { font-size: 0.75rem; background: var(--soft-gray); border: 1px solid var(--line-gray); border-radius: 6px; padding: 0.15rem 0.5rem; color: var(--neutral-ink); }
-.event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; }
+.event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; align-items: center; }
+.repo-link { display: inline-flex; align-items: center; gap: 0.3rem; }
 .citation-toggle { margin-top: 0.6rem; border-top: 1px solid var(--line-gray); padding-top: 0.6rem; }
 .citation-toggle summary { cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ui-blue); }
 .citation-toggle summary:hover { text-decoration: underline; }

@@ -51,7 +51,7 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
           {% if event.teams_url %}<a href="{{ event.teams_url }}" class="small">Teams</a>{% endif %}
           {% if event.schedule_url %}<a href="{{ event.schedule_url }}" class="small">Schedule</a>{% endif %}
           {% if event.mentors_url %}<a href="{{ event.mentors_url }}" class="small">Mentors</a>{% endif %}
-          <a href="{{ event.github_repo }}" class="small" target="_blank" rel="noopener">Repo ↗</a>
+          <a href="{{ event.github_repo }}" class="small repo-link" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo ↗</a>
         </div>
         <details class="citation-toggle">
           <summary>Cite this event{% if event.doi %} <span class="badge badge-doi">DOI</span>{% endif %}</summary>
