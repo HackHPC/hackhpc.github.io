@@ -53,6 +53,10 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
           {% if event.mentors_url %}<a href="{{ event.mentors_url }}" class="small">Mentors</a>{% endif %}
           <a href="{{ event.github_repo }}" class="small" target="_blank" rel="noopener">Repo ↗</a>
         </div>
+        <details class="citation-toggle">
+          <summary>Cite this event</summary>
+          <p class="citation-text mono">{{ event.citation }}</p>
+        </details>
       </div>
       {% endfor %}
     </div>

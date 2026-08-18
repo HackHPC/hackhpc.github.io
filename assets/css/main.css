@@ -182,6 +182,14 @@ code, .mono { font-family: var(--font-mono); }
 .partner-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.25rem; }
 .partner-tag { font-size: 0.75rem; background: var(--soft-gray); border: 1px solid var(--line-gray); border-radius: 6px; padding: 0.15rem 0.5rem; color: var(--neutral-ink); }
 .event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; }
+.citation-toggle { margin-top: 0.6rem; border-top: 1px solid var(--line-gray); padding-top: 0.6rem; }
+.citation-toggle summary { cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ui-blue); }
+.citation-toggle summary:hover { text-decoration: underline; }
+.citation-text {
+  font-size: 0.78rem; color: var(--neutral-ink); background: var(--soft-gray);
+  border-radius: 8px; padding: 0.6rem 0.75rem; margin: 0.5rem 0 0; line-height: 1.5;
+  word-break: break-word; user-select: all;
+}
 .no-results { display: none; padding: 2rem; text-align: center; color: #4b5563; }
 
 /* Partner icons */
