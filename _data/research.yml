@@ -15,6 +15,15 @@
   venue: "Gateways 2022 Proceedings"
   date: "2022-10-18"
   date_display: "October 18–20, 2022"
+  summary: >-
+    Developing a workforce with applied skills in high-performance computing (HPC) has
+    highlighted a gap in the experiences current academic programs provide, especially at
+    the entry level. HackHPC — a collaboration between the Science Gateways Community
+    Institute, Omnibond Systems, the Texas Advanced Computing Center, and the University of
+    Tartu — was formed to close that gap through hackathons. This paper reports on the
+    development and refinement of the "HackHPC Model," covering the methodologies,
+    participants, and procedures used to plan and host hackathon events that foster
+    workforce development in HPC.
   links:
     - label: "DOI"
       url: "https://doi.org/10.5281/zenodo.7089497"
@@ -27,6 +36,12 @@
   venue: "Proceedings of the International Conference on Game Jams, Hackathons and Game Creation Events (ICGJ '24)"
   date: "2024-01-01"
   date_display: "2024"
+  summary: >-
+    Broadening-participation initiatives that engage students often leave faculty support
+    behind, even though hackathons have proved useful for student engagement. This paper
+    discusses the design of FacultyHack, a faculty-focused hackathon for curriculum
+    development, outlining the logistics and structure of two past events, what changed
+    between them, and the lessons learned.
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3697789.3697796"
@@ -37,6 +52,13 @@
   venue: "IEEE Access, vol. 12, 2024, pp. 133406–133425"
   date: "2024-01-01"
   date_display: "2024"
+  summary: >-
+    Hackathons have been adapted to so many different contexts that best practices and
+    research findings rarely cross between them. Drawing on an interdisciplinary workshop at
+    the Lorentz Center, this paper reports six areas the authors see as central to deepening
+    hackathon research and practice: designing for different purposes, socio-technical event
+    design, scaling up, making hackathons equitable, studying hackathons, and setting and
+    achieving hackathon goals.
   links:
     - label: "DOI"
       url: "https://doi.org/10.1109/ACCESS.2024.3455092"
@@ -47,6 +69,12 @@
   venue: "Proceedings of the 6th International Conference on Game Jams, Hackathons, and Game Creation Events"
   date: "2021-01-01"
   date_display: "2021"
+  summary: >-
+    Time-bounded events can give newcomers to a scientific community their first hands-on
+    programming experience, but access to computing resources alone isn't enough — they also
+    need guidance and support. This paper reports on a hackathon format the authors ran
+    in-person for two years and then had to move online during the 2020 pandemic, covering
+    two virtual events, what worked, what didn't, and recommendations for other organizers.
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3472688.3472700"
@@ -57,6 +85,13 @@
   venue: "Journal of Computational Science Education"
   date: "2025-01-01"
   date_display: "2025"
+  summary: >-
+    HPC-ED is a community-driven catalog for discovering and sharing CyberTraining resources,
+    built around a flexible interface, thoughtful metadata design, and active community
+    participation — letting authors share resources while retaining ownership, and letting
+    organizations enrich their own local portals with shared materials. This paper describes
+    the pilot phase: prototyping the catalog, establishing an initial metadata set, and
+    gathering community feedback to plan the next implementation phase.
   links:
     - label: "DOI"
       url: "https://doi.org/10.22369/issn.2153-4136/16/1/2"
@@ -69,6 +104,13 @@
   venue: "Journal of Computational Science Education, vol. 17, no. 1, 2026"
   date: "2026-01-01"
   date_display: "2026"
+  summary: >-
+    AI/ML education is often split between technical model-building and data literacy, taught
+    in isolation from each other. This paper presents a hands-on framework — debuting at the
+    2025 Big Data School in Costa Rica — that grounds AI learning in a single, richly
+    structured real-world dataset (the Austin Real-Time Traffic Incident Reports), having
+    learners apply classification, clustering, regression, and forecasting before converting
+    the data into narrative text for Retrieval-Augmented Generation (RAG) pipelines.
   links:
     - label: "DOI"
       url: "https://doi.org/10.22369/issn.2153-4136/17/1/7"
@@ -81,6 +123,13 @@
   venue: null
   date: "2023-01-01"
   date_display: "2023"
+  summary: >-
+    An overview of SGX3's workforce development activities: forming and enriching
+    relationships with minority-serving institutions to bring gateway development into
+    curricula, bring domain-specific gateways into classrooms and research settings, and
+    train faculty to sustain those efforts beyond the life of SGX3 itself, through the SGX3
+    Faculty Program's training, HPC account support, and curriculum-implementation
+    consulting.
   links:
     - label: "NSF PAR"
       url: "https://par.nsf.gov/servlets/purl/10533741"
@@ -91,6 +140,12 @@
   venue: "arXiv"
   date: "2020-01-01"
   date_display: "2020"
+  summary: >-
+    A practical planning kit for hackathon organizers, originally developed in 2020 around 12
+    key decisions for preparing, running, and following up on an in-person event. This
+    updated version accounts for the shift toward online and hybrid formats since the
+    pandemic, adding guidance on the affordances and requirements of in-person, online, and
+    hybrid events to each of the original 12 decisions, plus updated example timelines.
   links:
     - label: "DOI"
       url: "https://doi.org/10.48550/arXiv.2008.08025"
@@ -103,6 +158,12 @@
   venue: "Zenodo"
   date: "2024-01-01"
   date_display: "2024"
+  summary: >-
+    Archival record for the HackHPC@ADMI23 hackathon (June 26–29, 2023), a team-based event
+    for undergraduates, faculty, staff, and technical specialists held as part of the ADMI
+    Symposium on Computing at Minority Institutions. Built around the theme "Computing for
+    Social Good," participants worked in pre-formed teams with a faculty and technical mentor
+    each, after pre-hackathon training sessions on HPC and cyberinfrastructure.
   links:
     - label: "DOI"
       url: "https://doi.org/10.5281/zenodo.13332973"
@@ -115,6 +176,11 @@
   venue: "HPCwire"
   date: "2019-12-20"
   date_display: "December 20, 2019"
+  summary: >-
+    Profiles students who taught themselves programming while competing in the Cloud HPC
+    Hackathon (Omnibond's CloudyCluster competition) at SC19 in Denver — including Josselyn
+    Salvado and Pablo Enrique, whose stories illustrate how science-gateway-backed hackathons
+    open a path into HPC careers for students with no computer science background.
   links:
     - label: "Read Article"
       url: "https://www.hpcwire.com/2019/12/20/cloudycluster-helps-students-build-bright-futures-in-hpc/"
@@ -125,6 +191,11 @@
   venue: "SC20: The International Conference for High Performance Computing, Networking, Storage, and Analysis"
   date: "2020-09-04"
   date_display: "September 4, 2020"
+  summary: >-
+    SC20 organizers reflect on reinventing the in-person "HPC in the City" hackathon as a
+    fully virtual event for 2020, after the pandemic made it impossible for the SC conference
+    to physically take over its host city — and what a research-computing community can still
+    build and connect over when it can't.
   links:
     - label: "Read Article"
       url: "https://sc20.supercomputing.org/2020/09/04/hpc-in-the-virtual-city/"
@@ -135,6 +206,9 @@
   venue: "YouTube"
   date: "2023-05-15"
   date_display: "May 15, 2023"
+  summary: >-
+    Charlie Dey and Je'aime Powell talk about their methods for introducing coding to the
+    next generation of students through TACC's code-a-thons and hack-a-thons.
   links:
     - label: "Watch on YouTube"
       url: "https://www.youtube.com/watch?v=q6rbPJXYZOk"
@@ -145,6 +219,12 @@
   venue: "PEARC21 Student Program, ACM PEARC"
   date: "2021-07-21"
   date_display: "July 21, 2021"
+  summary: >-
+    A PEARC21 Student Program panel weighing whether ACM PEARC should host a co-located
+    student cluster/coding competition alongside the ones already running at SC, ISC, and
+    CHPC — arguing that repeat exposure across multiple competitions gives students an edge,
+    and that PEARC could offer U.S. students another affordable, domestic on-ramp into
+    research computing.
   links:
     - label: "Read More"
       url: "https://pearc.acm.org/pearc21/student-program/panel-on-student-competitions/"
@@ -155,6 +235,12 @@
   venue: "Science Gateways Community Institute"
   date: "2021-02-01"
   date_display: "February 1, 2021"
+  summary: >-
+    Recaps the SC20 "HPC in the City" virtual hackathon (Nov 5–9, 2020): 63 participants
+    across nine student teams, each paired with two mentors, used HPC resources including
+    Google Compute Cloud and CloudyCluster to build applications addressing issues local to
+    Atlanta and Georgia — from voter fraud analysis to COVID-19 response modeling — with
+    winning projects named at the close of the event.
   links:
     - label: "Read Article"
       url: "https://sciencegateways.org/about/b/s/sc20-hpc-in-the-city-virtual-hackathon-addressed-issues-local-to-atlanta"

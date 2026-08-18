@@ -224,6 +224,7 @@ code, .mono { font-family: var(--font-mono); }
 }
 .citation-title { font-weight: 700; color: var(--dark-blue); font-size: 1.05rem; margin-bottom: 0.25rem; }
 .citation-meta { font-size: 0.9rem; color: #4b5563; margin-bottom: 0.6rem; }
+.citation-summary { font-size: 0.92rem; color: var(--neutral-ink); line-height: 1.6; margin: 0 0 0.85rem; }
 .citation-authors { font-weight: 500; }
 .citation-links { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .citation-links a {
