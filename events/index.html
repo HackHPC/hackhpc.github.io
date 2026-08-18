@@ -54,8 +54,8 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
           <a href="{{ event.github_repo }}" class="small" target="_blank" rel="noopener">Repo ↗</a>
         </div>
         <details class="citation-toggle">
-          <summary>Cite this event</summary>
-          <p class="citation-text mono">{{ event.citation }}</p>
+          <summary>Cite this event{% if event.doi %} <span class="badge badge-doi">DOI</span>{% endif %}</summary>
+          <p class="citation-text mono">{{ event.citation_text }} <a href="{{ event.citation_url }}" target="_blank" rel="noopener">{{ event.citation_url_label }}</a></p>
         </details>
       </div>
       {% endfor %}

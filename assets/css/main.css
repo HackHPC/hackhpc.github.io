@@ -179,6 +179,7 @@ code, .mono { font-family: var(--font-mono); }
 .badge-codeathon { background: #FFE3D1; color: #B84B0F; }
 .badge-faculty { background: #E4D9FB; color: #5B2FB8; }
 .badge-training { background: #D8F5E3; color: #147041; }
+.badge-doi { background: var(--accent-orange); color: var(--neutral-white); font-size: 0.65rem; padding: 0.1rem 0.45rem; margin-left: 0.3rem; }
 .partner-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.25rem; }
 .partner-tag { font-size: 0.75rem; background: var(--soft-gray); border: 1px solid var(--line-gray); border-radius: 6px; padding: 0.15rem 0.5rem; color: var(--neutral-ink); }
 .event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; }

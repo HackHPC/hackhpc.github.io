@@ -58,6 +58,8 @@
   date: "2025-01-01"
   date_display: "2025"
   links:
+    - label: "DOI"
+      url: "https://doi.org/10.22369/issn.2153-4136/16/1/2"
     - label: "NSF PAR"
       url: "https://par.nsf.gov/servlets/purl/10639461"
 
@@ -68,6 +70,8 @@
   date: "2026-01-01"
   date_display: "2026"
   links:
+    - label: "DOI"
+      url: "https://doi.org/10.22369/issn.2153-4136/17/1/7"
     - label: "PDF"
       url: "https://jocse.org/downloads/jocse-17-1-7.pdf"
 
@@ -88,6 +92,8 @@
   date: "2020-01-01"
   date_display: "2020"
   links:
+    - label: "DOI"
+      url: "https://doi.org/10.48550/arXiv.2008.08025"
     - label: "arXiv"
       url: "https://arxiv.org/abs/2008.08025"
 
@@ -98,6 +104,8 @@
   date: "2024-01-01"
   date_display: "2024"
   links:
+    - label: "DOI"
+      url: "https://doi.org/10.5281/zenodo.13332973"
     - label: "Zenodo Record"
       url: "https://zenodo.org/records/13332973"
 

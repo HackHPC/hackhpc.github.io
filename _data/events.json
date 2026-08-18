@@ -18,7 +18,10 @@
     "schedule_url": "https://hackhpc.github.io/admi26/schedule.html",
     "organizers_url": "https://hackhpc.github.io/admi26/organizers.html",
     "mentors_url": null,
-    "citation": "\"HackHPC@ADMI26.\" HackHPC, 2026. https://hackhpc.github.io/admi26/"
+    "citation_text": "\"HackHPC@ADMI26.\" HackHPC, 2026.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/admi26/",
+    "citation_url_label": "https://hackhpc.github.io/admi26/"
   },
   {
     "id": "facultyhack-gateways26",
@@ -40,7 +43,10 @@
     "schedule_url": "https://hackhpc.github.io/facultyhack-gateways26/schedule/",
     "organizers_url": "https://hackhpc.github.io/facultyhack-gateways26/organizers/",
     "mentors_url": "https://hackhpc.github.io/facultyhack-gateways26/mentors/",
-    "citation": "\"SGX3's FacultyHack@Gateways26.\" HackHPC, 2026. https://hackhpc.github.io/facultyhack-gateways26/"
+    "citation_text": "\"SGX3's FacultyHack@Gateways26.\" HackHPC, 2026.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/facultyhack-gateways26/",
+    "citation_url_label": "https://hackhpc.github.io/facultyhack-gateways26/"
   },
   {
     "id": "sgx3-spring-training-2026",
@@ -60,7 +66,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"SGX3 Spring Training 2026.\" HackHPC, 2026. https://hackhpc.github.io/sgx3-spring-training-2026/"
+    "citation_text": "\"SGX3 Spring Training 2026.\" HackHPC, 2026.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/sgx3-spring-training-2026/",
+    "citation_url_label": "https://hackhpc.github.io/sgx3-spring-training-2026/"
   },
   {
     "id": "sgx3codinginstitute26",
@@ -80,7 +89,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"SGX3 Coding Institute & Hackathon 2026.\" HackHPC, 2026. https://hackhpc.github.io/sgx3codinginstitute26/"
+    "citation_text": "\"SGX3 Coding Institute & Hackathon 2026.\" HackHPC, 2026.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/sgx3codinginstitute26/",
+    "citation_url_label": "https://hackhpc.github.io/sgx3codinginstitute26/"
   },
   {
     "id": "admi25",
@@ -103,7 +115,10 @@
     "schedule_url": "https://hackhpc.github.io/admi25/schedule.html",
     "organizers_url": "https://hackhpc.github.io/admi25/organizers.html",
     "mentors_url": null,
-    "citation": "\"HackHPC@ADMI25.\" HackHPC, 2025. https://hackhpc.github.io/admi25/"
+    "citation_text": "\"HackHPC@ADMI25.\" HackHPC, 2025.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/admi25/",
+    "citation_url_label": "https://hackhpc.github.io/admi25/"
   },
   {
     "id": "facultyhack-gateways25",
@@ -127,7 +142,10 @@
     "schedule_url": "https://hackhpc.github.io/facultyhack-gateways25/schedule.html",
     "organizers_url": "https://hackhpc.github.io/facultyhack-gateways25/organizers.html",
     "mentors_url": null,
-    "citation": "\"FacultyHack@Gateways25.\" HackHPC, 2025. https://hackhpc.github.io/facultyhack-gateways25/"
+    "citation_text": "\"FacultyHack@Gateways25.\" HackHPC, 2025.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/facultyhack-gateways25/",
+    "citation_url_label": "https://hackhpc.github.io/facultyhack-gateways25/"
   },
   {
     "id": "sgx3codeathontraining25",
@@ -148,7 +166,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"SGX3 Codeathon Training 2025.\" HackHPC, 2025. https://hackhpc.github.io/sgx3codeathontraining25/"
+    "citation_text": "\"SGX3 Codeathon Training 2025.\" HackHPC, 2025.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/sgx3codeathontraining25/",
+    "citation_url_label": "https://hackhpc.github.io/sgx3codeathontraining25/"
   },
   {
     "id": "sgx3codinginstitute25",
@@ -168,7 +189,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"SGX3 Coding Institute 2025.\" HackHPC, 2025. https://hackhpc.github.io/sgx3codinginstitute25/"
+    "citation_text": "\"SGX3 Coding Institute 2025.\" HackHPC, 2025.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/sgx3codinginstitute25/",
+    "citation_url_label": "https://hackhpc.github.io/sgx3codinginstitute25/"
   },
   {
     "id": "sgx3-fall-training-2025",
@@ -188,7 +212,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"SGX3 Fall Training 2025 Institute.\" HackHPC, 2025. https://hackhpc.github.io/sgx3-fall-training-2025/"
+    "citation_text": "\"SGX3 Fall Training 2025 Institute.\" HackHPC, 2025.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/sgx3-fall-training-2025/",
+    "citation_url_label": "https://hackhpc.github.io/sgx3-fall-training-2025/"
   },
   {
     "id": "facultyhack-gateways24",
@@ -214,7 +241,10 @@
     "schedule_url": "https://hackhpc.github.io/facultyhack-gateways24/schedule.html",
     "organizers_url": "https://hackhpc.github.io/facultyhack-gateways24/organizers.html",
     "mentors_url": null,
-    "citation": "\"FacultyHack@Gateways24.\" HackHPC, 2024. https://hackhpc.github.io/facultyhack-gateways24/"
+    "citation_text": "\"FacultyHack@Gateways24.\" HackHPC, 2024.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/facultyhack-gateways24/",
+    "citation_url_label": "https://hackhpc.github.io/facultyhack-gateways24/"
   },
   {
     "id": "codeathonatadmi24",
@@ -234,7 +264,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"Codeathon@ADMI24 \u2013 Take a Ride on the ISS.\" HackHPC, 2024. https://hackhpc.github.io/codeathonatadmi24/"
+    "citation_text": "\"Codeathon@ADMI24 \u2013 Take a Ride on the ISS.\" HackHPC, 2024.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/codeathonatadmi24/",
+    "citation_url_label": "https://hackhpc.github.io/codeathonatadmi24/"
   },
   {
     "id": "sgx3admi24",
@@ -258,7 +291,10 @@
     "schedule_url": "https://hackhpc.github.io/sgx3admi24/schedule.html",
     "organizers_url": "https://hackhpc.github.io/sgx3admi24/organizers.html",
     "mentors_url": null,
-    "citation": "\"SGX3's HackHPC@ADMI24.\" HackHPC, 2024. https://hackhpc.github.io/sgx3admi24/"
+    "citation_text": "\"SGX3's HackHPC@ADMI24.\" HackHPC, 2024.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/sgx3admi24/",
+    "citation_url_label": "https://hackhpc.github.io/sgx3admi24/"
   },
   {
     "id": "facultyhack-gateways23",
@@ -284,7 +320,10 @@
     "schedule_url": "https://hackhpc.github.io/facultyhack-gateways23/schedule.html",
     "organizers_url": "https://hackhpc.github.io/facultyhack-gateways23/organizers.html",
     "mentors_url": null,
-    "citation": "\"FacultyHack@Gateways23.\" HackHPC, 2023. https://hackhpc.github.io/facultyhack-gateways23/"
+    "citation_text": "\"FacultyHack@Gateways23.\" HackHPC, 2023.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/facultyhack-gateways23/",
+    "citation_url_label": "https://hackhpc.github.io/facultyhack-gateways23/"
   },
   {
     "id": "hpcinthecity23",
@@ -311,7 +350,10 @@
     "schedule_url": "https://hackhpc.github.io/hpcinthecity23/schedule.html",
     "organizers_url": "https://hackhpc.github.io/hpcinthecity23/organizers.html",
     "mentors_url": null,
-    "citation": "\"HPC in the City: Pandemics (SC23).\" HackHPC, 2023. https://hackhpc.github.io/hpcinthecity23/"
+    "citation_text": "\"HPC in the City: Pandemics (SC23).\" HackHPC, 2023.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/hpcinthecity23/",
+    "citation_url_label": "https://hackhpc.github.io/hpcinthecity23/"
   },
   {
     "id": "tacc-codeathon23",
@@ -332,7 +374,10 @@
     "schedule_url": "https://hackhpc.github.io/tacc-codeathon23/schedule/",
     "organizers_url": "https://hackhpc.github.io/tacc-codeathon23/organizers/",
     "mentors_url": null,
-    "citation": "\"TACC Codeathon 2023.\" HackHPC, 2023. https://hackhpc.github.io/tacc-codeathon23/"
+    "citation_text": "\"TACC Codeathon 2023.\" HackHPC, 2023.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/tacc-codeathon23/",
+    "citation_url_label": "https://hackhpc.github.io/tacc-codeathon23/"
   },
   {
     "id": "admi23",
@@ -358,7 +403,10 @@
     "schedule_url": "https://hackhpc.github.io/admi23/schedule.html",
     "organizers_url": "https://hackhpc.github.io/admi23/organizers.html",
     "mentors_url": null,
-    "citation": "\"HackHPC@ADMI23.\" HackHPC, 2023. https://hackhpc.github.io/admi23/"
+    "citation_text": "\"HackHPC@ADMI23.\" HackHPC, 2023.",
+    "doi": "10.5281/zenodo.13332973",
+    "citation_url": "https://doi.org/10.5281/zenodo.13332973",
+    "citation_url_label": "https://doi.org/10.5281/zenodo.13332973"
   },
   {
     "id": "codeatms-cc23",
@@ -383,7 +431,10 @@
     "schedule_url": "https://hackhpc.github.io/codeatms-cc23/schedule/",
     "organizers_url": "https://hackhpc.github.io/codeatms-cc23/organizers/",
     "mentors_url": null,
-    "citation": "\"Code@MS-CC23.\" HackHPC, 2023. https://hackhpc.github.io/codeatms-cc23/"
+    "citation_text": "\"Code@MS-CC23.\" HackHPC, 2023.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/codeatms-cc23/",
+    "citation_url_label": "https://hackhpc.github.io/codeatms-cc23/"
   },
   {
     "id": "HacktheThreat23",
@@ -406,7 +457,10 @@
     "schedule_url": "https://hackhpc.github.io/HacktheThreat23/schedule.html",
     "organizers_url": "https://hackhpc.github.io/HacktheThreat23/organizers.html",
     "mentors_url": null,
-    "citation": "\"Hack the Threat 2023.\" HackHPC, 2023. https://hackhpc.github.io/HacktheThreat23/"
+    "citation_text": "\"Hack the Threat 2023.\" HackHPC, 2023.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/HacktheThreat23/",
+    "citation_url_label": "https://hackhpc.github.io/HacktheThreat23/"
   },
   {
     "id": "HPCintheCity22",
@@ -434,7 +488,10 @@
     "schedule_url": "https://hackhpc.github.io/HPCintheCity22/schedule/",
     "organizers_url": "https://hackhpc.github.io/HPCintheCity22/organizers/",
     "mentors_url": null,
-    "citation": "\"HPC in the City: Dallas (SC22).\" HackHPC, 2022. https://hackhpc.github.io/HPCintheCity22/"
+    "citation_text": "\"HPC in the City: Dallas (SC22).\" HackHPC, 2022.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/HPCintheCity22/",
+    "citation_url_label": "https://hackhpc.github.io/HPCintheCity22/"
   },
   {
     "id": "StudentHackatSC22",
@@ -454,7 +511,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"StudentHack@SC22 \u2013 Pandemic!.\" HackHPC, 2022. https://hackhpc.github.io/StudentHackatSC22/"
+    "citation_text": "\"StudentHack@SC22 \u2013 Pandemic!.\" HackHPC, 2022.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/StudentHackatSC22/",
+    "citation_url_label": "https://hackhpc.github.io/StudentHackatSC22/"
   },
   {
     "id": "BigDataHack-2022",
@@ -475,7 +535,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"Big Data Hack @ RedCONARE / Costa Rica Big Data School.\" HackHPC, 2022. https://hackhpc.github.io/BigDataHack-2022/"
+    "citation_text": "\"Big Data Hack @ RedCONARE / Costa Rica Big Data School.\" HackHPC, 2022.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/BigDataHack-2022/",
+    "citation_url_label": "https://hackhpc.github.io/BigDataHack-2022/"
   },
   {
     "id": "FacultyHack-Gateways22",
@@ -496,7 +559,10 @@
     "schedule_url": "https://hackhpc.github.io/FacultyHack-Gateways22/schedule/",
     "organizers_url": "https://hackhpc.github.io/FacultyHack-Gateways22/organizers/",
     "mentors_url": null,
-    "citation": "\"FacultyHack@Gateways22.\" HackHPC, 2022. https://hackhpc.github.io/FacultyHack-Gateways22/"
+    "citation_text": "\"FacultyHack@Gateways22.\" HackHPC, 2022.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/FacultyHack-Gateways22/",
+    "citation_url_label": "https://hackhpc.github.io/FacultyHack-Gateways22/"
   },
   {
     "id": "ADMI22",
@@ -517,7 +583,10 @@
     "schedule_url": "https://hackhpc.github.io/ADMI22/schedule.html",
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"HackHPC@ADMI22.\" HackHPC, 2022. https://hackhpc.github.io/ADMI22/"
+    "citation_text": "\"HackHPC@ADMI22.\" HackHPC, 2022.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/ADMI22/",
+    "citation_url_label": "https://hackhpc.github.io/ADMI22/"
   },
   {
     "id": "HackatTACC-2022",
@@ -537,7 +606,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"Hack@TACC22.\" HackHPC, 2022. https://hackhpc.github.io/HackatTACC-2022/"
+    "citation_text": "\"Hack@TACC22.\" HackHPC, 2022.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/HackatTACC-2022/",
+    "citation_url_label": "https://hackhpc.github.io/HackatTACC-2022/"
   },
   {
     "id": "HPCintheCity21",
@@ -562,7 +634,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"HPC in the City: St. Louis (SC21).\" HackHPC, 2021. https://hackhpc.github.io/HPCintheCity21/"
+    "citation_text": "\"HPC in the City: St. Louis (SC21).\" HackHPC, 2021.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/HPCintheCity21/",
+    "citation_url_label": "https://hackhpc.github.io/HPCintheCity21/"
   },
   {
     "id": "Pearc21",
@@ -588,7 +663,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"HackHPC@PEARC21.\" HackHPC, 2021. https://hackhpc.github.io/Pearc21/"
+    "citation_text": "\"HackHPC@PEARC21.\" HackHPC, 2021.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/Pearc21/",
+    "citation_url_label": "https://hackhpc.github.io/Pearc21/"
   },
   {
     "id": "HPCintheCity20",
@@ -615,7 +693,10 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"HPC in the City: Atlanta (SC20).\" HackHPC, 2020. https://hackhpc.github.io/HPCintheCity20/"
+    "citation_text": "\"HPC in the City: Atlanta (SC20).\" HackHPC, 2020.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/HPCintheCity20/",
+    "citation_url_label": "https://hackhpc.github.io/HPCintheCity20/"
   },
   {
     "id": "Pearc20",
@@ -640,6 +721,9 @@
     "schedule_url": null,
     "organizers_url": null,
     "mentors_url": null,
-    "citation": "\"HackHPC@PEARC20.\" HackHPC, 2020. https://hackhpc.github.io/Pearc20/"
+    "citation_text": "\"HackHPC@PEARC20.\" HackHPC, 2020.",
+    "doi": null,
+    "citation_url": "https://hackhpc.github.io/Pearc20/",
+    "citation_url_label": "https://hackhpc.github.io/Pearc20/"
   }
 ]
