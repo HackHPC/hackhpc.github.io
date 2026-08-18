@@ -43,10 +43,9 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
       <div class="timeline-item">
         <span class="timeline-marker" aria-hidden="true"></span>
         <div class="timeline-content">
-          <div class="timeline-year">{{ group.name }}</div>
+          <div class="timeline-year">{{ group.name }} <span class="badge timeline-count">{{ group.items.size }} event{% if group.items.size != 1 %}s{% endif %}</span></div>
           <h3><a href="{{ milestone.url }}">{{ milestone.name }}</a></h3>
           <span class="event-date">{{ milestone.date_display }}</span>
-          <p class="timeline-count">{{ group.items.size }} event{% if group.items.size != 1 %}s{% endif %} held in {{ group.name }}</p>
         </div>
       </div>
       {% endfor %}
