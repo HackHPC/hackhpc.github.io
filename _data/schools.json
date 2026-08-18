@@ -56,16 +56,6 @@
     ]
   },
   {
-    "name": "CUNY Lehman College",
-    "url": "https://www.lehman.cuny.edu",
-    "slug": "cuny-lehman-college",
-    "icon": "/assets/img/schools/cuny-lehman-college.svg",
-    "event_count": 1,
-    "events": [
-      "HPCintheCity22"
-    ]
-  },
-  {
     "name": "California State University Los Angeles",
     "url": "https://www.calstatela.edu",
     "slug": "california-state-university-los-angeles",
@@ -147,6 +137,16 @@
     "event_count": 1,
     "events": [
       "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "CUNY Lehman College",
+    "url": "https://www.lehman.cuny.edu",
+    "slug": "cuny-lehman-college",
+    "icon": "/assets/img/schools/cuny-lehman-college.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
     ]
   },
   {
@@ -441,16 +441,6 @@
     ]
   },
   {
-    "name": "SUNY Oneonta",
-    "url": "https://suny.oneonta.edu",
-    "slug": "suny-oneonta",
-    "icon": "/assets/img/schools/suny-oneonta.svg",
-    "event_count": 1,
-    "events": [
-      "sgx3admi24"
-    ]
-  },
-  {
     "name": "San Francisco State University",
     "url": "https://sfsu.edu",
     "slug": "san-francisco-state-university",
@@ -501,6 +491,16 @@
       "facultyhack-gateways25",
       "facultyhack-gateways26",
       "hpcinthecity23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "SUNY Oneonta",
+    "url": "https://suny.oneonta.edu",
+    "slug": "suny-oneonta",
+    "icon": "/assets/img/schools/suny-oneonta.svg",
+    "event_count": 1,
+    "events": [
       "sgx3admi24"
     ]
   },
