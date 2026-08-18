@@ -17,12 +17,15 @@ description: The team that plans HackHPC's programs, coordinates mentors, and ru
       {% for o in site.data.organizers %}
       <div class="card organizer-card" id="{{ o.slug }}">
         <div class="organizer-header">
-          <h3 class="mt-0">{{ o.name }}</h3>
-          {% if o.affiliation %}
-          <p class="organizer-affiliation">
-            {% if o.affiliation_url %}<a href="{{ o.affiliation_url }}" target="_blank" rel="noopener">{{ o.affiliation }}</a>{% else %}{{ o.affiliation }}{% endif %}
-          </p>
-          {% endif %}
+          {% if o.photo %}<img src="{{ o.photo }}" alt="{{ o.name }}" class="organizer-photo" width="72" height="72" loading="lazy">{% endif %}
+          <div>
+            <h3 class="mt-0">{{ o.name }}</h3>
+            {% if o.affiliation %}
+            <p class="organizer-affiliation">
+              {% if o.affiliation_url %}<a href="{{ o.affiliation_url }}" target="_blank" rel="noopener">{{ o.affiliation }}</a>{% else %}{{ o.affiliation }}{% endif %}
+            </p>
+            {% endif %}
+          </div>
         </div>
         {% if o.bio %}<p>{{ o.bio }}</p>{% endif %}
         <div class="organizer-links">

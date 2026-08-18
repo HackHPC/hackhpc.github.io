@@ -291,7 +291,9 @@ code, .mono { font-family: var(--font-mono); }
 
 /* Organizers */
 .organizer-card { scroll-margin-top: 6rem; }
-.organizer-header { margin-bottom: 0.5rem; }
+.organizer-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+.organizer-photo { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 2px solid var(--line-gray); }
+.organizer-header h3 { margin-bottom: 0.15rem; }
 .organizer-affiliation { font-weight: 600; color: var(--ui-blue); margin: 0; }
 .organizer-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .organizer-links a {

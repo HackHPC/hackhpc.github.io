@@ -10,7 +10,8 @@
     "github": null,
     "website": null,
     "google_scholar": null,
-    "orcid": null
+    "orcid": null,
+    "photo": "/assets/img/organizers/amy-cannon.png"
   },
   {
     "name": "Dr. Linda Hayden",
@@ -23,7 +24,8 @@
     "github": null,
     "website": null,
     "google_scholar": null,
-    "orcid": null
+    "orcid": null,
+    "photo": "/assets/img/organizers/linda-hayden.jpeg"
   },
   {
     "name": "Charlie Dey",
@@ -36,7 +38,8 @@
     "github": "https://github.com/ubik10",
     "website": null,
     "google_scholar": null,
-    "orcid": null
+    "orcid": null,
+    "photo": "/assets/img/organizers/charlie-dey.jpeg"
   },
   {
     "name": "Alexander Nolte",
@@ -49,7 +52,8 @@
     "github": "https://github.com/alexandernolte",
     "website": "https://alexandernolte.github.io/",
     "google_scholar": "https://scholar.google.com/citations?user=0Vmn0QQAAAAJ&hl=de&oi=ao",
-    "orcid": null
+    "orcid": null,
+    "photo": "/assets/img/organizers/alexander-nolte.jpeg"
   },
   {
     "name": "Je'aime Powell",
@@ -62,7 +66,8 @@
     "github": "https://github.com/jeaimehp",
     "website": "http://jeaimehpc.com",
     "google_scholar": "https://scholar.google.com/citations?user=sd6PjdkAAAAJ",
-    "orcid": "https://orcid.org/0000-0003-1377-5422"
+    "orcid": "https://orcid.org/0000-0003-1377-5422",
+    "photo": "/assets/img/organizers/jeaime-powell.png"
   },
   {
     "name": "Boyd Wilson",
@@ -75,6 +80,7 @@
     "github": "https://github.com/omnibond/",
     "website": null,
     "google_scholar": null,
-    "orcid": null
+    "orcid": null,
+    "photo": "/assets/img/organizers/boyd-wilson.png"
   }
 ]
