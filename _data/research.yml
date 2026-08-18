@@ -24,6 +24,18 @@
     development and refinement of the "HackHPC Model," covering the methodologies,
     participants, and procedures used to plan and host hackathon events that foster
     workforce development in HPC.
+  citation_key: "powell2022hackhpcmodel"
+  citation_apa: "Powell, J., Hayden, L. B., Cannon, A., Holly, J., Dey, C., & Nolte, A. (2022). The HackHPC model: Fostering workforce development in high-performance computing through hackathons. In *Gateways 2022 Proceedings*. https://doi.org/10.5281/zenodo.7089497"
+  citation_ieee: "J. Powell, L. B. Hayden, A. Cannon, J. Holly, C. Dey, and A. Nolte, “The HackHPC Model: Fostering Workforce Development in High-Performance Computing Through Hackathons,” in *Gateways 2022 Proceedings*, 2022. doi: 10.5281/zenodo.7089497."
+  citation_bibtex: |
+    @inproceedings{powell2022hackhpcmodel,
+      author    = {Powell, Jeaime and Hayden, Linda Bailey and Cannon, Amy and Holly, John and Dey, Charlie and Nolte, Alexander},
+      title     = {The HackHPC Model: Fostering Workforce Development in High-Performance Computing Through Hackathons},
+      booktitle = {Gateways 2022 Proceedings},
+      year      = {2022},
+      doi       = {10.5281/zenodo.7089497},
+      url       = {https://doi.org/10.5281/zenodo.7089497}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.5281/zenodo.7089497"
@@ -42,6 +54,18 @@
     discusses the design of FacultyHack, a faculty-focused hackathon for curriculum
     development, outlining the logistics and structure of two past events, what changed
     between them, and the lessons learned.
+  citation_key: "holmen2024facultyhack"
+  citation_apa: "Holmen, J. K., Powell, J. H., Nolte, A., Maccarthy, E., Dey, C., Vergara Larrea, V. G., Parete-Koon, S., & Hayden, L. (2024). FacultyHack events: Faculty-focused hackathons for high-performance computing curriculum development. In *Proceedings of the International Conference on Game Jams, Hackathons and Game Creation Events (ICGJ '24)*. https://doi.org/10.1145/3697789.3697796"
+  citation_ieee: "J. K. Holmen, J. H. Powell, A. Nolte, E. Maccarthy, C. Dey, V. G. Vergara Larrea, S. Parete-Koon, and L. Hayden, “FacultyHack Events: Faculty-Focused Hackathons for High-Performance Computing Curriculum Development,” in *Proceedings of the International Conference on Game Jams, Hackathons and Game Creation Events (ICGJ '24)*, 2024. doi: 10.1145/3697789.3697796."
+  citation_bibtex: |
+    @inproceedings{holmen2024facultyhack,
+      author    = {Holmen, John K. and Powell, Jeaime H. and Nolte, Alexander and Maccarthy, Elijah and Dey, Charlie and Vergara Larrea, Verónica G. and Parete-Koon, Suzanne and Hayden, Linda},
+      title     = {FacultyHack Events: Faculty-Focused Hackathons for High-Performance Computing Curriculum Development},
+      booktitle = {Proceedings of the International Conference on Game Jams, Hackathons and Game Creation Events (ICGJ '24)},
+      year      = {2024},
+      doi       = {10.1145/3697789.3697796},
+      url       = {https://doi.org/10.1145/3697789.3697796}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3697789.3697796"
@@ -59,6 +83,20 @@
     hackathon research and practice: designing for different purposes, socio-technical event
     design, scaling up, making hackathons equitable, studying hackathons, and setting and
     achieving hackathon goals.
+  citation_key: "falk2024futurehackathon"
+  citation_apa: "Falk, J., Nolte, A., Huppenkothen, D., Weinzierl, M., Gama, K., Spikol, D., Tollerud, E., Chue Hong, N. P., Knäpper, I., & Hayden, L. (2024). The future of hackathon research and practice. *IEEE Access*, *12*, 133406--133425. https://doi.org/10.1109/ACCESS.2024.3455092"
+  citation_ieee: "J. Falk, A. Nolte, D. Huppenkothen, M. Weinzierl, K. Gama, D. Spikol, E. Tollerud, N. P. Chue Hong, I. Knäpper, and L. Hayden, “The Future of Hackathon Research and Practice,” *IEEE Access*, vol. 12, pp. 133406-133425, 2024. doi: 10.1109/ACCESS.2024.3455092."
+  citation_bibtex: |
+    @article{falk2024futurehackathon,
+      author    = {Falk, Jeanette and Nolte, Alexander and Huppenkothen, D. and Weinzierl, Marion and Gama, K. and Spikol, Daniel and Tollerud, E. and Chue Hong, Neil Philippe and Knäpper, Ines and Hayden, Linda},
+      title     = {The Future of Hackathon Research and Practice},
+      journal   = {IEEE Access},
+      volume    = {12},
+      pages     = {133406--133425},
+      year      = {2024},
+      doi       = {10.1109/ACCESS.2024.3455092},
+      url       = {https://doi.org/10.1109/ACCESS.2024.3455092}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.1109/ACCESS.2024.3455092"
@@ -75,6 +113,18 @@
     need guidance and support. This paper reports on a hackathon format the authors ran
     in-person for two years and then had to move online during the 2020 pandemic, covering
     two virtual events, what worked, what didn't, and recommendations for other organizers.
+  citation_key: "powell2021newcomers"
+  citation_apa: "Powell, J., Hayden, L., Cannon, A., Wilson, B., & Nolte, A. (2021). Organizing online hackathons for newcomers to a scientific community—Lessons learned from two events. In *Proceedings of the 6th International Conference on Game Jams, Hackathons, and Game Creation Events*. https://doi.org/10.1145/3472688.3472700"
+  citation_ieee: "J. Powell, L. Hayden, A. Cannon, B. Wilson, and A. Nolte, “Organizing Online Hackathons for Newcomers to a Scientific Community—Lessons Learned from Two Events,” in *Proceedings of the 6th International Conference on Game Jams, Hackathons, and Game Creation Events*, 2021. doi: 10.1145/3472688.3472700."
+  citation_bibtex: |
+    @inproceedings{powell2021newcomers,
+      author    = {Powell, Je'aime and Hayden, L. and Cannon, Amy and Wilson, Boyd and Nolte, Alexander},
+      title     = {Organizing Online Hackathons for Newcomers to a Scientific Community—Lessons Learned from Two Events},
+      booktitle = {Proceedings of the 6th International Conference on Game Jams, Hackathons, and Game Creation Events},
+      year      = {2021},
+      doi       = {10.1145/3472688.3472700},
+      url       = {https://doi.org/10.1145/3472688.3472700}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.1145/3472688.3472700"
@@ -92,6 +142,20 @@
     organizations enrich their own local portals with shared materials. This paper describes
     the pilot phase: prototyping the catalog, establishing an initial metadata set, and
     gathering community feedback to plan the next implementation phase.
+  citation_key: "mehringer2025hpced"
+  citation_apa: "Mehringer, S., Cahill, K., Dey, C., Guilfoos, B., Joiner, D., Knepper, R., Navarro, J., Powell, J. H., Thomas, M. P., Wang, Z., & Zhang, J. (2025). HPC-ED: Building a sustainable community driven CyberTraining catalog. *Journal of Computational Science Education*, *16*(1). https://doi.org/10.22369/issn.2153-4136/16/1/2"
+  citation_ieee: "S. Mehringer, K. Cahill, C. Dey, B. Guilfoos, D. Joiner, R. Knepper, J. Navarro, J. H. Powell, M. P. Thomas, Z. Wang, and J. Zhang, “HPC-ED: Building a Sustainable Community Driven CyberTraining Catalog,” *Journal of Computational Science Education*, vol. 16, no. 1, 2025. doi: 10.22369/issn.2153-4136/16/1/2."
+  citation_bibtex: |
+    @article{mehringer2025hpced,
+      author    = {Mehringer, S. and Cahill, Katharine and Dey, Charlie and Guilfoos, Brian and Joiner, David and Knepper, Richard and Navarro, John-Paul and Powell, Jeaime H. and Thomas, Mary P. and Wang, Zilu and Zhang, Jiesen},
+      title     = {HPC-ED: Building a Sustainable Community Driven CyberTraining Catalog},
+      journal   = {Journal of Computational Science Education},
+      volume    = {16},
+      number    = {1},
+      year      = {2025},
+      doi       = {10.22369/issn.2153-4136/16/1/2},
+      url       = {https://doi.org/10.22369/issn.2153-4136/16/1/2}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.22369/issn.2153-4136/16/1/2"
@@ -111,6 +175,20 @@
     structured real-world dataset (the Austin Real-Time Traffic Incident Reports), having
     learners apply classification, clustering, regression, and forecasting before converting
     the data into narrative text for Retrieval-Augmented Generation (RAG) pipelines.
+  citation_key: "dey2026teachingai"
+  citation_apa: "Dey, C., & Lindsey, S. (2026). Teaching AI through narrative data: A practical framework for data science and retrieval-augmented generation. *Journal of Computational Science Education*, *17*(1). https://doi.org/10.22369/issn.2153-4136/17/1/7"
+  citation_ieee: "C. Dey and S. Lindsey, “Teaching AI Through Narrative Data: A Practical Framework for Data Science and Retrieval-Augmented Generation,” *Journal of Computational Science Education*, vol. 17, no. 1, 2026. doi: 10.22369/issn.2153-4136/17/1/7."
+  citation_bibtex: |
+    @article{dey2026teachingai,
+      author    = {Dey, Charlie and Lindsey, Susan},
+      title     = {Teaching AI Through Narrative Data: A Practical Framework for Data Science and Retrieval-Augmented Generation},
+      journal   = {Journal of Computational Science Education},
+      volume    = {17},
+      number    = {1},
+      year      = {2026},
+      doi       = {10.22369/issn.2153-4136/17/1/7},
+      url       = {https://doi.org/10.22369/issn.2153-4136/17/1/7}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.22369/issn.2153-4136/17/1/7"
@@ -130,6 +208,17 @@
     train faculty to sustain those efforts beyond the life of SGX3 itself, through the SGX3
     Faculty Program's training, HPC account support, and curriculum-implementation
     consulting.
+  citation_key: "hayden2023sgxoverview"
+  citation_apa: "Hayden, L. B. (2023). *SGX3 workforce development project overview*. Science Gateways Community Institute (SGX3). https://par.nsf.gov/servlets/purl/10533741"
+  citation_ieee: "L. B. Hayden, “SGX3 Workforce Development Project Overview,” Science Gateways Community Institute (SGX3), 2023. [Online]. Available: https://par.nsf.gov/servlets/purl/10533741"
+  citation_bibtex: |
+    @techreport{hayden2023sgxoverview,
+      author    = {Hayden, Linda Bailey},
+      title     = {SGX3 Workforce Development Project Overview},
+      institution = {Science Gateways Community Institute (SGX3)},
+      year      = {2023},
+      url       = {https://par.nsf.gov/servlets/purl/10533741}
+    }
   links:
     - label: "NSF PAR"
       url: "https://par.nsf.gov/servlets/purl/10533741"
@@ -146,6 +235,19 @@
     updated version accounts for the shift toward online and hybrid formats since the
     pandemic, adding guidance on the affordances and requirements of in-person, online, and
     hybrid events to each of the original 12 decisions, plus updated example timelines.
+  citation_key: "affiajomants2020planningkit"
+  citation_apa: "Affia-Jomants, A. O., Gama, K., Herbsleb, J. D., & Nolte, A. (2020). *How to organize a hackathon—A planning kit*. https://doi.org/10.48550/arXiv.2008.08025"
+  citation_ieee: "A. O. Affia-Jomants, K. Gama, J. D. Herbsleb, and A. Nolte, “How to Organize a Hackathon—A Planning Kit,” arXiv, 2020. doi: 10.48550/arXiv.2008.08025."
+  citation_bibtex: |
+    @misc{affiajomants2020planningkit,
+      author    = {Affia-Jomants, Abasi-amefon Obot and Gama, Kiev and Herbsleb, James D. and Nolte, Alexander},
+      title     = {How to Organize a Hackathon—A Planning Kit},
+      eprint    = {2008.08025},
+      archivePrefix = {arXiv},
+      year      = {2020},
+      doi       = {10.48550/arXiv.2008.08025},
+      url       = {https://doi.org/10.48550/arXiv.2008.08025}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.48550/arXiv.2008.08025"
@@ -164,6 +266,18 @@
     Symposium on Computing at Minority Institutions. Built around the theme "Computing for
     Social Good," participants worked in pre-formed teams with a faculty and technical mentor
     each, after pre-hackathon training sessions on HPC and cyberinfrastructure.
+  citation_key: "science2024admi"
+  citation_apa: "Science Gateways Center of Excellence (2024). *HackHPC@ADMI23*. Zenodo. https://doi.org/10.5281/zenodo.13332973"
+  citation_ieee: "Science Gateways Center of Excellence, “HackHPC@ADMI23,” Zenodo, 2024. doi: 10.5281/zenodo.13332973."
+  citation_bibtex: |
+    @misc{science2024admi,
+      author    = {Science Gateways Center of Excellence},
+      title     = {HackHPC@ADMI23},
+      publisher = {Zenodo},
+      year      = {2024},
+      doi       = {10.5281/zenodo.13332973},
+      url       = {https://doi.org/10.5281/zenodo.13332973}
+    }
   links:
     - label: "DOI"
       url: "https://doi.org/10.5281/zenodo.13332973"
@@ -181,6 +295,18 @@
     Hackathon (Omnibond's CloudyCluster competition) at SC19 in Denver — including Josselyn
     Salvado and Pablo Enrique, whose stories illustrate how science-gateway-backed hackathons
     open a path into HPC careers for students with no computer science background.
+  citation_key: "farber2019cloudycluster"
+  citation_apa: "Farber, R. (2019). *CloudyCluster helps students build bright futures in HPC*. HPCwire. https://www.hpcwire.com/2019/12/20/cloudycluster-helps-students-build-bright-futures-in-hpc/"
+  citation_ieee: "R. Farber, “CloudyCluster Helps Students Build Bright Futures in HPC,” HPCwire, 2019. [Online]. Available: https://www.hpcwire.com/2019/12/20/cloudycluster-helps-students-build-bright-futures-in-hpc/"
+  citation_bibtex: |
+    @misc{farber2019cloudycluster,
+      author    = {Farber, Rob},
+      title     = {CloudyCluster Helps Students Build Bright Futures in HPC},
+      publisher = {HPCwire},
+      note      = {December 20, 2019},
+      year      = {2019},
+      url       = {https://www.hpcwire.com/2019/12/20/cloudycluster-helps-students-build-bright-futures-in-hpc/}
+    }
   links:
     - label: "Read Article"
       url: "https://www.hpcwire.com/2019/12/20/cloudycluster-helps-students-build-bright-futures-in-hpc/"
@@ -196,6 +322,18 @@
     fully virtual event for 2020, after the pandemic made it impossible for the SC conference
     to physically take over its host city — and what a research-computing community can still
     build and connect over when it can't.
+  citation_key: "sc2020virtualcity"
+  citation_apa: "SC20 (2020). *HPC in the virtual city*. https://sc20.supercomputing.org/2020/09/04/hpc-in-the-virtual-city/"
+  citation_ieee: "SC20, “HPC in the Virtual City,” 2020. [Online]. Available: https://sc20.supercomputing.org/2020/09/04/hpc-in-the-virtual-city/"
+  citation_bibtex: |
+    @misc{sc2020virtualcity,
+      author    = {SC20},
+      title     = {HPC in the Virtual City},
+      publisher = {SC20},
+      note      = {September 4, 2020},
+      year      = {2020},
+      url       = {https://sc20.supercomputing.org/2020/09/04/hpc-in-the-virtual-city/}
+    }
   links:
     - label: "Read Article"
       url: "https://sc20.supercomputing.org/2020/09/04/hpc-in-the-virtual-city/"
@@ -209,6 +347,18 @@
   summary: >-
     Charlie Dey and Je'aime Powell talk about their methods for introducing coding to the
     next generation of students through TACC's code-a-thons and hack-a-thons.
+  citation_key: "tacc2023taccbytes"
+  citation_apa: "TACC Training (2023). *TACC bytes—Code-a-thons, hack-a-thons, and learning to code w/ Charlie and Je'aime*. https://www.youtube.com/watch?v=q6rbPJXYZOk"
+  citation_ieee: "TACC Training, “TACC Bytes—Code-a-thons, Hack-a-thons, and Learning to Code w/ Charlie and Je'aime,” YouTube, 2023. [Online]. Available: https://www.youtube.com/watch?v=q6rbPJXYZOk"
+  citation_bibtex: |
+    @misc{tacc2023taccbytes,
+      author    = {TACC Training},
+      title     = {TACC Bytes—Code-a-thons, Hack-a-thons, and Learning to Code w/ Charlie and Je'aime},
+      howpublished = {YouTube video},
+      note      = {May 15, 2023},
+      year      = {2023},
+      url       = {https://www.youtube.com/watch?v=q6rbPJXYZOk}
+    }
   links:
     - label: "Watch on YouTube"
       url: "https://www.youtube.com/watch?v=q6rbPJXYZOk"
@@ -225,6 +375,18 @@
     CHPC — arguing that repeat exposure across multiple competitions gives students an edge,
     and that PEARC could offer U.S. students another affordable, domestic on-ramp into
     research computing.
+  citation_key: "acm2021pearcpanel"
+  citation_apa: "ACM PEARC (2021). *Panel on student competitions*. https://pearc.acm.org/pearc21/student-program/panel-on-student-competitions/"
+  citation_ieee: "ACM PEARC, “Panel on Student Competitions,” 2021. [Online]. Available: https://pearc.acm.org/pearc21/student-program/panel-on-student-competitions/"
+  citation_bibtex: |
+    @misc{acm2021pearcpanel,
+      author    = {ACM PEARC},
+      title     = {Panel on Student Competitions},
+      publisher = {ACM PEARC},
+      note      = {July 21, 2021},
+      year      = {2021},
+      url       = {https://pearc.acm.org/pearc21/student-program/panel-on-student-competitions/}
+    }
   links:
     - label: "Read More"
       url: "https://pearc.acm.org/pearc21/student-program/panel-on-student-competitions/"
@@ -241,6 +403,18 @@
     Google Compute Cloud and CloudyCluster to build applications addressing issues local to
     Atlanta and Georgia — from voter fraud analysis to COVID-19 response modeling — with
     winning projects named at the close of the event.
+  citation_key: "science2021sgciatlanta"
+  citation_apa: "Science Gateways Community Institute (2021). *SC20 \"HPC in the city\" virtual hackathon addressed issues local to Atlanta*. https://sciencegateways.org/about/b/s/sc20-hpc-in-the-city-virtual-hackathon-addressed-issues-local-to-atlanta"
+  citation_ieee: "Science Gateways Community Institute, “SC20 \"HPC in the City\" Virtual Hackathon Addressed Issues Local to Atlanta,” 2021. [Online]. Available: https://sciencegateways.org/about/b/s/sc20-hpc-in-the-city-virtual-hackathon-addressed-issues-local-to-atlanta"
+  citation_bibtex: |
+    @misc{science2021sgciatlanta,
+      author    = {Science Gateways Community Institute},
+      title     = {SC20 "HPC in the City" Virtual Hackathon Addressed Issues Local to Atlanta},
+      publisher = {Science Gateways Community Institute},
+      note      = {February 1, 2021},
+      year      = {2021},
+      url       = {https://sciencegateways.org/about/b/s/sc20-hpc-in-the-city-virtual-hackathon-addressed-issues-local-to-atlanta}
+    }
   links:
     - label: "Read Article"
       url: "https://sciencegateways.org/about/b/s/sc20-hpc-in-the-city-virtual-hackathon-addressed-issues-local-to-atlanta"
