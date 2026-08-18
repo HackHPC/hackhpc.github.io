@@ -1,0 +1,737 @@
+[
+  {
+    "name": "Elizabeth City State University",
+    "url": "https://www.ecsu.edu",
+    "slug": "elizabeth-city-state-university",
+    "icon": "/assets/img/schools/elizabeth-city-state-university.svg",
+    "event_count": 9,
+    "events": [
+      "FacultyHack-Gateways22",
+      "HPCintheCity22",
+      "admi25",
+      "admi26",
+      "facultyhack-gateways23",
+      "facultyhack-gateways24",
+      "facultyhack-gateways25",
+      "hpcinthecity23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Mississippi Valley State University",
+    "url": "https://www.mvsu.edu",
+    "slug": "mississippi-valley-state-university",
+    "icon": "/assets/img/schools/mississippi-valley-state-university.svg",
+    "event_count": 7,
+    "events": [
+      "HPCintheCity22",
+      "admi23",
+      "admi25",
+      "admi26",
+      "facultyhack-gateways24",
+      "facultyhack-gateways25",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Morehouse College",
+    "url": "https://morehouse.edu",
+    "slug": "morehouse-college",
+    "icon": "/assets/img/schools/morehouse-college.svg",
+    "event_count": 6,
+    "events": [
+      "FacultyHack-Gateways22",
+      "HPCintheCity22",
+      "admi23",
+      "admi25",
+      "facultyhack-gateways23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Winston-Salem State University",
+    "url": "https://www.wssu.edu",
+    "slug": "winston-salem-state-university",
+    "icon": "/assets/img/schools/winston-salem-state-university.svg",
+    "event_count": 6,
+    "events": [
+      "FacultyHack-Gateways22",
+      "HPCintheCity22",
+      "admi23",
+      "admi26",
+      "facultyhack-gateways23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Jackson State University",
+    "url": "https://www.jsums.edu",
+    "slug": "jackson-state-university",
+    "icon": "/assets/img/schools/jackson-state-university.svg",
+    "event_count": 5,
+    "events": [
+      "admi23",
+      "facultyhack-gateways23",
+      "facultyhack-gateways24",
+      "hpcinthecity23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Albany State University",
+    "url": "https://www.asurams.edu",
+    "slug": "albany-state-university",
+    "icon": "/assets/img/schools/albany-state-university.svg",
+    "event_count": 4,
+    "events": [
+      "admi25",
+      "codeatms-cc23",
+      "facultyhack-gateways24",
+      "facultyhack-gateways25"
+    ]
+  },
+  {
+    "name": "Austin Community College",
+    "url": "https://www.austincc.edu",
+    "slug": "austin-community-college",
+    "icon": "/assets/img/schools/austin-community-college.svg",
+    "event_count": 4,
+    "events": [
+      "FacultyHack-Gateways22",
+      "HPCintheCity22",
+      "facultyhack-gateways24",
+      "facultyhack-gateways25"
+    ]
+  },
+  {
+    "name": "Southern University and A&M College",
+    "url": "https://www.subr.edu",
+    "slug": "southern-university-and-a-m-college",
+    "icon": "/assets/img/schools/southern-university-and-a-m-college.svg",
+    "event_count": 4,
+    "events": [
+      "facultyhack-gateways25",
+      "facultyhack-gateways26",
+      "hpcinthecity23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Claflin University",
+    "url": "https://www.claflin.edu",
+    "slug": "claflin-university",
+    "icon": "/assets/img/schools/claflin-university.svg",
+    "event_count": 3,
+    "events": [
+      "admi26",
+      "codeatms-cc23",
+      "facultyhack-gateways24"
+    ]
+  },
+  {
+    "name": "Florida A&M University",
+    "url": "https://www.famu.edu",
+    "slug": "florida-a-m-university",
+    "icon": "/assets/img/schools/florida-a-m-university.svg",
+    "event_count": 3,
+    "events": [
+      "admi26",
+      "codeatms-cc23",
+      "facultyhack-gateways26"
+    ]
+  },
+  {
+    "name": "Hampton University",
+    "url": "https://www.hamptonu.edu",
+    "slug": "hampton-university",
+    "icon": "/assets/img/schools/hampton-university.svg",
+    "event_count": 3,
+    "events": [
+      "admi25",
+      "admi26",
+      "facultyhack-gateways26"
+    ]
+  },
+  {
+    "name": "University of Texas at Austin",
+    "url": "https://www.utexas.edu",
+    "slug": "university-of-texas-at-austin",
+    "icon": "/assets/img/schools/university-of-texas-at-austin.svg",
+    "event_count": 3,
+    "events": [
+      "HPCintheCity22",
+      "hpcinthecity23",
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Voorhees University",
+    "url": "https://www.voorhees.edu",
+    "slug": "voorhees-university",
+    "icon": "/assets/img/schools/voorhees-university.svg",
+    "event_count": 3,
+    "events": [
+      "admi26",
+      "facultyhack-gateways25",
+      "facultyhack-gateways26"
+    ]
+  },
+  {
+    "name": "Chaminade University of Honolulu",
+    "url": "https://chaminade.edu",
+    "slug": "chaminade-university-of-honolulu",
+    "icon": "/assets/img/schools/chaminade-university-of-honolulu.svg",
+    "event_count": 2,
+    "events": [
+      "facultyhack-gateways25",
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Clark Atlanta University",
+    "url": "https://www.cau.edu",
+    "slug": "clark-atlanta-university",
+    "icon": "/assets/img/schools/clark-atlanta-university.svg",
+    "event_count": 2,
+    "events": [
+      "facultyhack-gateways25",
+      "facultyhack-gateways26"
+    ]
+  },
+  {
+    "name": "Grambling State University",
+    "url": "https://www.gram.edu",
+    "slug": "grambling-state-university",
+    "icon": "/assets/img/schools/grambling-state-university.svg",
+    "event_count": 2,
+    "events": [
+      "admi25",
+      "admi26"
+    ]
+  },
+  {
+    "name": "Howard University",
+    "url": "https://howard.edu",
+    "slug": "howard-university",
+    "icon": "/assets/img/schools/howard-university.svg",
+    "event_count": 2,
+    "events": [
+      "facultyhack-gateways26",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Northwestern State University of Louisiana",
+    "url": "https://www.nsula.edu",
+    "slug": "northwestern-state-university-of-louisiana",
+    "icon": "/assets/img/schools/northwestern-state-university-of-louisiana.svg",
+    "event_count": 2,
+    "events": [
+      "FacultyHack-Gateways22",
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "Philander Smith College",
+    "url": "https://www.philander.edu",
+    "slug": "philander-smith-college",
+    "icon": "/assets/img/schools/philander-smith-college.svg",
+    "event_count": 2,
+    "events": [
+      "admi23",
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "Southern Oregon University",
+    "url": "https://sou.edu",
+    "slug": "southern-oregon-university",
+    "icon": "/assets/img/schools/southern-oregon-university.svg",
+    "event_count": 2,
+    "events": [
+      "facultyhack-gateways23",
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "Texas A&M University–San Antonio",
+    "url": "https://www.tamusa.edu",
+    "slug": "texas-a-m-university-san-antonio",
+    "icon": "/assets/img/schools/texas-a-m-university-san-antonio.svg",
+    "event_count": 2,
+    "events": [
+      "facultyhack-gateways23",
+      "facultyhack-gateways25"
+    ]
+  },
+  {
+    "name": "Alabama State University",
+    "url": "https://www.alasu.edu",
+    "slug": "alabama-state-university",
+    "icon": "/assets/img/schools/alabama-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "codeatms-cc23"
+    ]
+  },
+  {
+    "name": "Austin Peay State University",
+    "url": "https://www.apsu.edu",
+    "slug": "austin-peay-state-university",
+    "icon": "/assets/img/schools/austin-peay-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways25"
+    ]
+  },
+  {
+    "name": "Ball State University",
+    "url": "https://www.bsu.edu",
+    "slug": "ball-state-university",
+    "icon": "/assets/img/schools/ball-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "CUNY Lehman College",
+    "url": "https://www.lehman.cuny.edu",
+    "slug": "cuny-lehman-college",
+    "icon": "/assets/img/schools/cuny-lehman-college.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "California State University Los Angeles",
+    "url": "https://www.calstatela.edu",
+    "slug": "california-state-university-los-angeles",
+    "icon": "/assets/img/schools/california-state-university-los-angeles.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "California State University Monterey Bay",
+    "url": "https://csumb.edu",
+    "slug": "california-state-university-monterey-bay",
+    "icon": "/assets/img/schools/california-state-university-monterey-bay.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "City College of San Francisco",
+    "url": "https://www.ccsf.edu",
+    "slug": "city-college-of-san-francisco",
+    "icon": "/assets/img/schools/city-college-of-san-francisco.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Clemson University",
+    "url": "http://www.clemson.edu",
+    "slug": "clemson-university",
+    "icon": "/assets/img/schools/clemson-university.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "College of the Canyons",
+    "url": "https://www.canyons.edu",
+    "slug": "college-of-the-canyons",
+    "icon": "/assets/img/schools/college-of-the-canyons.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Fisk University",
+    "url": "https://www.fisk.edu",
+    "slug": "fisk-university",
+    "icon": "/assets/img/schools/fisk-university.svg",
+    "event_count": 1,
+    "events": [
+      "codeatms-cc23"
+    ]
+  },
+  {
+    "name": "Fort Valley State University",
+    "url": "https://www.fvsu.edu",
+    "slug": "fort-valley-state-university",
+    "icon": "/assets/img/schools/fort-valley-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Houston Community College",
+    "url": "https://www.hccs.edu",
+    "slug": "houston-community-college",
+    "icon": "/assets/img/schools/houston-community-college.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Jarvis Christian University",
+    "url": "https://www.jarvis.edu",
+    "slug": "jarvis-christian-university",
+    "icon": "/assets/img/schools/jarvis-christian-university.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways23"
+    ]
+  },
+  {
+    "name": "Kettering University",
+    "url": "https://www.kettering.edu",
+    "slug": "kettering-university",
+    "icon": "/assets/img/schools/kettering-university.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways23"
+    ]
+  },
+  {
+    "name": "Le Moyne College",
+    "url": "https://www.lemoyne.edu",
+    "slug": "le-moyne-college",
+    "icon": "/assets/img/schools/le-moyne-college.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Lincoln University of Pennsylvania",
+    "url": "https://www.lincoln.edu",
+    "slug": "lincoln-university-of-pennsylvania",
+    "icon": "/assets/img/schools/lincoln-university-of-pennsylvania.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways24"
+    ]
+  },
+  {
+    "name": "Los Angeles Trade Technical College",
+    "url": "https://www.lattc.edu",
+    "slug": "los-angeles-trade-technical-college",
+    "icon": "/assets/img/schools/los-angeles-trade-technical-college.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Methodist University",
+    "url": "https://www.methodist.edu",
+    "slug": "methodist-university",
+    "icon": "/assets/img/schools/methodist-university.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "Moraine Valley Community College",
+    "url": "https://www.morainevalley.edu",
+    "slug": "moraine-valley-community-college",
+    "icon": "/assets/img/schools/moraine-valley-community-college.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways26"
+    ]
+  },
+  {
+    "name": "Navajo Technical University",
+    "url": "https://www.navajotech.edu",
+    "slug": "navajo-technical-university",
+    "icon": "/assets/img/schools/navajo-technical-university.svg",
+    "event_count": 1,
+    "events": [
+      "codeatms-cc23"
+    ]
+  },
+  {
+    "name": "New York University",
+    "url": "https://www.nyu.edu",
+    "slug": "new-york-university",
+    "icon": "/assets/img/schools/new-york-university.svg",
+    "event_count": 1,
+    "events": [
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "North Carolina A&T State University",
+    "url": "https://www.ncat.edu",
+    "slug": "north-carolina-a-t-state-university",
+    "icon": "/assets/img/schools/north-carolina-a-t-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "admi25"
+    ]
+  },
+  {
+    "name": "Our Lady of the Lake University",
+    "url": "https://www.ollusa.edu",
+    "slug": "our-lady-of-the-lake-university",
+    "icon": "/assets/img/schools/our-lady-of-the-lake-university.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways24"
+    ]
+  },
+  {
+    "name": "Purdue University",
+    "url": "https://www.purdue.edu",
+    "slug": "purdue-university",
+    "icon": "/assets/img/schools/purdue-university.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Richland College",
+    "url": "https://www.dcccd.edu",
+    "slug": "richland-college",
+    "icon": "/assets/img/schools/richland-college.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "SUNY Oneonta",
+    "url": "https://suny.oneonta.edu",
+    "slug": "suny-oneonta",
+    "icon": "/assets/img/schools/suny-oneonta.svg",
+    "event_count": 1,
+    "events": [
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "San Francisco State University",
+    "url": "https://sfsu.edu",
+    "slug": "san-francisco-state-university",
+    "icon": "/assets/img/schools/san-francisco-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Simon Fraser University",
+    "url": "https://www.sfu.ca",
+    "slug": "simon-fraser-university",
+    "icon": "/assets/img/schools/simon-fraser-university.svg",
+    "event_count": 1,
+    "events": [
+      "HacktheThreat23"
+    ]
+  },
+  {
+    "name": "Southern Illinois University Carbondale",
+    "url": "https://siu.edu",
+    "slug": "southern-illinois-university-carbondale",
+    "icon": "/assets/img/schools/southern-illinois-university-carbondale.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways25"
+    ]
+  },
+  {
+    "name": "Texas A&M University–Corpus Christi",
+    "url": "https://www.tamucc.edu",
+    "slug": "texas-a-m-university-corpus-christi",
+    "icon": "/assets/img/schools/texas-a-m-university-corpus-christi.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "Texas State University",
+    "url": "https://www.txst.edu",
+    "slug": "texas-state-university",
+    "icon": "/assets/img/schools/texas-state-university.svg",
+    "event_count": 1,
+    "events": [
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "University of British Columbia",
+    "url": "https://www.ubc.ca",
+    "slug": "university-of-british-columbia",
+    "icon": "/assets/img/schools/university-of-british-columbia.svg",
+    "event_count": 1,
+    "events": [
+      "HacktheThreat23"
+    ]
+  },
+  {
+    "name": "University of California, Berkeley",
+    "url": "https://www.berkeley.edu",
+    "slug": "university-of-california-berkeley",
+    "icon": "/assets/img/schools/university-of-california-berkeley.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "University of Maryland Eastern Shore",
+    "url": "https://umes.edu",
+    "slug": "university-of-maryland-eastern-shore",
+    "icon": "/assets/img/schools/university-of-maryland-eastern-shore.svg",
+    "event_count": 1,
+    "events": [
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "University of Maryland, Baltimore County",
+    "url": "https://umbc.edu",
+    "slug": "university-of-maryland-baltimore-county",
+    "icon": "/assets/img/schools/university-of-maryland-baltimore-county.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "University of New Haven",
+    "url": "https://www.newhaven.edu",
+    "slug": "university-of-new-haven",
+    "icon": "/assets/img/schools/university-of-new-haven.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "University of North Carolina at Pembroke",
+    "url": "https://www.uncp.edu",
+    "slug": "university-of-north-carolina-at-pembroke",
+    "icon": "/assets/img/schools/university-of-north-carolina-at-pembroke.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways23"
+    ]
+  },
+  {
+    "name": "University of Pittsburgh",
+    "url": "https://www.pitt.edu",
+    "slug": "university-of-pittsburgh",
+    "icon": "/assets/img/schools/university-of-pittsburgh.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways25"
+    ]
+  },
+  {
+    "name": "University of Puerto Rico in Mayaguez",
+    "url": "https://www.uprm.edu/ecafss/collaborators/uprm",
+    "slug": "university-of-puerto-rico-in-mayaguez",
+    "icon": "/assets/img/schools/university-of-puerto-rico-in-mayaguez.svg",
+    "event_count": 1,
+    "events": [
+      "HPCintheCity22"
+    ]
+  },
+  {
+    "name": "University of Southern Mississippi",
+    "url": "https://www.usm.edu",
+    "slug": "university-of-southern-mississippi",
+    "icon": "/assets/img/schools/university-of-southern-mississippi.svg",
+    "event_count": 1,
+    "events": [
+      "sgx3admi24"
+    ]
+  },
+  {
+    "name": "University of Texas at Austin Center for Pandemic Decision Science",
+    "url": "https://www.centerforpandemicdecisionscience.org",
+    "slug": "university-of-texas-at-austin-center-for-pandemic-decision-science",
+    "icon": "/assets/img/schools/university-of-texas-at-austin-center-for-pandemic-decision-science.svg",
+    "event_count": 1,
+    "events": [
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "University of Texas at El Paso",
+    "url": "https://www.utep.edu",
+    "slug": "university-of-texas-at-el-paso",
+    "icon": "/assets/img/schools/university-of-texas-at-el-paso.svg",
+    "event_count": 1,
+    "events": [
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "University of Texas at San Antonio",
+    "url": "https://www.utsa.edu",
+    "slug": "university-of-texas-at-san-antonio",
+    "icon": "/assets/img/schools/university-of-texas-at-san-antonio.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  },
+  {
+    "name": "University of Texas at Tyler",
+    "url": "https://www.uttyler.edu",
+    "slug": "university-of-texas-at-tyler",
+    "icon": "/assets/img/schools/university-of-texas-at-tyler.svg",
+    "event_count": 1,
+    "events": [
+      "hpcinthecity23"
+    ]
+  },
+  {
+    "name": "University of Utah",
+    "url": "https://www.utah.edu",
+    "slug": "university-of-utah",
+    "icon": "/assets/img/schools/university-of-utah.svg",
+    "event_count": 1,
+    "events": [
+      "admi25"
+    ]
+  },
+  {
+    "name": "Utah Valley University",
+    "url": "https://www.uvu.edu",
+    "slug": "utah-valley-university",
+    "icon": "/assets/img/schools/utah-valley-university.svg",
+    "event_count": 1,
+    "events": [
+      "facultyhack-gateways26"
+    ]
+  },
+  {
+    "name": "Wellesley College",
+    "url": "https://www.wellesley.edu",
+    "slug": "wellesley-college",
+    "icon": "/assets/img/schools/wellesley-college.svg",
+    "event_count": 1,
+    "events": [
+      "tacc-codeathon23"
+    ]
+  }
+]

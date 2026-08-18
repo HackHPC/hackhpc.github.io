@@ -88,3 +88,31 @@
   eventFilter.addEventListener('change', applyFilters);
   applyFilters();
 })();
+
+// Participating schools search (Partners page)
+(function () {
+  var grid = document.getElementById('schoolsGrid');
+  if (!grid) return;
+
+  var searchInput = document.getElementById('schoolSearch');
+  var resultsCount = document.getElementById('schoolResultsCount');
+  var noResults = document.getElementById('schoolsNoResults');
+  var items = Array.prototype.slice.call(grid.querySelectorAll('.school-item'));
+
+  function applyFilter() {
+    var query = (searchInput.value || '').toLowerCase().trim();
+    var visible = 0;
+
+    items.forEach(function (item) {
+      var show = !query || item.dataset.search.indexOf(query) !== -1;
+      item.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    resultsCount.textContent = visible + (visible === 1 ? ' school' : ' schools');
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  searchInput.addEventListener('input', applyFilter);
+  applyFilter();
+})();

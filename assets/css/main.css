@@ -222,6 +222,19 @@ code, .mono { font-family: var(--font-mono); }
 }
 .partner-strip-grid .partner-name { font-weight: 600; color: var(--dark-blue); font-size: 0.95rem; }
 
+/* School grid */
+.school-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.6rem; }
+.school-item {
+  display: flex; align-items: center; gap: 0.6rem; background: var(--neutral-white);
+  border: 1px solid var(--line-gray); border-radius: 8px; padding: 0.5rem 0.7rem; color: var(--neutral-ink);
+}
+.school-item:hover { border-color: var(--ui-blue); text-decoration: none; background: var(--soft-gray); }
+.school-name { font-size: 0.85rem; font-weight: 500; line-height: 1.25; }
+.school-count {
+  margin-left: auto; font-size: 0.72rem; font-weight: 700; color: var(--ui-blue);
+  background: var(--soft-gray); border-radius: 999px; padding: 0.1rem 0.45rem; flex-shrink: 0;
+}
+
 /* Citations / research list */
 .citation-list { display: flex; flex-direction: column; gap: 1.25rem; }
 .citation-item {

@@ -83,6 +83,33 @@ description: Organizations that have sponsored, hosted, or co-run HackHPC events
   </div>
 </section>
 
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Participating Schools</span>
+    <h2 class="mt-0">{{ site.data.schools.size }} colleges & universities represented</h2>
+    <p style="max-width:760px;">Students and faculty from these institutions have taken part in HackHPC hackathons, codeathons, and faculty development programs.</p>
+
+    <div class="filters">
+      <input type="search" id="schoolSearch" placeholder="Search schools...">
+    </div>
+    <p class="results-count"><span id="schoolResultsCount">{{ site.data.schools.size }} schools</span> shown</p>
+
+    <div id="schoolsGrid" class="school-grid">
+      {% for s in site.data.schools %}
+      <a href="{{ s.url }}" target="_blank" rel="noopener" class="school-item" data-search="{{ s.name | downcase }}">
+        <span class="partner-icon" style="width:28px; height:28px;">
+          {% if s.icon %}<img src="{{ s.icon }}" alt="" loading="lazy" width="28" height="28">
+          {% else %}<span class="partner-icon-fallback" aria-hidden="true">{{ s.name | slice: 0, 1 }}</span>{% endif %}
+        </span>
+        <span class="school-name">{{ s.name }}</span>
+        {% if s.event_count > 1 %}<span class="school-count">{{ s.event_count }}×</span>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+    <p id="schoolsNoResults" class="no-results">No schools match your search.</p>
+  </div>
+</section>
+
 <section class="section section--dark text-center">
   <div class="container">
     <h2>Interested in partnering with HackHPC?</h2>
