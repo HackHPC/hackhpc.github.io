@@ -180,18 +180,22 @@ code, .mono { font-family: var(--font-mono); }
 .badge-faculty { background: #E4D9FB; color: #5B2FB8; }
 .badge-training { background: #D8F5E3; color: #147041; }
 .badge-doi { background: var(--accent-orange); color: var(--neutral-white); font-size: 0.65rem; padding: 0.1rem 0.45rem; margin-left: 0.3rem; }
+.badge-award { background: var(--accent-orange); color: var(--neutral-white); font-size: 0.65rem; padding: 0.1rem 0.45rem; margin-left: 0.3rem; }
 .partner-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.25rem; }
 .partner-tag { font-size: 0.75rem; background: var(--soft-gray); border: 1px solid var(--line-gray); border-radius: 6px; padding: 0.15rem 0.5rem; color: var(--neutral-ink); }
 .event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; align-items: center; }
 .repo-link { display: inline-flex; align-items: center; gap: 0.3rem; }
-.citation-toggle { margin-top: 0.6rem; border-top: 1px solid var(--line-gray); padding-top: 0.6rem; }
-.citation-toggle summary { cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ui-blue); }
-.citation-toggle summary:hover { text-decoration: underline; }
-.citation-text {
-  font-size: 0.78rem; color: var(--neutral-ink); background: var(--soft-gray);
-  border-radius: 8px; padding: 0.6rem 0.75rem; margin: 0.5rem 0 0; line-height: 1.5;
-  word-break: break-word; user-select: all;
+.teams-toggle { margin-top: 0.6rem; border-top: 1px solid var(--line-gray); padding-top: 0.6rem; }
+.teams-toggle summary { cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ui-blue); }
+.teams-toggle summary:hover { text-decoration: underline; }
+.team-list { list-style: none; margin: 0.6rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.team-item {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  font-size: 0.82rem; background: var(--soft-gray); border-radius: 8px; padding: 0.4rem 0.65rem;
 }
+.team-name { font-weight: 600; color: var(--neutral-ink); }
+.team-award { font-size: 0.75rem; color: #9a5b00; }
+.team-repo { margin-left: auto; font-size: 0.78rem; display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }
 .no-results { display: none; padding: 2rem; text-align: center; color: #4b5563; }
 
 /* Partner icons */

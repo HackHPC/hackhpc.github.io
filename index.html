@@ -12,10 +12,11 @@ description: >-
 {% assign recent = events | sort: "start_date" | reverse %}
 {% assign featured = upcoming | default: recent %}
 {% assign core_partners = site.data.partners | where: "tier", "core" %}
+{% assign earliest_year = events | map: "start_date" | sort | first | slice: 0, 4 %}
 
 <section class="hero section--dark">
   <div class="container hero-content">
-    <span class="eyebrow">Since 2020 · 2020–Present</span>
+    <span class="eyebrow">Since {{ earliest_year }} · {{ earliest_year }}–Present</span>
     <h1>Building the next generation of research computing through hands-on collaboration</h1>
     <p class="tagline">HackHPC brings students, faculty, researchers, mentors, national laboratories, research computing centers, and industry together through hackathons, codeathons, training institutes, and faculty development programs.</p>
     <div class="cta-row">
@@ -36,7 +37,7 @@ description: >-
         <div class="metric-label">HackHPC Events</div>
       </div>
       <div class="metric-card">
-        <div class="metric-value">2020</div>
+        <div class="metric-value">{{ earliest_year }}</div>
         <div class="metric-label">Founded — Active Since</div>
       </div>
       <div class="metric-card">

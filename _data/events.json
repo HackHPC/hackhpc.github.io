@@ -23,7 +23,29 @@
     "citation_key": "hackhpc2026admi26",
     "citation_apa": "HackHPC. (2026). *HackHPC@ADMI26*. https://hackhpc.github.io/admi26/",
     "citation_ieee": "HackHPC, \"HackHPC@ADMI26,\" 2026. [Online]. Available: https://hackhpc.github.io/admi26/",
-    "citation_bibtex": "@misc{hackhpc2026admi26,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI26},\n  year      = {2026},\n  url       = {https://hackhpc.github.io/admi26/}\n}"
+    "citation_bibtex": "@misc{hackhpc2026admi26,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI26},\n  year      = {2026},\n  url       = {https://hackhpc.github.io/admi26/}\n}",
+    "teams": [
+      {
+        "name": "Capsule Corp CoderZ",
+        "github": "https://github.com/OvCXLLC/CapsuleCorpCoderZ",
+        "award": "Team Introductions Award; Organizers Originality Award"
+      },
+      {
+        "name": "Origin Zero",
+        "github": "https://github.com/PrinceOseiBonsu/OriginZero/",
+        "award": "Gateways Impact Award; 24-Hour Progress Challenge Award"
+      },
+      {
+        "name": "The Hacking Tribunal",
+        "github": "https://github.com/JosiahJ25/hacking-tribunal-sgx3-2026/",
+        "award": "24-Hour Progress Challenge Award; Knowledge Portal Award; Project Plan Award"
+      },
+      {
+        "name": "WinMaxxers",
+        "github": "https://github.com/Damone-Washington19/Winmaxxers",
+        "award": "Project Plan Award; Knowledge Graph Analytics Award"
+      }
+    ]
   },
   {
     "id": "facultyhack-gateways26",
@@ -50,7 +72,59 @@
     "citation_key": "hackhpc2026facultyhackgateways26",
     "citation_apa": "HackHPC. (2026). *SGX3's FacultyHack@Gateways26*. https://hackhpc.github.io/facultyhack-gateways26/",
     "citation_ieee": "HackHPC, \"SGX3's FacultyHack@Gateways26,\" 2026. [Online]. Available: https://hackhpc.github.io/facultyhack-gateways26/",
-    "citation_bibtex": "@misc{hackhpc2026facultyhackgateways26,\n  author    = {HackHPC},\n  title     = {SGX3's FacultyHack@Gateways26},\n  year      = {2026},\n  url       = {https://hackhpc.github.io/facultyhack-gateways26/}\n}"
+    "citation_bibtex": "@misc{hackhpc2026facultyhackgateways26,\n  author    = {HackHPC},\n  title     = {SGX3's FacultyHack@Gateways26},\n  year      = {2026},\n  url       = {https://hackhpc.github.io/facultyhack-gateways26/}\n}",
+    "teams": [
+      {
+        "name": "Agbeli Ameko",
+        "github": "https://github.com/TeamGhana/HUDATA500",
+        "award": null
+      },
+      {
+        "name": "Antigone Anthony",
+        "github": "https://github.com/francisantigone-bit/Antigone-s-Hackathon-2026--Anatomy-Unlocked",
+        "award": null
+      },
+      {
+        "name": "Cheryl Swanier",
+        "github": "https://github.com/cswanier/FacultyHack",
+        "award": null
+      },
+      {
+        "name": "Joseph Aneke",
+        "github": "https://github.com/Josephogo/joseph-aneke",
+        "award": null
+      },
+      {
+        "name": "Joshua Gbadebo",
+        "github": "https://github.com/gestureb-cpu/Course-Syllabus",
+        "award": null
+      },
+      {
+        "name": "Kristine Christensen",
+        "github": "https://github.com/kristinechristensen/FacultyHack26",
+        "award": null
+      },
+      {
+        "name": "Mary Beals",
+        "github": "https://github.com/DrMBea/Bayou-Ecology-CURE-2026",
+        "award": null
+      },
+      {
+        "name": "Oyebade Oyerinde",
+        "github": "https://github.com/ooyerind/FacultyHack-Gateways26",
+        "award": null
+      },
+      {
+        "name": "Tanganika Johnson",
+        "github": "https://github.com/tanganjohnson-ai/Hackathon-26-Environmental-Science",
+        "award": null
+      },
+      {
+        "name": "Yohn Parra Bautista",
+        "github": "https://github.com/Yohnjparra/Yohn-Parra",
+        "award": null
+      }
+    ]
   },
   {
     "id": "sgx3-spring-training-2026",
@@ -128,7 +202,29 @@
     "citation_key": "hackhpc2025admi25",
     "citation_apa": "HackHPC. (2025). *HackHPC@ADMI25*. https://hackhpc.github.io/admi25/",
     "citation_ieee": "HackHPC, \"HackHPC@ADMI25,\" 2025. [Online]. Available: https://hackhpc.github.io/admi25/",
-    "citation_bibtex": "@misc{hackhpc2025admi25,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI25},\n  year      = {2025},\n  url       = {https://hackhpc.github.io/admi25/}\n}"
+    "citation_bibtex": "@misc{hackhpc2025admi25,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI25},\n  year      = {2025},\n  url       = {https://hackhpc.github.io/admi25/}\n}",
+    "teams": [
+      {
+        "name": "CodeRunners",
+        "github": "https://github.com/SGX3CodeRunners/RealWorldBugs",
+        "award": "Data Portal Award"
+      },
+      {
+        "name": "HackStreet Boys",
+        "github": "https://github.com/JulianCT05/SGX3-Hackathon",
+        "award": "Scorecard Analytics Award"
+      },
+      {
+        "name": "Hard to Cache",
+        "github": "https://github.com/Hard-to-Cache/Hard-2-Cache",
+        "award": "Gateways Impact Award"
+      },
+      {
+        "name": "Wiresharks",
+        "github": "https://github.com/rygrimes1/Wiresharks",
+        "award": null
+      }
+    ]
   },
   {
     "id": "facultyhack-gateways25",
@@ -157,7 +253,54 @@
     "citation_key": "hackhpc2025facultyhackgateways25",
     "citation_apa": "HackHPC. (2025). *FacultyHack@Gateways25*. https://hackhpc.github.io/facultyhack-gateways25/",
     "citation_ieee": "HackHPC, \"FacultyHack@Gateways25,\" 2025. [Online]. Available: https://hackhpc.github.io/facultyhack-gateways25/",
-    "citation_bibtex": "@misc{hackhpc2025facultyhackgateways25,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways25},\n  year      = {2025},\n  url       = {https://hackhpc.github.io/facultyhack-gateways25/}\n}"
+    "citation_bibtex": "@misc{hackhpc2025facultyhackgateways25,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways25},\n  year      = {2025},\n  url       = {https://hackhpc.github.io/facultyhack-gateways25/}\n}",
+    "teams": [
+      {
+        "name": "Introduction to Programming I (CSCI1010)",
+        "github": "https://github.com/suhbrina-perry/FacultyHackHPC25",
+        "award": null
+      },
+      {
+        "name": "Research Methods and Data Analysis (CPAD 503)",
+        "github": "https://github.com/ooyerind/Research-Method-and-Data-Analysis",
+        "award": null
+      },
+      {
+        "name": "Ecology (SBIO 404 B)",
+        "github": "https://github.com/DrMBea/FacultyHack25",
+        "award": null
+      },
+      {
+        "name": "General Biology (412)",
+        "github": "https://github.com/tanganjohnson-ai/Hackathon-25-Plant-Physiology-",
+        "award": null
+      },
+      {
+        "name": "GPUs for Massively Parallel Mechanistic Modeling",
+        "github": "https://github.com/omsai/facultyhack-gateways25-nanda",
+        "award": null
+      },
+      {
+        "name": "Intro to Programming (CMP 224)",
+        "github": "https://github.com/cswanier/FacultyHack",
+        "award": null
+      },
+      {
+        "name": "Cyber Security (CMP 431)",
+        "github": "https://github.com/gestureb-cpu/Course-Syllabus",
+        "award": null
+      },
+      {
+        "name": "Bioinformatics for NGS Data Analysis. (BIOL 522)",
+        "github": null,
+        "award": null
+      },
+      {
+        "name": "Bayesian Stats, Geocomputation (DS 400, DS 422)",
+        "github": "https://github.com/ConnorFlynn/sgx3-facultyhack",
+        "award": null
+      }
+    ]
   },
   {
     "id": "sgx3codeathontraining25",
@@ -264,7 +407,54 @@
     "citation_key": "hackhpc2024facultyhackgateways24",
     "citation_apa": "HackHPC. (2024). *FacultyHack@Gateways24*. https://hackhpc.github.io/facultyhack-gateways24/",
     "citation_ieee": "HackHPC, \"FacultyHack@Gateways24,\" 2024. [Online]. Available: https://hackhpc.github.io/facultyhack-gateways24/",
-    "citation_bibtex": "@misc{hackhpc2024facultyhackgateways24,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways24},\n  year      = {2024},\n  url       = {https://hackhpc.github.io/facultyhack-gateways24/}\n}"
+    "citation_bibtex": "@misc{hackhpc2024facultyhackgateways24,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways24},\n  year      = {2024},\n  url       = {https://hackhpc.github.io/facultyhack-gateways24/}\n}",
+    "teams": [
+      {
+        "name": "CISS 3342 Computer Forensics",
+        "github": "https://github.com/aaomari45/Faculty-Hackathon-2024",
+        "award": null
+      },
+      {
+        "name": "CS423 Survey of Computer Science",
+        "github": "https://github.com/suhbrina-perry/FacultyHackHPC",
+        "award": null
+      },
+      {
+        "name": "CSC551 Parallel and Distributed Computing",
+        "github": "https://github.com/sbhong238/Gateways2024",
+        "award": null
+      },
+      {
+        "name": "BTEC620 Data Science",
+        "github": null,
+        "award": null
+      },
+      {
+        "name": "BIOL3506 Bioinformatics",
+        "github": "https://github.com/olabisiojo/facultyhackaton2024",
+        "award": null
+      },
+      {
+        "name": "PHS410 Terrorism, Disasters, and Epidemics",
+        "github": "https://github.com/LloydMItchell/PHS410",
+        "award": null
+      },
+      {
+        "name": "Introduction to Computational Fluid Dynamics",
+        "github": null,
+        "award": null
+      },
+      {
+        "name": "CSC3055 Operating Systems with Linux",
+        "github": "https://github.com/Taotopps2006/LU_FacultyHack24",
+        "award": null
+      },
+      {
+        "name": "CSCI-2300 Computational Informatics I",
+        "github": "https://github.com/whu-asurams/GatewayHPC_for_CompInfo",
+        "award": null
+      }
+    ]
   },
   {
     "id": "codeathonatadmi24",
@@ -318,7 +508,24 @@
     "citation_key": "hackhpc2024sgx3admi24",
     "citation_apa": "HackHPC. (2024). *SGX3's HackHPC@ADMI24*. https://hackhpc.github.io/sgx3admi24/",
     "citation_ieee": "HackHPC, \"SGX3's HackHPC@ADMI24,\" 2024. [Online]. Available: https://hackhpc.github.io/sgx3admi24/",
-    "citation_bibtex": "@misc{hackhpc2024sgx3admi24,\n  author    = {HackHPC},\n  title     = {SGX3's HackHPC@ADMI24},\n  year      = {2024},\n  url       = {https://hackhpc.github.io/sgx3admi24/}\n}"
+    "citation_bibtex": "@misc{hackhpc2024sgx3admi24,\n  author    = {HackHPC},\n  title     = {SGX3's HackHPC@ADMI24},\n  year      = {2024},\n  url       = {https://hackhpc.github.io/sgx3admi24/}\n}",
+    "teams": [
+      {
+        "name": "Data Detectives",
+        "github": "https://github.com/Aceentt/Data_Detectives",
+        "award": "Best Team Project Plan; Best Introduction Trailer; Viewer's Choice Award"
+      },
+      {
+        "name": "NLC 2",
+        "github": "https://github.com/ChristianJohnsonL/SGX3-Hackathon-Project-2024",
+        "award": "Best Team Introduction; One-Day Progress Challenge; Judges Award"
+      },
+      {
+        "name": "Pandora\u2019s Programmers",
+        "github": "https://github.com/Chrishen08/PandorasProgrammers",
+        "award": null
+      }
+    ]
   },
   {
     "id": "facultyhack-gateways23",
@@ -349,7 +556,39 @@
     "citation_key": "hackhpc2023facultyhackgateways23",
     "citation_apa": "HackHPC. (2023). *FacultyHack@Gateways23*. https://hackhpc.github.io/facultyhack-gateways23/",
     "citation_ieee": "HackHPC, \"FacultyHack@Gateways23,\" 2023. [Online]. Available: https://hackhpc.github.io/facultyhack-gateways23/",
-    "citation_bibtex": "@misc{hackhpc2023facultyhackgateways23,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways23},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/facultyhack-gateways23/}\n}"
+    "citation_bibtex": "@misc{hackhpc2023facultyhackgateways23,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways23},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/facultyhack-gateways23/}\n}",
+    "teams": [
+      {
+        "name": "Bulldogs Team",
+        "github": "https://github.com/ruikobe/KetteringTeamFacHack23",
+        "award": null
+      },
+      {
+        "name": "CAMSA Team",
+        "github": "https://github.com/alsmadi/CAMSA_Gateways_2023",
+        "award": null
+      },
+      {
+        "name": "Jarvis Bulldog Team",
+        "github": "https://github.com/wsamyono/BulldogTeamFacHackGW23",
+        "award": null
+      },
+      {
+        "name": "Team Altair",
+        "github": "https://github.com/bboscoe/gateways23",
+        "award": null
+      },
+      {
+        "name": "Team Tech Tigers",
+        "github": "https://github.com/jackson820/TeamTechTigers",
+        "award": null
+      },
+      {
+        "name": "ThreatTracker",
+        "github": "https://github.com/Shan-Reddy/SGX3-Faculty-Hackathon-2023",
+        "award": null
+      }
+    ]
   },
   {
     "id": "hpcinthecity23",
@@ -381,7 +620,24 @@
     "citation_key": "hackhpc2023hpcinthecity23",
     "citation_apa": "HackHPC. (2023). *HPC in the City: Pandemics (SC23)*. https://hackhpc.github.io/hpcinthecity23/",
     "citation_ieee": "HackHPC, \"HPC in the City: Pandemics (SC23),\" 2023. [Online]. Available: https://hackhpc.github.io/hpcinthecity23/",
-    "citation_bibtex": "@misc{hackhpc2023hpcinthecity23,\n  author    = {HackHPC},\n  title     = {HPC in the City: Pandemics (SC23)},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/hpcinthecity23/}\n}"
+    "citation_bibtex": "@misc{hackhpc2023hpcinthecity23,\n  author    = {HackHPC},\n  title     = {HPC in the City: Pandemics (SC23)},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/hpcinthecity23/}\n}",
+    "teams": [
+      {
+        "name": "Party Animals",
+        "github": "https://github.com/agutie22/MassySituation",
+        "award": "Judge\u2019s Award; Best Team Introduction; Best Team Project Plan"
+      },
+      {
+        "name": "REDWARN",
+        "github": "https://github.com/SirMore/REDWARN",
+        "award": "Impact Award"
+      },
+      {
+        "name": "Render Mages",
+        "github": "https://github.com/LaJoshua/Mobility-and-Social-Vulnerability-Index",
+        "award": "Viewer\u2019s Choice"
+      }
+    ]
   },
   {
     "id": "tacc-codeathon23",
@@ -407,7 +663,34 @@
     "citation_key": "hackhpc2023tacccodeathon23",
     "citation_apa": "HackHPC. (2023). *TACC Codeathon 2023*. https://hackhpc.github.io/tacc-codeathon23/",
     "citation_ieee": "HackHPC, \"TACC Codeathon 2023,\" 2023. [Online]. Available: https://hackhpc.github.io/tacc-codeathon23/",
-    "citation_bibtex": "@misc{hackhpc2023tacccodeathon23,\n  author    = {HackHPC},\n  title     = {TACC Codeathon 2023},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/tacc-codeathon23/}\n}"
+    "citation_bibtex": "@misc{hackhpc2023tacccodeathon23,\n  author    = {HackHPC},\n  title     = {TACC Codeathon 2023},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/tacc-codeathon23/}\n}",
+    "teams": [
+      {
+        "name": "CCAT",
+        "github": "https://github.com/connorvessely/CCAT-hackathon",
+        "award": null
+      },
+      {
+        "name": "DDES",
+        "github": "https://github.com/Manny59/DDES2023",
+        "award": null
+      },
+      {
+        "name": "Scripting Sorcerers",
+        "github": "https://github.com/xJU4Nx/Scripting-Sorcerers-REU-2023",
+        "award": null
+      },
+      {
+        "name": "Team Avee",
+        "github": "https://github.com/eileenliu953/NHERI-AVEE-2023",
+        "award": null
+      },
+      {
+        "name": "The BeeHives",
+        "github": "https://github.com/Rac1224/BeeHives",
+        "award": null
+      }
+    ]
   },
   {
     "id": "admi23",
@@ -438,7 +721,24 @@
     "citation_key": "hackhpc2023admi23",
     "citation_apa": "HackHPC. (2023). *HackHPC@ADMI23*. https://doi.org/10.5281/zenodo.13332973",
     "citation_ieee": "HackHPC, \"HackHPC@ADMI23,\" 2023. doi: 10.5281/zenodo.13332973.",
-    "citation_bibtex": "@misc{hackhpc2023admi23,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI23},\n  year      = {2023},\n  doi       = {10.5281/zenodo.13332973},\n  url       = {https://doi.org/10.5281/zenodo.13332973}\n}"
+    "citation_bibtex": "@misc{hackhpc2023admi23,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI23},\n  year      = {2023},\n  doi       = {10.5281/zenodo.13332973},\n  url       = {https://doi.org/10.5281/zenodo.13332973}\n}",
+    "teams": [
+      {
+        "name": "The Data Miners",
+        "github": "https://github.com/Lolli1486/agency-jekyll-theme",
+        "award": "Judges Choice Award 2nd Place"
+      },
+      {
+        "name": "CodeWarriors",
+        "github": "https://github.com/admi1234567/ADMI_CODEWARRIORS",
+        "award": "SGX3 UX / UI Award"
+      },
+      {
+        "name": "Bug Busters",
+        "github": "https://github.com/CierrahW/Hacking4HPC",
+        "award": "Judges Choice Award 1st Place"
+      }
+    ]
   },
   {
     "id": "codeatms-cc23",
@@ -468,7 +768,39 @@
     "citation_key": "hackhpc2023codeatmscc23",
     "citation_apa": "HackHPC. (2023). *Code@MS-CC23*. https://hackhpc.github.io/codeatms-cc23/",
     "citation_ieee": "HackHPC, \"Code@MS-CC23,\" 2023. [Online]. Available: https://hackhpc.github.io/codeatms-cc23/",
-    "citation_bibtex": "@misc{hackhpc2023codeatmscc23,\n  author    = {HackHPC},\n  title     = {Code@MS-CC23},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/codeatms-cc23/}\n}"
+    "citation_bibtex": "@misc{hackhpc2023codeatmscc23,\n  author    = {HackHPC},\n  title     = {Code@MS-CC23},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/codeatms-cc23/}\n}",
+    "teams": [
+      {
+        "name": "Cyborgs",
+        "github": "https://github.com/mayaajike/MS_CC-2023-Hack",
+        "award": null
+      },
+      {
+        "name": "House of Py",
+        "github": "https://github.com/Lejohnnn/House-Of-Py",
+        "award": null
+      },
+      {
+        "name": "Team DRT Queens",
+        "github": "https://github.com/RaquelS04/VaccineEffectiveness",
+        "award": null
+      },
+      {
+        "name": "Team HARP",
+        "github": "https://github.com/Aayush000/MS-CC",
+        "award": null
+      },
+      {
+        "name": "The NWA (Nerds With Attitudes)",
+        "github": "https://github.com/NWA-Nerds-With-Attitudes/MS-CC-NWA-Vaccine-Code",
+        "award": null
+      },
+      {
+        "name": "The Tech Titans",
+        "github": "https://github.com/RicardoBarnes/project",
+        "award": null
+      }
+    ]
   },
   {
     "id": "HacktheThreat23",
@@ -496,7 +828,24 @@
     "citation_key": "hackhpc2023hackthethreat23",
     "citation_apa": "HackHPC. (2023). *Hack the Threat 2023*. https://hackhpc.github.io/HacktheThreat23/",
     "citation_ieee": "HackHPC, \"Hack the Threat 2023,\" 2023. [Online]. Available: https://hackhpc.github.io/HacktheThreat23/",
-    "citation_bibtex": "@misc{hackhpc2023hackthethreat23,\n  author    = {HackHPC},\n  title     = {Hack the Threat 2023},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/HacktheThreat23/}\n}"
+    "citation_bibtex": "@misc{hackhpc2023hackthethreat23,\n  author    = {HackHPC},\n  title     = {Hack the Threat 2023},\n  year      = {2023},\n  url       = {https://hackhpc.github.io/HacktheThreat23/}\n}",
+    "teams": [
+      {
+        "name": "2 Hack 2 Furious",
+        "github": "https://github.com/kmaurinjones/2hack2furious",
+        "award": null
+      },
+      {
+        "name": "Anti-Hurricane Hurricane Club",
+        "github": "https://github.com/freinric/ANTI-HURRICANE-HURRICANE-CLUB",
+        "award": null
+      },
+      {
+        "name": "Techniators",
+        "github": "https://github.com/UBC-MDS/Techniators",
+        "award": null
+      }
+    ]
   },
   {
     "id": "HPCintheCity22",
@@ -529,7 +878,39 @@
     "citation_key": "hackhpc2022hpcinthecity22",
     "citation_apa": "HackHPC. (2022). *HPC in the City: Dallas (SC22)*. https://hackhpc.github.io/HPCintheCity22/",
     "citation_ieee": "HackHPC, \"HPC in the City: Dallas (SC22),\" 2022. [Online]. Available: https://hackhpc.github.io/HPCintheCity22/",
-    "citation_bibtex": "@misc{hackhpc2022hpcinthecity22,\n  author    = {HackHPC},\n  title     = {HPC in the City: Dallas (SC22)},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/HPCintheCity22/}\n}"
+    "citation_bibtex": "@misc{hackhpc2022hpcinthecity22,\n  author    = {HackHPC},\n  title     = {HPC in the City: Dallas (SC22)},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/HPCintheCity22/}\n}",
+    "teams": [
+      {
+        "name": "EcoLocation",
+        "github": "https://github.com/ak007777/EcoLocation",
+        "award": "HPC Impact Award"
+      },
+      {
+        "name": "Emote-ping",
+        "github": "https://github.com/emote-ping/emote-ping_backend",
+        "award": null
+      },
+      {
+        "name": "Jazz Frogs",
+        "github": "https://github.com/OmarOcasio20366/Bio_Sensing_Data",
+        "award": null
+      },
+      {
+        "name": "Mr. Roger\u2019s - 20 Min Neighborhoods",
+        "github": "https://github.com/Winter-1314/HackHPC-20-Min-Neighborhoods",
+        "award": "Viewer\u2019s Choice Award"
+      },
+      {
+        "name": "Sonar Skills",
+        "github": "https://github.com/jmctheowl8/Dashborad-Project",
+        "award": null
+      },
+      {
+        "name": "Team Genie",
+        "github": "https://github.com/hunter154321/2022HPC-Genie-LAMMPS",
+        "award": "Judges Award"
+      }
+    ]
   },
   {
     "id": "StudentHackatSC22",
@@ -606,7 +987,34 @@
     "citation_key": "hackhpc2022facultyhackgateways22",
     "citation_apa": "HackHPC. (2022). *FacultyHack@Gateways22*. https://hackhpc.github.io/FacultyHack-Gateways22/",
     "citation_ieee": "HackHPC, \"FacultyHack@Gateways22,\" 2022. [Online]. Available: https://hackhpc.github.io/FacultyHack-Gateways22/",
-    "citation_bibtex": "@misc{hackhpc2022facultyhackgateways22,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways22},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/FacultyHack-Gateways22/}\n}"
+    "citation_bibtex": "@misc{hackhpc2022facultyhackgateways22,\n  author    = {HackHPC},\n  title     = {FacultyHack@Gateways22},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/FacultyHack-Gateways22/}\n}",
+    "teams": [
+      {
+        "name": "Team Rams",
+        "github": null,
+        "award": "Best Poster Award Gateways 2022"
+      },
+      {
+        "name": "More Data, More Code",
+        "github": null,
+        "award": null
+      },
+      {
+        "name": "Viking Bytes",
+        "github": null,
+        "award": null
+      },
+      {
+        "name": "NSU Software Warriors",
+        "github": null,
+        "award": null
+      },
+      {
+        "name": "Data Shepherds",
+        "github": null,
+        "award": null
+      }
+    ]
   },
   {
     "id": "ADMI22",
@@ -632,7 +1040,34 @@
     "citation_key": "hackhpc2022admi22",
     "citation_apa": "HackHPC. (2022). *HackHPC@ADMI22*. https://hackhpc.github.io/ADMI22/",
     "citation_ieee": "HackHPC, \"HackHPC@ADMI22,\" 2022. [Online]. Available: https://hackhpc.github.io/ADMI22/",
-    "citation_bibtex": "@misc{hackhpc2022admi22,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI22},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/ADMI22/}\n}"
+    "citation_bibtex": "@misc{hackhpc2022admi22,\n  author    = {HackHPC},\n  title     = {HackHPC@ADMI22},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/ADMI22/}\n}",
+    "teams": [
+      {
+        "name": "Spellhause Tiguars",
+        "github": "https://github.com/asapzy/spelhousetiguars",
+        "award": null
+      },
+      {
+        "name": "Nourishment Ninjas",
+        "github": "https://github.com/lwilliams121/NourishmentNinjas2022/",
+        "award": null
+      },
+      {
+        "name": "Raging Flashy Tigers",
+        "github": "https://github.com/Raharijao/Raging_Flashy_Tigers-Project",
+        "award": null
+      },
+      {
+        "name": "The Akatsuki",
+        "github": "https://github.com/jullie-s/akatsuki",
+        "award": null
+      },
+      {
+        "name": "Voracious Vikings",
+        "github": "https://github.com/dancarlam/Voracious-Vikings-ADMI22",
+        "award": null
+      }
+    ]
   },
   {
     "id": "HackatTACC-2022",
@@ -657,7 +1092,34 @@
     "citation_key": "hackhpc2022hackattacc2022",
     "citation_apa": "HackHPC. (2022). *Hack@TACC22*. https://hackhpc.github.io/HackatTACC-2022/",
     "citation_ieee": "HackHPC, \"Hack@TACC22,\" 2022. [Online]. Available: https://hackhpc.github.io/HackatTACC-2022/",
-    "citation_bibtex": "@misc{hackhpc2022hackattacc2022,\n  author    = {HackHPC},\n  title     = {Hack@TACC22},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/HackatTACC-2022/}\n}"
+    "citation_bibtex": "@misc{hackhpc2022hackattacc2022,\n  author    = {HackHPC},\n  title     = {Hack@TACC22},\n  year      = {2022},\n  url       = {https://hackhpc.github.io/HackatTACC-2022/}\n}",
+    "teams": [
+      {
+        "name": "Firefly",
+        "github": "https://github.com/jonimccawley/TeamFireflies-",
+        "award": null
+      },
+      {
+        "name": "5'432",
+        "github": "https://github.com/christatsao/team5432",
+        "award": null
+      },
+      {
+        "name": "Indigo",
+        "github": "https://github.com/Christine1302/Team-Indigo",
+        "award": null
+      },
+      {
+        "name": "Bulletproof",
+        "github": "https://github.com/tobeono3/Bulletproof-",
+        "award": null
+      },
+      {
+        "name": "Paragon",
+        "github": "https://github.com/TeamParagon123/TeamParagon",
+        "award": null
+      }
+    ]
   },
   {
     "id": "HPCintheCity21",
@@ -687,7 +1149,44 @@
     "citation_key": "hackhpc2021hpcinthecity21",
     "citation_apa": "HackHPC. (2021). *HPC in the City: St. Louis (SC21)*. https://hackhpc.github.io/HPCintheCity21/",
     "citation_ieee": "HackHPC, \"HPC in the City: St. Louis (SC21),\" 2021. [Online]. Available: https://hackhpc.github.io/HPCintheCity21/",
-    "citation_bibtex": "@misc{hackhpc2021hpcinthecity21,\n  author    = {HackHPC},\n  title     = {HPC in the City: St. Louis (SC21)},\n  year      = {2021},\n  url       = {https://hackhpc.github.io/HPCintheCity21/}\n}"
+    "citation_bibtex": "@misc{hackhpc2021hpcinthecity21,\n  author    = {HackHPC},\n  title     = {HPC in the City: St. Louis (SC21)},\n  year      = {2021},\n  url       = {https://hackhpc.github.io/HPCintheCity21/}\n}",
+    "teams": [
+      {
+        "name": "Dont Skip a Beat",
+        "github": "https://github.com/DontSkipABeat",
+        "award": "Viewers Choice Award"
+      },
+      {
+        "name": "Team Block Busters",
+        "github": "https://github.com/rollercoaster111/block-busters",
+        "award": "HPC in the City Impact Award"
+      },
+      {
+        "name": "A.I.R.",
+        "github": "https://github.com/Raharijao/A.I.R.-project",
+        "award": "Judges Award"
+      },
+      {
+        "name": "Brick by Brick",
+        "github": "https://github.com/G-Unit99/Brick-By-Brick",
+        "award": null
+      },
+      {
+        "name": "Cool Ducks",
+        "github": "https://github.com/NekoTony/Climate-Change-in-St.-Louis",
+        "award": null
+      },
+      {
+        "name": "Flood of Code",
+        "github": "https://github.com/apolvm/FloodOfCode",
+        "award": null
+      },
+      {
+        "name": "The Equalizers",
+        "github": "https://github.com/Jazzcattrap/TheEqualizers",
+        "award": null
+      }
+    ]
   },
   {
     "id": "Pearc21",
@@ -718,7 +1217,39 @@
     "citation_key": "hackhpc2021pearc21",
     "citation_apa": "HackHPC. (2021). *HackHPC@PEARC21*. https://hackhpc.github.io/Pearc21/",
     "citation_ieee": "HackHPC, \"HackHPC@PEARC21,\" 2021. [Online]. Available: https://hackhpc.github.io/Pearc21/",
-    "citation_bibtex": "@misc{hackhpc2021pearc21,\n  author    = {HackHPC},\n  title     = {HackHPC@PEARC21},\n  year      = {2021},\n  url       = {https://hackhpc.github.io/Pearc21/}\n}"
+    "citation_bibtex": "@misc{hackhpc2021pearc21,\n  author    = {HackHPC},\n  title     = {HackHPC@PEARC21},\n  year      = {2021},\n  url       = {https://hackhpc.github.io/Pearc21/}\n}",
+    "teams": [
+      {
+        "name": "Valiant Vaccinators",
+        "github": "https://github.com/abhi-vinnakota/ValiantVaccinators",
+        "award": "Judges Choice Award Winner"
+      },
+      {
+        "name": "Render Benders",
+        "github": "https://github.com/rollercoaster111/renderbenders",
+        "award": "Viewers Choice Award Winner"
+      },
+      {
+        "name": "Cash Captains",
+        "github": "https://github.com/cherithkay/cash-captains",
+        "award": null
+      },
+      {
+        "name": "Masked Angst",
+        "github": "https://github.com/chidinmac/Masked-Angst",
+        "award": null
+      },
+      {
+        "name": "Sesame Street Team",
+        "github": "https://github.com/le-n-qui/redistricting_sesame_street/tree/main",
+        "award": null
+      },
+      {
+        "name": "The Final Straw",
+        "github": "https://github.com/cesarmonsalud/drawstraws",
+        "award": null
+      }
+    ]
   },
   {
     "id": "HPCintheCity20",
@@ -750,7 +1281,54 @@
     "citation_key": "hackhpc2020hpcinthecity20",
     "citation_apa": "HackHPC. (2020). *HPC in the City: Atlanta (SC20)*. https://hackhpc.github.io/HPCintheCity20/",
     "citation_ieee": "HackHPC, \"HPC in the City: Atlanta (SC20),\" 2020. [Online]. Available: https://hackhpc.github.io/HPCintheCity20/",
-    "citation_bibtex": "@misc{hackhpc2020hpcinthecity20,\n  author    = {HackHPC},\n  title     = {HPC in the City: Atlanta (SC20)},\n  year      = {2020},\n  url       = {https://hackhpc.github.io/HPCintheCity20/}\n}"
+    "citation_bibtex": "@misc{hackhpc2020hpcinthecity20,\n  author    = {HackHPC},\n  title     = {HPC in the City: Atlanta (SC20)},\n  year      = {2020},\n  url       = {https://hackhpc.github.io/HPCintheCity20/}\n}",
+    "teams": [
+      {
+        "name": "Hotspot Hero 6",
+        "github": "https://github.com/mventparram/HotspotHero6",
+        "award": "HPC in the City Impact Award Winner"
+      },
+      {
+        "name": "Fraud Finders",
+        "github": "https://github.com/frederick-morris/election-analytics",
+        "award": "Judges Choice Award Winner"
+      },
+      {
+        "name": "Silent Titanic Space Pythons",
+        "github": "https://github.com/abdulmohammed3/Covid-19_Disease_Transmission_and_Economic_Impact",
+        "award": "Viewers Choice Award Winner"
+      },
+      {
+        "name": "Operation Hack the Railroad",
+        "github": "https://github.com/hazkassb/Operation-Hack-The-Railroad",
+        "award": null
+      },
+      {
+        "name": "Team Humble",
+        "github": "https://github.com/kobelschool/HPC-Hackathon-2020-COVID-19-Hospital-Statistics",
+        "award": null
+      },
+      {
+        "name": "Rosadas Tigers",
+        "github": "https://github.com/demetriusnich/Breast-Cancer-Prediction",
+        "award": null
+      },
+      {
+        "name": "QuaranTeam",
+        "github": "https://github.com/hectorsantiago5/SC20_covid_projection",
+        "award": null
+      },
+      {
+        "name": "Street Sweepers",
+        "github": "https://github.com/TheNotBotBot/HackHPC20_TrafficVision",
+        "award": null
+      },
+      {
+        "name": "Team Focus",
+        "github": "https://github.com/gtoutin/focus",
+        "award": null
+      }
+    ]
   },
   {
     "id": "Pearc20",
@@ -780,6 +1358,211 @@
     "citation_key": "hackhpc2020pearc20",
     "citation_apa": "HackHPC. (2020). *HackHPC@PEARC20*. https://hackhpc.github.io/Pearc20/",
     "citation_ieee": "HackHPC, \"HackHPC@PEARC20,\" 2020. [Online]. Available: https://hackhpc.github.io/Pearc20/",
-    "citation_bibtex": "@misc{hackhpc2020pearc20,\n  author    = {HackHPC},\n  title     = {HackHPC@PEARC20},\n  year      = {2020},\n  url       = {https://hackhpc.github.io/Pearc20/}\n}"
+    "citation_bibtex": "@misc{hackhpc2020pearc20,\n  author    = {HackHPC},\n  title     = {HackHPC@PEARC20},\n  year      = {2020},\n  url       = {https://hackhpc.github.io/Pearc20/}\n}",
+    "teams": [
+      {
+        "name": "Vis Pipeline 1",
+        "github": "https://github.com/BranRitz/Pearc20VizPipeline",
+        "award": null
+      },
+      {
+        "name": "Vis Pipeline A (Three A-migos)",
+        "github": "https://github.com/jchuahtacc/CloudHPCHackVizPiplineTeamA",
+        "award": null
+      },
+      {
+        "name": "Team Delta",
+        "github": "https://github.com/laandreagates/Delta",
+        "award": null
+      },
+      {
+        "name": "Quick Viz (Charlies Angels)",
+        "github": "https://github.com/hectorsantiago5/pearc20_quickviz",
+        "award": null
+      }
+    ]
+  },
+  {
+    "id": "pearc19",
+    "name": "HackHPC@PEARC19",
+    "url": "http://hackhpc.org/pasthacks/#pearc19",
+    "github_repo": null,
+    "start_date": "2019-07-28",
+    "end_date": "2019-08-01",
+    "date_display": "July 28 \u2013 August 1, 2019, Hyatt Regency Chicago",
+    "type": "hackathon",
+    "category": "PEARC",
+    "description": "SGCI-sponsored hackathon held in conjunction with the PEARC19 conference in Chicago, challenging students to build science-gateway projects proposed by SGCI partners.",
+    "partners": [
+      "PEARC19",
+      "SGCI"
+    ],
+    "teams_url": null,
+    "schedule_url": null,
+    "organizers_url": null,
+    "mentors_url": null,
+    "doi": null,
+    "citation_key": "hackhpc2019pearc19",
+    "citation_apa": "HackHPC. (2019). *HackHPC@PEARC19*. http://hackhpc.org/pasthacks/#pearc19",
+    "citation_ieee": "HackHPC, \"HackHPC@PEARC19,\" 2019. [Online]. Available: http://hackhpc.org/pasthacks/#pearc19",
+    "citation_bibtex": "@misc{hackhpc2019pearc19,\n  author    = {HackHPC},\n  title     = {HackHPC@PEARC19},\n  year      = {2019},\n  url       = {http://hackhpc.org/pasthacks/#pearc19}\n}",
+    "teams": [
+      {
+        "name": "JAMS Distant Reader",
+        "github": "https://github.com/shivamriky/Pearc19_team_jams",
+        "award": null
+      },
+      {
+        "name": "G.O.A.T.",
+        "github": "https://github.com/edselnorwood/2019-hackathon",
+        "award": null
+      },
+      {
+        "name": "Llama Farmers",
+        "github": "https://github.com/LLama-Farmers/COSMIC2/blob/master/cosmic.html",
+        "award": null
+      }
+    ]
+  },
+  {
+    "id": "sc19",
+    "name": "Cloud HPC Hack @ SC19",
+    "url": "http://hackhpc.org/pasthacks/#sc19",
+    "github_repo": null,
+    "start_date": "2019-11-17",
+    "end_date": "2019-11-22",
+    "date_display": "November 17\u201322, 2019, Denver, CO",
+    "type": "hackathon",
+    "category": "SC",
+    "description": "Cloud HPC Hackathon (the Omnibond CloudyCluster competition) held at SC19 in Denver, profiled by HPCwire for helping students without a computer science background break into HPC.",
+    "partners": [
+      "SC19",
+      "Omnibond Systems"
+    ],
+    "teams_url": null,
+    "schedule_url": null,
+    "organizers_url": null,
+    "mentors_url": null,
+    "doi": null,
+    "citation_key": "hackhpc2019sc19",
+    "citation_apa": "HackHPC. (2019). *Cloud HPC Hack @ SC19*. http://hackhpc.org/pasthacks/#sc19",
+    "citation_ieee": "HackHPC, \"Cloud HPC Hack @ SC19,\" 2019. [Online]. Available: http://hackhpc.org/pasthacks/#sc19",
+    "citation_bibtex": "@misc{hackhpc2019sc19,\n  author    = {HackHPC},\n  title     = {Cloud HPC Hack @ SC19},\n  year      = {2019},\n  url       = {http://hackhpc.org/pasthacks/#sc19}\n}",
+    "teams": [
+      {
+        "name": "Secret Cords",
+        "github": "https://github.com/edselnorwood/sc19-hackaton",
+        "award": null
+      },
+      {
+        "name": "Team SMS2CCCQ",
+        "github": "https://github.com/NotChristianGarcia/sms2ccq",
+        "award": null
+      },
+      {
+        "name": "Deep Dish Data",
+        "github": "https://github.com/kenneth-meyer/deepdishdata",
+        "award": null
+      },
+      {
+        "name": "Photobombers",
+        "github": "https://github.com/laandreagates/Photobomb-Malware-Analysis-Gateway-",
+        "award": null
+      },
+      {
+        "name": "LambdaUI",
+        "github": "https://github.com/NidhiMadab/Lambda",
+        "award": null
+      }
+    ]
+  },
+  {
+    "id": "pearc18",
+    "name": "HackHPC@PEARC18",
+    "url": "http://hackhpc.org/pasthacks/#pearc18",
+    "github_repo": null,
+    "start_date": "2018-07-26",
+    "end_date": "2018-07-27",
+    "date_display": "July 26\u201327, 2018, Wyndham Grand Pittsburgh Downtown",
+    "type": "hackathon",
+    "category": "PEARC",
+    "description": "SGCI-sponsored hackathon held in conjunction with the PEARC18 conference in Pittsburgh, with gateway projects provided by myGeoHub, SEAGrid, Cosmic2, and the SimCCS Gateway.",
+    "partners": [
+      "PEARC18",
+      "SGCI",
+      "TACC"
+    ],
+    "teams_url": null,
+    "schedule_url": null,
+    "organizers_url": null,
+    "mentors_url": null,
+    "doi": null,
+    "citation_key": "hackhpc2018pearc18",
+    "citation_apa": "HackHPC. (2018). *HackHPC@PEARC18*. http://hackhpc.org/pasthacks/#pearc18",
+    "citation_ieee": "HackHPC, \"HackHPC@PEARC18,\" 2018. [Online]. Available: http://hackhpc.org/pasthacks/#pearc18",
+    "citation_bibtex": "@misc{hackhpc2018pearc18,\n  author    = {HackHPC},\n  title     = {HackHPC@PEARC18},\n  year      = {2018},\n  url       = {http://hackhpc.org/pasthacks/#pearc18}\n}",
+    "teams": [
+      {
+        "name": "FantasticSIMS4",
+        "github": "https://github.com/Derek184454/FantasticSim4",
+        "award": null
+      },
+      {
+        "name": "#HackAttack",
+        "github": "https://github.com/Nikkie15/HackAttacks",
+        "award": null
+      },
+      {
+        "name": "COSMIC BULLS",
+        "github": "https://github.com/l3g3nd3/Cosmic-Bulls",
+        "award": null
+      }
+    ]
+  },
+  {
+    "id": "sc18",
+    "name": "Cloud HPC Hack @ SC18",
+    "url": "http://hackhpc.org/pasthacks/#sc18",
+    "github_repo": null,
+    "start_date": "2018-11-11",
+    "end_date": "2018-11-16",
+    "date_display": "November 11\u201316, 2018, Dallas, TX",
+    "type": "hackathon",
+    "category": "SC",
+    "description": "Cloud HPC Hackathon held at SC18 in Dallas.",
+    "partners": [
+      "SC18"
+    ],
+    "teams_url": null,
+    "schedule_url": null,
+    "organizers_url": null,
+    "mentors_url": null,
+    "doi": null,
+    "citation_key": "hackhpc2018sc18",
+    "citation_apa": "HackHPC. (2018). *Cloud HPC Hack @ SC18*. http://hackhpc.org/pasthacks/#sc18",
+    "citation_ieee": "HackHPC, \"Cloud HPC Hack @ SC18,\" 2018. [Online]. Available: http://hackhpc.org/pasthacks/#sc18",
+    "citation_bibtex": "@misc{hackhpc2018sc18,\n  author    = {HackHPC},\n  title     = {Cloud HPC Hack @ SC18},\n  year      = {2018},\n  url       = {http://hackhpc.org/pasthacks/#sc18}\n}",
+    "teams": [
+      {
+        "name": "Team Belkin",
+        "github": "https://github.com/ishahnishant/HPC-CloudHack-2018",
+        "award": null
+      },
+      {
+        "name": "Team Chaos",
+        "github": "https://github.com/samiyo44/hackhpc",
+        "award": null
+      },
+      {
+        "name": "Mr. Worldwide",
+        "github": "https://github.com/glorioushedgehog/WebPageTranslatorMaven",
+        "award": null
+      },
+      {
+        "name": "Buy Low Sell HPC",
+        "github": "https://github.com/JackBmann/HackHPC",
+        "award": null
+      }
+    ]
   }
 ]

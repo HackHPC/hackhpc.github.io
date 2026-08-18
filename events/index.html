@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Events
-description: Browse every HackHPC hackathon, codeathon, training institute, and faculty development event since 2020.
+description: Browse every HackHPC hackathon, codeathon, training institute, and faculty development event since 2018.
 ---
 {% assign events = site.data.events | sort: "start_date" | reverse %}
 {% assign years = events | map: "start_date" %}
@@ -12,7 +12,7 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
 <section class="section--tight section--soft">
   <div class="container">
     <span class="eyebrow">Events Archive</span>
-    <h1 class="mt-0">{{ events.size }} HackHPC Events Since 2020</h1>
+    <h1 class="mt-0">{{ events.size }} HackHPC Events Since 2018</h1>
     <p>Hackathons, codeathons, training institutes, and faculty development programs — filter or search to find what you're looking for.</p>
   </div>
 </section>
@@ -51,8 +51,22 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
           {% if event.teams_url %}<a href="{{ event.teams_url }}" class="small">Teams</a>{% endif %}
           {% if event.schedule_url %}<a href="{{ event.schedule_url }}" class="small">Schedule</a>{% endif %}
           {% if event.mentors_url %}<a href="{{ event.mentors_url }}" class="small">Mentors</a>{% endif %}
-          <a href="{{ event.github_repo }}" class="small repo-link" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo ↗</a>
+          {% if event.github_repo %}<a href="{{ event.github_repo }}" class="small repo-link" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo ↗</a>{% endif %}
         </div>
+        {% if event.teams and event.teams.size > 0 %}
+        <details class="teams-toggle">
+          <summary>{{ event.teams.size }} team{% if event.teams.size != 1 %}s{% endif %}{% assign winner_count = 0 %}{% for t in event.teams %}{% if t.award %}{% assign winner_count = winner_count | plus: 1 %}{% endif %}{% endfor %}{% if winner_count > 0 %} <span class="badge badge-award">🏆 {{ winner_count }} award{% if winner_count != 1 %}s{% endif %}</span>{% endif %}</summary>
+          <ul class="team-list">
+            {% for t in event.teams %}
+            <li class="team-item">
+              <span class="team-name">{{ t.name }}</span>
+              {% if t.award %}<span class="team-award">🏆 {{ t.award }}</span>{% endif %}
+              {% if t.github %}<a href="{{ t.github }}" target="_blank" rel="noopener" class="team-repo"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo</a>{% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </details>
+        {% endif %}
         <div class="cite-buttons">
           <span class="cite-label">View Citation:{% if event.doi %} <span class="badge badge-doi">DOI</span>{% endif %}</span>
           <button class="cite-btn" data-key="{{ event.citation_key }}" data-format="apa" type="button">APA</button>
