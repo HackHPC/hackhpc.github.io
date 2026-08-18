@@ -230,10 +230,6 @@ code, .mono { font-family: var(--font-mono); }
 }
 .school-item:hover { border-color: var(--ui-blue); text-decoration: none; background: var(--soft-gray); }
 .school-name { font-size: 0.85rem; font-weight: 500; line-height: 1.25; }
-.school-count {
-  margin-left: auto; font-size: 0.72rem; font-weight: 700; color: var(--ui-blue);
-  background: var(--soft-gray); border-radius: 999px; padding: 0.1rem 0.45rem; flex-shrink: 0;
-}
 
 /* Citations / research list */
 .citation-list { display: flex; flex-direction: column; gap: 1.25rem; }
