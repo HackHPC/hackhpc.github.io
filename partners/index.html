@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Partners
-description: Organizations that have sponsored, hosted, or co-run HackHPC events since 2018.
+description: The schools and partner organizations behind HackHPC's hackathons, codeathons, and faculty development programs since 2018.
 ---
 {% assign core = site.data.partners | where: "tier", "core" %}
 {% assign program = site.data.partners | where: "tier", "program" %}
@@ -10,8 +10,8 @@ description: Organizations that have sponsored, hosted, or co-run HackHPC events
 <section class="section--tight section--soft">
   <div class="container">
     <span class="eyebrow">Partners</span>
-    <h1 class="mt-0">{{ site.data.partners.size }} organizations behind HackHPC</h1>
-    <p style="max-width:720px;">Every HackHPC event is run with partner organizations — national laboratories, research computing centers, professional societies, and industry sponsors. Tiers below reflect how many HackHPC events each organization has supported, counted from the <a href="/events/">Events Archive</a>.</p>
+    <h1 class="mt-0">{{ site.data.schools.size }} schools & {{ site.data.partners.size }} organizations behind HackHPC</h1>
+    <p style="max-width:720px;">HackHPC draws students and faculty from colleges and universities across the country, and runs on partnerships with national laboratories, research computing centers, professional societies, and industry sponsors. Browse participating schools below, then partner organizations by tier — how many HackHPC events each has supported, counted from the <a href="/events/">Events Archive</a>.</p>
   </div>
 </section>
 
