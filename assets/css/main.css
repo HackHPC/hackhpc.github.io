@@ -184,6 +184,22 @@ code, .mono { font-family: var(--font-mono); }
 .event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; }
 .no-results { display: none; padding: 2rem; text-align: center; color: #4b5563; }
 
+/* Partner icons */
+.partner-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0; border-radius: 10px; background: var(--neutral-white);
+  border: 1px solid var(--line-gray); overflow: hidden;
+}
+.partner-icon img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+.partner-icon-fallback {
+  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-sans); font-weight: 800; color: var(--neutral-white);
+  background: linear-gradient(135deg, var(--dark-blue), var(--secondary-cyan));
+  font-size: 1.1em;
+}
+.partner-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem; }
+.partner-header h3, .partner-header-name { margin: 0; }
+
 /* Partner strip */
 .partner-strip-grid {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-top: 2rem;

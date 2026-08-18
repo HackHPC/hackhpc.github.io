@@ -1,29 +1,218 @@
 [
-  { "name": "Science Gateways (SGX3 / SGCI / Gateways Conference)", "url": "https://sciencegateways.org/", "mentions": 21, "tier": "core", "description": "Center of Excellence to Extend, Expand, and Exemplify Good Practices for Cyberinfrastructure through Science Gateways — HackHPC's closest and longest-running program partner." },
-  { "name": "TACC (Texas Advanced Computing Center)", "url": "https://tacc.utexas.edu/", "mentions": 14, "tier": "core", "description": "Founding host institution and computing infrastructure partner for most HackHPC events." },
-  { "name": "Omnibond Systems", "url": "https://omnibond.com/", "mentions": 13, "tier": "core", "description": "Software and cyberinfrastructure sponsor across most HackHPC events since 2020." },
-  { "name": "ADMI (Association of Computer Science Departments at Minority Institutions)", "url": "https://www.admiusa.org/", "mentions": 6, "tier": "core", "description": "Long-running annual hackathon and codeathon host at the ADMI Symposium on Computing at Minority Institutions." },
-  { "name": "ORNL (Oak Ridge National Laboratory)", "url": "https://www.ornl.gov/", "mentions": 5, "tier": "core", "description": "National laboratory partner supporting faculty development and HPC-in-the-City events." },
-  { "name": "Intel", "url": "https://www.intel.com/", "mentions": 5, "tier": "core", "description": "Industry sponsor across HPC in the City and PEARC events." },
-  { "name": "Supercomputing Conference (SC)", "url": "https://supercomputing.org/", "mentions": 5, "tier": "core", "description": "Annual host conference for the HPC in the City hackathon series (SC20–SC23)." },
-  { "name": "AWS (Amazon Web Services)", "url": "https://aws.amazon.com/", "mentions": 3, "tier": "program", "description": "Cloud compute sponsor for several codeathons and hackathons." },
-  { "name": "Globus", "url": "https://www.globus.org/", "mentions": 3, "tier": "program", "description": "Research data management partner for the HPC in the City series." },
-  { "name": "Google", "url": "https://www.google.com/", "mentions": 3, "tier": "program", "description": "Industry sponsor for early HPC in the City and PEARC events." },
-  { "name": "Voltron Data", "url": "https://voltrondata.com/", "mentions": 4, "tier": "program", "description": "Data-tooling sponsor across ADMI and HPC in the City events." },
-  { "name": "STAR Industry Program", "url": "https://tacc.utexas.edu/partnerships/star-industry-program/", "mentions": 3, "tier": "program", "description": "TACC's Science and Technology Affiliates for Research program, supporting faculty and HPC in the City events." },
-  { "name": "PEARC (Practice and Experience in Advanced Research Computing)", "url": "https://pearc.acm.org/", "mentions": 2, "tier": "program", "description": "Annual conference and namesake of the HackHPC@PEARC hackathon series." },
-  { "name": "CeNAT (Centro Nacional de Alta Tecnología)", "url": "https://www.cenat.ac.cr/es/", "mentions": 1, "tier": "collaborating", "description": "Costa Rica's National High Technology Center, co-host of the Costa Rica Big Data School." },
-  { "name": "CERSER (Center of Excellence in Remote Sensing Education and Research)", "url": "https://cerser.ecsu.edu/", "mentions": 1, "tier": "collaborating", "description": "ECSU center co-hosting the SGX3 Codeathon Training." },
-  { "name": "Center for Pandemic Decision Science (UT Austin)", "url": "https://www.centerforpandemicdecisionscience.org/", "mentions": 1, "tier": "collaborating", "description": "Research partner for the HPC in the City: Pandemics hackathon." },
-  { "name": "Google Cloud", "url": "https://cloud.google.com/", "mentions": 1, "tier": "collaborating", "description": "Cloud infrastructure sponsor for HPC in the City: Dallas." },
-  { "name": "Internet2", "url": "https://internet2.edu/", "mentions": 1, "tier": "collaborating", "description": "Research networking partner for Code@MS-CC23." },
-  { "name": "MS-CC (Minority Serving–Cyberinfrastructure Consortium)", "url": "https://ms-cc.org/", "mentions": 1, "tier": "collaborating", "description": "Co-host of Code@MS-CC23." },
-  { "name": "NSF (National Science Foundation)", "url": "https://www.nsf.gov/", "mentions": 1, "tier": "collaborating", "description": "Federal funding partner, including the 2026 Faculty Hackathon." },
-  { "name": "NSF REU – Cyberinfrastructure Research for Social Change", "url": "https://www.tacc.utexas.edu/reu", "mentions": 1, "tier": "collaborating", "description": "REU program that co-hosted the TACC Codeathon 2023." },
-  { "name": "RedCONARE (Red Avanzada de Investigación y Educación de Costa Rica)", "url": "https://www.redconare.ac.cr/", "mentions": 1, "tier": "collaborating", "description": "Costa Rica's national research and education network, co-host of the Big Data School." },
-  { "name": "SC21 Inclusivity Committee", "url": "https://supercomputing.org/", "mentions": 1, "tier": "collaborating", "description": "Co-sponsor of HPC in the City: St. Louis at SC21." },
-  { "name": "SFU (Simon Fraser University)", "url": "https://www.sfu.ca/", "mentions": 1, "tier": "collaborating", "description": "Academic partner for Hack the Threat 2023." },
-  { "name": "SIGHPC (ACM Special Interest Group on High Performance Computing)", "url": "https://sighpc.org/", "mentions": 1, "tier": "collaborating", "description": "Professional society co-sponsor of HPC in the City: Atlanta at SC20." },
-  { "name": "US-RSE (United States Research Software Engineer Association)", "url": "https://us-rse.org/", "mentions": 1, "tier": "collaborating", "description": "Professional association partner for FacultyHack@Gateways24." },
-  { "name": "XSEDE (Extreme Science and Engineering Discovery Environment)", "url": "https://www.xsede.org/", "mentions": 1, "tier": "collaborating", "description": "National cyberinfrastructure program partner for HackHPC@PEARC21." }
+  {
+    "name": "Science Gateways (SGX3 / SGCI / Gateways Conference)",
+    "url": "https://sciencegateways.org/",
+    "mentions": 21,
+    "tier": "core",
+    "description": "Center of Excellence to Extend, Expand, and Exemplify Good Practices for Cyberinfrastructure through Science Gateways \u2014 HackHPC's closest and longest-running program partner.",
+    "icon": "/assets/img/partners/science-gateways-sgx3-sgci-gateways-conference.svg"
+  },
+  {
+    "name": "TACC (Texas Advanced Computing Center)",
+    "url": "https://tacc.utexas.edu/",
+    "mentions": 14,
+    "tier": "core",
+    "description": "Founding host institution and computing infrastructure partner for most HackHPC events.",
+    "icon": "/assets/img/partners/tacc-texas-advanced-computing-center.svg"
+  },
+  {
+    "name": "Omnibond Systems",
+    "url": "https://omnibond.com/",
+    "mentions": 13,
+    "tier": "core",
+    "description": "Software and cyberinfrastructure sponsor across most HackHPC events since 2020.",
+    "icon": "/assets/img/partners/omnibond-systems.svg"
+  },
+  {
+    "name": "ADMI (Association of Computer Science Departments at Minority Institutions)",
+    "url": "https://www.admiusa.org/",
+    "mentions": 6,
+    "tier": "core",
+    "description": "Long-running annual hackathon and codeathon host at the ADMI Symposium on Computing at Minority Institutions.",
+    "icon": null
+  },
+  {
+    "name": "ORNL (Oak Ridge National Laboratory)",
+    "url": "https://www.ornl.gov/",
+    "mentions": 5,
+    "tier": "core",
+    "description": "National laboratory partner supporting faculty development and HPC-in-the-City events.",
+    "icon": "/assets/img/partners/ornl-oak-ridge-national-laboratory.svg"
+  },
+  {
+    "name": "Intel",
+    "url": "https://www.intel.com/",
+    "mentions": 5,
+    "tier": "core",
+    "description": "Industry sponsor across HPC in the City and PEARC events.",
+    "icon": "/assets/img/partners/intel.svg"
+  },
+  {
+    "name": "Supercomputing Conference (SC)",
+    "url": "https://supercomputing.org/",
+    "mentions": 5,
+    "tier": "core",
+    "description": "Annual host conference for the HPC in the City hackathon series (SC20\u2013SC23).",
+    "icon": "/assets/img/partners/supercomputing-conference-sc.svg"
+  },
+  {
+    "name": "AWS (Amazon Web Services)",
+    "url": "https://aws.amazon.com/",
+    "mentions": 3,
+    "tier": "program",
+    "description": "Cloud compute sponsor for several codeathons and hackathons.",
+    "icon": "/assets/img/partners/aws-amazon-web-services.svg"
+  },
+  {
+    "name": "Globus",
+    "url": "https://www.globus.org/",
+    "mentions": 3,
+    "tier": "program",
+    "description": "Research data management partner for the HPC in the City series.",
+    "icon": "/assets/img/partners/globus.svg"
+  },
+  {
+    "name": "Google",
+    "url": "https://www.google.com/",
+    "mentions": 3,
+    "tier": "program",
+    "description": "Industry sponsor for early HPC in the City and PEARC events.",
+    "icon": "/assets/img/partners/google.svg"
+  },
+  {
+    "name": "Voltron Data",
+    "url": "https://voltrondata.com/",
+    "mentions": 4,
+    "tier": "program",
+    "description": "Data-tooling sponsor across ADMI and HPC in the City events.",
+    "icon": null
+  },
+  {
+    "name": "STAR Industry Program",
+    "url": "https://tacc.utexas.edu/partnerships/star-industry-program/",
+    "mentions": 3,
+    "tier": "program",
+    "description": "TACC's Science and Technology Affiliates for Research program, supporting faculty and HPC in the City events.",
+    "icon": "/assets/img/partners/star-industry-program.svg"
+  },
+  {
+    "name": "PEARC (Practice and Experience in Advanced Research Computing)",
+    "url": "https://pearc.acm.org/",
+    "mentions": 2,
+    "tier": "program",
+    "description": "Annual conference and namesake of the HackHPC@PEARC hackathon series.",
+    "icon": "/assets/img/partners/pearc-practice-and-experience-in-advanced-research-computing.svg"
+  },
+  {
+    "name": "CeNAT (Centro Nacional de Alta Tecnolog\u00eda)",
+    "url": "https://www.cenat.ac.cr/es/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Costa Rica's National High Technology Center, co-host of the Costa Rica Big Data School.",
+    "icon": "/assets/img/partners/cenat-centro-nacional-de-alta-tecnolog-a.svg"
+  },
+  {
+    "name": "CERSER (Center of Excellence in Remote Sensing Education and Research)",
+    "url": "https://cerser.ecsu.edu/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "ECSU center co-hosting the SGX3 Codeathon Training.",
+    "icon": "/assets/img/partners/cerser-center-of-excellence-in-remote-sensing-education-and-research.svg"
+  },
+  {
+    "name": "Center for Pandemic Decision Science (UT Austin)",
+    "url": "https://www.centerforpandemicdecisionscience.org/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Research partner for the HPC in the City: Pandemics hackathon.",
+    "icon": "/assets/img/partners/center-for-pandemic-decision-science-ut-austin.svg"
+  },
+  {
+    "name": "Google Cloud",
+    "url": "https://cloud.google.com/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Cloud infrastructure sponsor for HPC in the City: Dallas.",
+    "icon": "/assets/img/partners/google-cloud.svg"
+  },
+  {
+    "name": "Internet2",
+    "url": "https://internet2.edu/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Research networking partner for Code@MS-CC23.",
+    "icon": "/assets/img/partners/internet2.svg"
+  },
+  {
+    "name": "MS-CC (Minority Serving\u2013Cyberinfrastructure Consortium)",
+    "url": "https://ms-cc.org/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Co-host of Code@MS-CC23.",
+    "icon": "/assets/img/partners/ms-cc-minority-serving-cyberinfrastructure-consortium.svg"
+  },
+  {
+    "name": "NSF (National Science Foundation)",
+    "url": "https://www.nsf.gov/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Federal funding partner, including the 2026 Faculty Hackathon.",
+    "icon": "/assets/img/partners/nsf-national-science-foundation.svg"
+  },
+  {
+    "name": "NSF REU \u2013 Cyberinfrastructure Research for Social Change",
+    "url": "https://www.tacc.utexas.edu/reu",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "REU program that co-hosted the TACC Codeathon 2023.",
+    "icon": "/assets/img/partners/nsf-reu-cyberinfrastructure-research-for-social-change.svg"
+  },
+  {
+    "name": "RedCONARE (Red Avanzada de Investigaci\u00f3n y Educaci\u00f3n de Costa Rica)",
+    "url": "https://www.redconare.ac.cr/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Costa Rica's national research and education network, co-host of the Big Data School.",
+    "icon": null
+  },
+  {
+    "name": "SC21 Inclusivity Committee",
+    "url": "https://supercomputing.org/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Co-sponsor of HPC in the City: St. Louis at SC21.",
+    "icon": "/assets/img/partners/sc21-inclusivity-committee.svg"
+  },
+  {
+    "name": "SFU (Simon Fraser University)",
+    "url": "https://www.sfu.ca/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Academic partner for Hack the Threat 2023.",
+    "icon": "/assets/img/partners/sfu-simon-fraser-university.svg"
+  },
+  {
+    "name": "SIGHPC (ACM Special Interest Group on High Performance Computing)",
+    "url": "https://sighpc.org/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Professional society co-sponsor of HPC in the City: Atlanta at SC20.",
+    "icon": "/assets/img/partners/sighpc-acm-special-interest-group-on-high-performance-computing.svg"
+  },
+  {
+    "name": "US-RSE (United States Research Software Engineer Association)",
+    "url": "https://us-rse.org/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "Professional association partner for FacultyHack@Gateways24.",
+    "icon": "/assets/img/partners/us-rse-united-states-research-software-engineer-association.svg"
+  },
+  {
+    "name": "XSEDE (Extreme Science and Engineering Discovery Environment)",
+    "url": "https://www.xsede.org/",
+    "mentions": 1,
+    "tier": "collaborating",
+    "description": "National cyberinfrastructure program partner for HackHPC@PEARC21.",
+    "icon": "/assets/img/partners/xsede-extreme-science-and-engineering-discovery-environment.svg"
+  }
 ]

@@ -105,7 +105,11 @@ description: >-
     <h2 class="mt-0">Core partners powering HackHPC</h2>
     <div class="partner-strip-grid">
       {% for p in core_partners %}
-      <a href="{{ p.url }}" target="_blank" rel="noopener" class="card card--soft" style="text-align:center;">
+      <a href="{{ p.url }}" target="_blank" rel="noopener" class="card card--soft stack" style="text-align:center; align-items:center; gap:0.6rem;">
+        <span class="partner-icon" style="width:40px; height:40px;">
+          {% if p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="40" height="40">
+          {% else %}<span class="partner-icon-fallback" aria-hidden="true">{{ p.name | slice: 0, 1 }}</span>{% endif %}
+        </span>
         <span class="partner-name">{{ p.name }}</span>
       </a>
       {% endfor %}
