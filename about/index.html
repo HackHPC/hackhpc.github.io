@@ -34,25 +34,24 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
   <div class="container">
     <span class="eyebrow">History</span>
     <h2 class="mt-0">From one hackathon to a recurring program</h2>
-    <p style="max-width:760px;">HackHPC's earliest known events date to 2018 — <a href="http://hackhpc.org/pasthacks/#pearc18">HackHPC@PEARC18</a> in Pittsburgh that July, and <a href="http://hackhpc.org/pasthacks/#sc18">Cloud HPC Hack @ SC18</a> in Dallas that November. Since then the program has expanded along several tracks that continue today:</p>
-    <div class="grid-4">
-      <div class="card card--soft">
-        <h3>ADMI Hackathons</h3>
-        <p class="small">Annual hackathon at the ADMI Symposium on Computing at Minority Institutions, running since 2022.</p>
+    <p style="max-width:760px;">HackHPC's earliest known events date to 2018 — <a href="http://hackhpc.org/pasthacks/#pearc18">HackHPC@PEARC18</a> in Pittsburgh that July, and <a href="http://hackhpc.org/pasthacks/#sc18">Cloud HPC Hack @ SC18</a> in Dallas that November. One event from each year since traces the program's growth:</p>
+
+    {% assign events_by_year = site.data.events | sort: "start_date" | group_by_exp: "e", "e.start_date | slice: 0, 4" %}
+    <div class="timeline">
+      {% for group in events_by_year %}
+      {% assign milestone = group.items.first %}
+      <div class="timeline-item">
+        <span class="timeline-marker" aria-hidden="true"></span>
+        <div class="timeline-content">
+          <div class="timeline-year">{{ group.name }}</div>
+          <h3><a href="{{ milestone.url }}">{{ milestone.name }}</a></h3>
+          <span class="event-date">{{ milestone.date_display }}</span>
+          <p class="timeline-count">{{ group.items.size }} event{% if group.items.size != 1 %}s{% endif %} held in {{ group.name }}</p>
+        </div>
       </div>
-      <div class="card card--soft">
-        <h3>FacultyHack@Gateways</h3>
-        <p class="small">Faculty development institute with the Science Gateways Community Institute, running since 2022.</p>
-      </div>
-      <div class="card card--soft">
-        <h3>HPC in the City</h3>
-        <p class="small">Hackathon series held alongside the Supercomputing (SC) conference each year since SC20.</p>
-      </div>
-      <div class="card card--soft">
-        <h3>SGX3 Training</h3>
-        <p class="small">Codeathons and coding institutes run with the SGX3 Center of Excellence for undergraduate and graduate students.</p>
-      </div>
+      {% endfor %}
     </div>
+
     <div class="cta-row">
       <a href="/events/" class="btn btn-outline">See the Full Events Archive</a>
     </div>
