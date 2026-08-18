@@ -24,7 +24,8 @@ description: Organizations that have sponsored, hosted, or co-run HackHPC events
       <div class="card">
         <div class="partner-header">
           <span class="partner-icon" style="width:48px; height:48px;">
-            {% if p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="48" height="48">
+            {% if p.fa_icon %}<i class="fa-brands fa-{{ p.fa_icon }}" aria-hidden="true"></i>
+            {% elsif p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="48" height="48">
             {% else %}<span class="partner-icon-fallback" aria-hidden="true">{{ p.name | slice: 0, 1 }}</span>{% endif %}
           </span>
           <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
@@ -46,7 +47,8 @@ description: Organizations that have sponsored, hosted, or co-run HackHPC events
       <div class="card card--soft">
         <div class="partner-header">
           <span class="partner-icon" style="width:40px; height:40px;">
-            {% if p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="40" height="40">
+            {% if p.fa_icon %}<i class="fa-brands fa-{{ p.fa_icon }}" aria-hidden="true"></i>
+            {% elsif p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="40" height="40">
             {% else %}<span class="partner-icon-fallback" aria-hidden="true">{{ p.name | slice: 0, 1 }}</span>{% endif %}
           </span>
           <h3><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>
@@ -68,7 +70,8 @@ description: Organizations that have sponsored, hosted, or co-run HackHPC events
       <div class="card card--soft">
         <div class="partner-header">
           <span class="partner-icon" style="width:32px; height:32px;">
-            {% if p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="32" height="32">
+            {% if p.fa_icon %}<i class="fa-brands fa-{{ p.fa_icon }}" aria-hidden="true"></i>
+            {% elsif p.icon %}<img src="{{ p.icon }}" alt="" loading="lazy" width="32" height="32">
             {% else %}<span class="partner-icon-fallback" aria-hidden="true">{{ p.name | slice: 0, 1 }}</span>{% endif %}
           </span>
           <h3 style="font-size:1.05rem;"><a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a></h3>

@@ -5,7 +5,8 @@
     "mentions": 21,
     "tier": "core",
     "description": "Center of Excellence to Extend, Expand, and Exemplify Good Practices for Cyberinfrastructure through Science Gateways \u2014 HackHPC's closest and longest-running program partner.",
-    "icon": "/assets/img/partners/science-gateways-sgx3-sgci-gateways-conference.svg"
+    "icon": "/assets/img/partners/science-gateways-sgx3-sgci-gateways-conference.svg",
+    "fa_icon": null
   },
   {
     "name": "TACC (Texas Advanced Computing Center)",
@@ -13,7 +14,8 @@
     "mentions": 14,
     "tier": "core",
     "description": "Founding host institution and computing infrastructure partner for most HackHPC events.",
-    "icon": "/assets/img/partners/tacc-texas-advanced-computing-center.svg"
+    "icon": "/assets/img/partners/tacc-texas-advanced-computing-center.svg",
+    "fa_icon": null
   },
   {
     "name": "Omnibond Systems",
@@ -21,7 +23,8 @@
     "mentions": 13,
     "tier": "core",
     "description": "Software and cyberinfrastructure sponsor across most HackHPC events since 2020.",
-    "icon": "/assets/img/partners/omnibond-systems.svg"
+    "icon": "/assets/img/partners/omnibond-systems.svg",
+    "fa_icon": null
   },
   {
     "name": "ADMI (Association of Computer Science Departments at Minority Institutions)",
@@ -29,7 +32,8 @@
     "mentions": 6,
     "tier": "core",
     "description": "Long-running annual hackathon and codeathon host at the ADMI Symposium on Computing at Minority Institutions.",
-    "icon": null
+    "icon": null,
+    "fa_icon": null
   },
   {
     "name": "ORNL (Oak Ridge National Laboratory)",
@@ -37,7 +41,8 @@
     "mentions": 5,
     "tier": "core",
     "description": "National laboratory partner supporting faculty development and HPC-in-the-City events.",
-    "icon": "/assets/img/partners/ornl-oak-ridge-national-laboratory.svg"
+    "icon": "/assets/img/partners/ornl-oak-ridge-national-laboratory.svg",
+    "fa_icon": null
   },
   {
     "name": "Intel",
@@ -45,7 +50,8 @@
     "mentions": 5,
     "tier": "core",
     "description": "Industry sponsor across HPC in the City and PEARC events.",
-    "icon": "/assets/img/partners/intel.svg"
+    "icon": "/assets/img/partners/intel.svg",
+    "fa_icon": null
   },
   {
     "name": "Supercomputing Conference (SC)",
@@ -53,7 +59,8 @@
     "mentions": 5,
     "tier": "core",
     "description": "Annual host conference for the HPC in the City hackathon series (SC20\u2013SC23).",
-    "icon": "/assets/img/partners/supercomputing-conference-sc.svg"
+    "icon": "/assets/img/partners/supercomputing-conference-sc.svg",
+    "fa_icon": null
   },
   {
     "name": "AWS (Amazon Web Services)",
@@ -61,7 +68,8 @@
     "mentions": 3,
     "tier": "program",
     "description": "Cloud compute sponsor for several codeathons and hackathons.",
-    "icon": "/assets/img/partners/aws-amazon-web-services.svg"
+    "icon": "/assets/img/partners/aws-amazon-web-services.svg",
+    "fa_icon": "aws"
   },
   {
     "name": "Globus",
@@ -69,7 +77,8 @@
     "mentions": 3,
     "tier": "program",
     "description": "Research data management partner for the HPC in the City series.",
-    "icon": "/assets/img/partners/globus.svg"
+    "icon": "/assets/img/partners/globus.svg",
+    "fa_icon": null
   },
   {
     "name": "Google",
@@ -77,7 +86,8 @@
     "mentions": 3,
     "tier": "program",
     "description": "Industry sponsor for early HPC in the City and PEARC events.",
-    "icon": "/assets/img/partners/google.svg"
+    "icon": "/assets/img/partners/google.svg",
+    "fa_icon": "google"
   },
   {
     "name": "Voltron Data",
@@ -85,7 +95,8 @@
     "mentions": 4,
     "tier": "program",
     "description": "Data-tooling sponsor across ADMI and HPC in the City events.",
-    "icon": null
+    "icon": null,
+    "fa_icon": null
   },
   {
     "name": "STAR Industry Program",
@@ -93,7 +104,8 @@
     "mentions": 3,
     "tier": "program",
     "description": "TACC's Science and Technology Affiliates for Research program, supporting faculty and HPC in the City events.",
-    "icon": "/assets/img/partners/star-industry-program.svg"
+    "icon": "/assets/img/partners/star-industry-program.svg",
+    "fa_icon": null
   },
   {
     "name": "PEARC (Practice and Experience in Advanced Research Computing)",
@@ -101,7 +113,8 @@
     "mentions": 2,
     "tier": "program",
     "description": "Annual conference and namesake of the HackHPC@PEARC hackathon series.",
-    "icon": "/assets/img/partners/pearc-practice-and-experience-in-advanced-research-computing.svg"
+    "icon": "/assets/img/partners/pearc-practice-and-experience-in-advanced-research-computing.svg",
+    "fa_icon": null
   },
   {
     "name": "CeNAT (Centro Nacional de Alta Tecnolog\u00eda)",
@@ -109,7 +122,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Costa Rica's National High Technology Center, co-host of the Costa Rica Big Data School.",
-    "icon": "/assets/img/partners/cenat-centro-nacional-de-alta-tecnolog-a.svg"
+    "icon": "/assets/img/partners/cenat-centro-nacional-de-alta-tecnolog-a.svg",
+    "fa_icon": null
   },
   {
     "name": "CERSER (Center of Excellence in Remote Sensing Education and Research)",
@@ -117,7 +131,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "ECSU center co-hosting the SGX3 Codeathon Training.",
-    "icon": "/assets/img/partners/cerser-center-of-excellence-in-remote-sensing-education-and-research.svg"
+    "icon": "/assets/img/partners/cerser-center-of-excellence-in-remote-sensing-education-and-research.svg",
+    "fa_icon": null
   },
   {
     "name": "Center for Pandemic Decision Science (UT Austin)",
@@ -125,7 +140,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Research partner for the HPC in the City: Pandemics hackathon.",
-    "icon": "/assets/img/partners/center-for-pandemic-decision-science-ut-austin.svg"
+    "icon": "/assets/img/partners/center-for-pandemic-decision-science-ut-austin.svg",
+    "fa_icon": null
   },
   {
     "name": "Google Cloud",
@@ -133,7 +149,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Cloud infrastructure sponsor for HPC in the City: Dallas.",
-    "icon": "/assets/img/partners/google-cloud.svg"
+    "icon": "/assets/img/partners/google-cloud.svg",
+    "fa_icon": null
   },
   {
     "name": "Internet2",
@@ -141,7 +158,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Research networking partner for Code@MS-CC23.",
-    "icon": "/assets/img/partners/internet2.svg"
+    "icon": "/assets/img/partners/internet2.svg",
+    "fa_icon": null
   },
   {
     "name": "MS-CC (Minority Serving\u2013Cyberinfrastructure Consortium)",
@@ -149,7 +167,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Co-host of Code@MS-CC23.",
-    "icon": "/assets/img/partners/ms-cc-minority-serving-cyberinfrastructure-consortium.svg"
+    "icon": "/assets/img/partners/ms-cc-minority-serving-cyberinfrastructure-consortium.svg",
+    "fa_icon": null
   },
   {
     "name": "NSF (National Science Foundation)",
@@ -157,7 +176,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Federal funding partner, including the 2026 Faculty Hackathon.",
-    "icon": "/assets/img/partners/nsf-national-science-foundation.svg"
+    "icon": "/assets/img/partners/nsf-national-science-foundation.svg",
+    "fa_icon": null
   },
   {
     "name": "NSF REU \u2013 Cyberinfrastructure Research for Social Change",
@@ -165,7 +185,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "REU program that co-hosted the TACC Codeathon 2023.",
-    "icon": "/assets/img/partners/nsf-reu-cyberinfrastructure-research-for-social-change.svg"
+    "icon": "/assets/img/partners/nsf-reu-cyberinfrastructure-research-for-social-change.svg",
+    "fa_icon": null
   },
   {
     "name": "RedCONARE (Red Avanzada de Investigaci\u00f3n y Educaci\u00f3n de Costa Rica)",
@@ -173,7 +194,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Costa Rica's national research and education network, co-host of the Big Data School.",
-    "icon": null
+    "icon": null,
+    "fa_icon": null
   },
   {
     "name": "SC21 Inclusivity Committee",
@@ -181,7 +203,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Co-sponsor of HPC in the City: St. Louis at SC21.",
-    "icon": "/assets/img/partners/sc21-inclusivity-committee.svg"
+    "icon": "/assets/img/partners/sc21-inclusivity-committee.svg",
+    "fa_icon": null
   },
   {
     "name": "SFU (Simon Fraser University)",
@@ -189,7 +212,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Academic partner for Hack the Threat 2023.",
-    "icon": "/assets/img/partners/sfu-simon-fraser-university.svg"
+    "icon": "/assets/img/partners/sfu-simon-fraser-university.svg",
+    "fa_icon": null
   },
   {
     "name": "SIGHPC (ACM Special Interest Group on High Performance Computing)",
@@ -197,7 +221,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Professional society co-sponsor of HPC in the City: Atlanta at SC20.",
-    "icon": "/assets/img/partners/sighpc-acm-special-interest-group-on-high-performance-computing.svg"
+    "icon": "/assets/img/partners/sighpc-acm-special-interest-group-on-high-performance-computing.svg",
+    "fa_icon": null
   },
   {
     "name": "US-RSE (United States Research Software Engineer Association)",
@@ -205,7 +230,8 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Professional association partner for FacultyHack@Gateways24.",
-    "icon": "/assets/img/partners/us-rse-united-states-research-software-engineer-association.svg"
+    "icon": "/assets/img/partners/us-rse-united-states-research-software-engineer-association.svg",
+    "fa_icon": null
   },
   {
     "name": "XSEDE (Extreme Science and Engineering Discovery Environment)",
@@ -213,6 +239,7 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "National cyberinfrastructure program partner for HackHPC@PEARC21.",
-    "icon": "/assets/img/partners/xsede-extreme-science-and-engineering-discovery-environment.svg"
+    "icon": "/assets/img/partners/xsede-extreme-science-and-engineering-discovery-environment.svg",
+    "fa_icon": null
   }
 ]
