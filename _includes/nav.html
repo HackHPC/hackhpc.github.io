@@ -5,7 +5,8 @@
     </a>
 
     <nav class="navbar-menu" id="navbarMenu">
-      <a href="/about/" {% if page.url contains '/about/' %}class="active"{% endif %}>About</a>
+      <a href="/about/" {% if page.url == '/about/' %}class="active"{% endif %}>About</a>
+      <a href="/about/organizers.html" {% if page.url contains '/about/organizers' %}class="active"{% endif %}>Organizers</a>
       <a href="/events/" {% if page.url contains '/events/' %}class="active"{% endif %}>Events</a>
       <a href="/programs/" {% if page.url contains '/programs/' %}class="active"{% endif %}>Programs</a>
       <a href="/partners/" {% if page.url contains '/partners/' %}class="active"{% endif %}>Partners</a>
