@@ -31,40 +31,6 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
 </section>
 
 <section class="section section--soft">
-  <div class="container">
-    <span class="eyebrow">History</span>
-    <h2 class="mt-0">From one hackathon to a recurring program</h2>
-    <p>HackHPC began in 2018 as a pair of hackathons — <a href="http://hackhpc.org/pasthacks/#pearc18">HackHPC@PEARC18</a> that July in Pittsburgh, and <a href="http://hackhpc.org/pasthacks/#sc18">Cloud HPC Hack @ SC18</a> that November in Dallas — built on a simple premise: put students on a team, pair them with a mentor from a national lab or research computing center, and give them a few intense days to build something real with high-performance computing. The format held up, and it multiplied. What started as one-off hackathons at partner conferences grew into a recurring, multi-track program: annual hackathons at the ADMI Symposium on Computing at Minority Institutions since 2022, a faculty-focused counterpart (FacultyHack@Gateways) built with the Science Gateways Community Institute, an "HPC in the City" hackathon series that ran alongside the Supercomputing (SC) conference for several years, and codeathons and training institutes run with the SGX3 Center of Excellence.</p>
-    <p>The program has long been organized by <a href="/about/organizers.html#je-aime-powell">Je'aime Powell</a>, <a href="/about/organizers.html#linda-hayden">Linda Bailey Hayden</a>, <a href="/about/organizers.html#amy-cannon">Amy Cannon</a>, <a href="/about/organizers.html#boyd-wilson">Boyd Wilson</a>, <a href="/about/organizers.html#alexander-nolte">Alexander Nolte</a>, and <a href="/about/organizers.html#charlie-dey">Charlie Dey</a>, and its approach has been documented in its own right — the "HackHPC Model" was formalized in a peer-reviewed paper at Gateways 2022, with follow-on research on FacultyHack's format and on hackathon research more broadly published through 2024 (see <a href="/research/">Research</a>). Today that's {{ site.data.events.size }} events and counting, run in partnership with national laboratories, research computing centers, and industry, with most leaving behind a public GitHub repository of what the teams actually built — browsable event by event on the timeline below.</p>
-
-    {% assign events_by_year = site.data.events | sort: "start_date" | group_by_exp: "e", "e.start_date | slice: 0, 4" %}
-    <p class="small timeline-h-hint">← Scroll to explore all {{ site.data.events.size }} events →</p>
-    <div class="timeline-h-scroll">
-      <div class="timeline-h">
-        {% for group in events_by_year %}
-        <div class="timeline-h-year">
-          <div class="timeline-h-stem timeline-h-stem--up">
-            {% for event in group.items %}{% assign m = forloop.index0 | modulo: 2 %}{% if m == 0 %}<a href="{{ event.url }}" class="timeline-h-branch">{{ event.name }}</a>{% endif %}{% endfor %}
-          </div>
-          <div class="timeline-h-node">
-            <span class="timeline-h-dot" aria-hidden="true"></span>
-            <span class="timeline-h-year-label">{{ group.name }}</span>
-          </div>
-          <div class="timeline-h-stem timeline-h-stem--down">
-            {% for event in group.items %}{% assign m = forloop.index0 | modulo: 2 %}{% if m == 1 %}<a href="{{ event.url }}" class="timeline-h-branch">{{ event.name }}</a>{% endif %}{% endfor %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="cta-row">
-      <a href="/events/" class="btn btn-outline">See the Full Events Archive</a>
-    </div>
-  </div>
-</section>
-
-<section class="section">
   <div class="container viz-root">
     {% assign d = site.data.participants_dashboard %}
     <span class="eyebrow">Community Dashboard</span>
@@ -165,17 +131,44 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
       </div>
       <p class="dashboard-note">Majors are self-reported by student participants; mentors, organizers, and staff records generally don't include one, so this reflects the {{ d.majors_reporting_total }} people who reported a field of study, not everyone in the dataset.</p>
     </div>
+  </div>
+</section>
 
-    <div class="card card--soft" style="margin-top:1.5rem;">
-      <h3 class="mt-0">Reading the trend</h3>
-      <p>HackHPC opened with two tracks in 2018 — PEARC and SC-colocated hackathons — and stayed a two-track program through 2021. 2022 was the inflection point: ADMI and FacultyHack@Gateways joined the lineup, plus one-off collaborations (a TACC REU codeathon, the Costa Rica Big Data School), pushing that year to its high-water mark of 176 unique participants across five concurrent tracks. 2023 added Code@MS-CC and Hack the Threat and stayed close to that peak.</p>
-      <p>2024 was a contraction — only ADMI and Gateways ran that year, and unique participants dropped to 36, the steepest single-year fall in the dataset. SC-colocated events don't appear in the records after 2023 at all. 2025 and 2026 show a partial rebound as SGX3's Coding Institute joins ADMI and Gateways as a third recurring track, bringing participation back toward 50-60 unique people a year — smaller than the 2022 peak, but on a steadier three-track footing rather than a wide, one-off-heavy spread.</p>
-      <p>Demographically, the roster leans HBCU: of the {% assign msi_yes = d.msi_affiliated | where: "label", "MSI-affiliated" | first %}{{ msi_yes.count }} people with an MSI type on record, {% assign hbcu = d.msi_type | where: "label", "HBCU" | first %}{{ hbcu.count }} are from HBCUs. Computer Science is the dominant major by a wide margin, but the roster spans real breadth beyond it — mathematics, computer/electrical engineering, data science, and more.</p>
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">History</span>
+    <h2 class="mt-0">From one hackathon to a recurring program</h2>
+    <p>HackHPC began in 2018 as a pair of hackathons — <a href="http://hackhpc.org/pasthacks/#pearc18">HackHPC@PEARC18</a> that July in Pittsburgh, and <a href="http://hackhpc.org/pasthacks/#sc18">Cloud HPC Hack @ SC18</a> that November in Dallas — built on a simple premise: put students on a team, pair them with a mentor from a national lab or research computing center, and give them a few intense days to build something real with high-performance computing. The format held up, and it multiplied. What started as one-off hackathons at partner conferences grew into a recurring, multi-track program: annual hackathons at the ADMI Symposium on Computing at Minority Institutions since 2022, a faculty-focused counterpart (FacultyHack@Gateways) built with the Science Gateways Community Institute, an "HPC in the City" hackathon series that ran alongside the Supercomputing (SC) conference for several years, and codeathons and training institutes run with the SGX3 Center of Excellence.</p>
+    <p>The program has long been organized by <a href="/about/organizers.html#je-aime-powell">Je'aime Powell</a>, <a href="/about/organizers.html#linda-hayden">Linda Bailey Hayden</a>, <a href="/about/organizers.html#amy-cannon">Amy Cannon</a>, <a href="/about/organizers.html#boyd-wilson">Boyd Wilson</a>, <a href="/about/organizers.html#alexander-nolte">Alexander Nolte</a>, and <a href="/about/organizers.html#charlie-dey">Charlie Dey</a>, and its approach has been documented in its own right — the "HackHPC Model" was formalized in a peer-reviewed paper at Gateways 2022, with follow-on research on FacultyHack's format and on hackathon research more broadly published through 2024 (see <a href="/research/">Research</a>). Today that's {{ site.data.events.size }} events and counting, run in partnership with national laboratories, research computing centers, and industry, with most leaving behind a public GitHub repository of what the teams actually built — browsable event by event on the timeline below.</p>
+
+    {% assign events_by_year = site.data.events | sort: "start_date" | group_by_exp: "e", "e.start_date | slice: 0, 4" %}
+    <p class="small timeline-h-hint">← Scroll to explore all {{ site.data.events.size }} events →</p>
+    <div class="timeline-h-scroll">
+      <div class="timeline-h">
+        {% for group in events_by_year %}
+        <div class="timeline-h-year">
+          <div class="timeline-h-stem timeline-h-stem--up">
+            {% for event in group.items %}{% assign m = forloop.index0 | modulo: 2 %}{% if m == 0 %}<a href="{{ event.url }}" class="timeline-h-branch">{{ event.name }}</a>{% endif %}{% endfor %}
+          </div>
+          <div class="timeline-h-node">
+            <span class="timeline-h-dot" aria-hidden="true"></span>
+            <span class="timeline-h-year-label">{{ group.name }}</span>
+          </div>
+          <div class="timeline-h-stem timeline-h-stem--down">
+            {% for event in group.items %}{% assign m = forloop.index0 | modulo: 2 %}{% if m == 1 %}<a href="{{ event.url }}" class="timeline-h-branch">{{ event.name }}</a>{% endif %}{% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="cta-row">
+      <a href="/events/" class="btn btn-outline">See the Full Events Archive</a>
     </div>
   </div>
 </section>
 
-<section class="section text-center">
+<section class="section section--soft text-center">
   <div class="container">
     <h2>Questions about HackHPC?</h2>
     <div class="cta-row" style="justify-content:center;">
