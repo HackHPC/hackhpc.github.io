@@ -88,30 +88,38 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
     <div class="grid-2" style="display:grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
       <div class="chart-card">
         <div class="chart-title">Gender</div>
-        <div class="hbar-chart">
-          {% assign gmax = d.gender.first.count %}
-          {% for g in d.gender %}
-          {% assign w = g.count | times: 100.0 | divided_by: gmax %}
-          <div class="hbar-row">
-            <div class="hbar-label">{{ g.label }}</div>
-            <div class="hbar-track"><div class="hbar-fill viz-series-{{ forloop.index }}" style="width: {{ w }}%;"></div></div>
-            <div class="hbar-value">{{ g.count }}</div>
+        <div class="pie-chart-row">
+          {% assign cum = 0 %}
+          <div class="pie-chart" role="img" aria-label="Gender breakdown pie chart" style="background: conic-gradient({% for g in d.gender %}{% assign pct = g.count | times: 100.0 | divided_by: d.total_unique_participants %}{% assign start = cum %}{% assign cum = cum | plus: pct %}var(--series-{{ forloop.index }}) {{ start }}% {{ cum }}%{% unless forloop.last %}, {% endunless %}{% endfor %});"></div>
+          <div class="pie-legend">
+            {% for g in d.gender %}
+            {% assign pct = g.count | times: 100.0 | divided_by: d.total_unique_participants %}
+            <div class="pie-legend-item">
+              <span class="pie-legend-swatch viz-series-{{ forloop.index }}"></span>
+              <span class="pie-legend-label">{{ g.label }}</span>
+              <span class="pie-legend-value">{{ g.count }}</span>
+              <span class="pie-legend-pct">{{ pct | round: 1 }}%</span>
+            </div>
+            {% endfor %}
           </div>
-          {% endfor %}
         </div>
       </div>
       <div class="chart-card">
         <div class="chart-title">MSI Type</div>
-        <div class="hbar-chart">
-          {% assign mmax = d.msi_type.first.count %}
-          {% for m in d.msi_type %}
-          {% assign w = m.count | times: 100.0 | divided_by: mmax %}
-          <div class="hbar-row">
-            <div class="hbar-label">{{ m.label }}</div>
-            <div class="hbar-track"><div class="hbar-fill viz-series-{{ forloop.index }}" style="width: {{ w }}%;"></div></div>
-            <div class="hbar-value">{{ m.count }}</div>
+        <div class="pie-chart-row">
+          {% assign cum = 0 %}
+          <div class="pie-chart" role="img" aria-label="MSI Type breakdown pie chart" style="background: conic-gradient({% for m in d.msi_type %}{% assign pct = m.count | times: 100.0 | divided_by: d.total_unique_participants %}{% assign start = cum %}{% assign cum = cum | plus: pct %}var(--series-{{ forloop.index }}) {{ start }}% {{ cum }}%{% unless forloop.last %}, {% endunless %}{% endfor %});"></div>
+          <div class="pie-legend">
+            {% for m in d.msi_type %}
+            {% assign pct = m.count | times: 100.0 | divided_by: d.total_unique_participants %}
+            <div class="pie-legend-item">
+              <span class="pie-legend-swatch viz-series-{{ forloop.index }}"></span>
+              <span class="pie-legend-label">{{ m.label }}</span>
+              <span class="pie-legend-value">{{ m.count }}</span>
+              <span class="pie-legend-pct">{{ pct | round: 1 }}%</span>
+            </div>
+            {% endfor %}
           </div>
-          {% endfor %}
         </div>
       </div>
     </div>
