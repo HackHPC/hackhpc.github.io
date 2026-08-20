@@ -130,6 +130,14 @@ code, .mono { font-family: var(--font-mono); }
 
 /* Hero */
 .hero { padding: 4.5rem 0 3.5rem; }
+.hero.section--dark {
+  background-image:
+    linear-gradient(100deg, rgba(2, 34, 146, 0.93) 0%, rgba(2, 34, 146, 0.82) 32%, rgba(2, 34, 146, 0.5) 58%, rgba(2, 34, 146, 0.18) 82%),
+    url('/assets/img/logos/hackhpc_hero_bkg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .hero-content { max-width: 760px; }
 .hero .tagline { font-size: 1.15rem; opacity: 0.95; max-width: 640px; }
 
@@ -475,8 +483,8 @@ code, .mono { font-family: var(--font-mono); }
 @media (min-width: 1700px) {
   .events-rail {
     display: flex; flex-direction: column;
-    position: fixed; top: 96px; right: 24px; z-index: 20;
-    width: 230px; max-height: calc(100vh - 128px);
+    position: fixed; top: 724px; right: 24px; z-index: 20;
+    width: 230px; max-height: max(240px, calc(100vh - 748px));
     background: var(--neutral-white); border: 1px solid var(--line-gray); border-radius: var(--radius);
     box-shadow: var(--shadow);
   }
@@ -500,3 +508,52 @@ code, .mono { font-family: var(--font-mono); }
   }
   .events-rail-footer a { font-size: 0.78rem; font-weight: 600; }
 }
+
+/* Brand guide (Resources page) */
+.branding-dropdown { margin-top: 1.25rem; }
+.branding-dropdown summary {
+  cursor: pointer; list-style: none; display: inline-flex; align-items: center; gap: 0.5rem;
+  font-weight: 700; font-size: 0.95rem; color: var(--ui-blue);
+  background: var(--soft-gray); border: 1px solid var(--line-gray); border-radius: 999px;
+  padding: 0.55rem 1.1rem;
+}
+.branding-dropdown summary::-webkit-details-marker { display: none; }
+.branding-dropdown summary:hover { background: var(--support-sky); }
+.branding-dropdown summary::after {
+  content: '▾'; font-size: 1rem; line-height: 1; transition: transform 0.2s ease;
+}
+.branding-dropdown[open] summary::after { transform: rotate(180deg); }
+.branding-dropdown-body { margin-top: 1.5rem; }
+.branding-logo-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.25rem;
+}
+.branding-logo-card {
+  border: 1px solid var(--line-gray); border-radius: var(--radius); overflow: hidden;
+  background: var(--neutral-white);
+}
+.branding-logo-preview {
+  display: flex; align-items: center; justify-content: center; height: 120px;
+  background: var(--neutral-white); padding: 1rem; border-bottom: 1px solid var(--line-gray);
+}
+.branding-logo-preview img { max-width: 100%; max-height: 100%; }
+.branding-logo-preview--dark { background: var(--dark-blue); }
+.branding-logo-info { padding: 0.85rem 1rem; }
+.branding-logo-name { display: block; font-weight: 700; font-size: 0.88rem; color: var(--neutral-ink); margin-bottom: 0.6rem; }
+.branding-logo-downloads { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.branding-download-btn {
+  display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.75rem; font-weight: 600;
+  color: var(--ui-blue); background: var(--soft-gray); border: 1px solid var(--line-gray);
+  border-radius: 6px; padding: 0.3rem 0.6rem;
+}
+.branding-download-btn:hover { background: var(--support-sky); text-decoration: none; }
+.branding-colors-heading { margin-top: 2rem; }
+.branding-color-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-top: 1rem;
+}
+.branding-color-swatch {
+  border: 1px solid var(--line-gray); border-radius: var(--radius); overflow: hidden; background: var(--neutral-white);
+}
+.branding-color-block { height: 56px; background: var(--swatch-color); }
+.branding-color-meta { padding: 0.6rem 0.75rem; display: flex; flex-direction: column; gap: 0.15rem; }
+.branding-color-name { font-size: 0.82rem; font-weight: 600; color: var(--neutral-ink); }
+.branding-color-hex { font-family: Liberation Mono, Consolas, monospace; font-size: 0.78rem; color: #4b5563; }
