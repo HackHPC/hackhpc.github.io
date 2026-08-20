@@ -1,0 +1,842 @@
+{
+  "width": 1300,
+  "height": 820,
+  "nodes": [
+    {
+      "id": "root",
+      "kind": "root",
+      "label": "HackHPC",
+      "x": 668.6,
+      "y": 403.8,
+      "r": 30,
+      "color": "#022292"
+    },
+    {
+      "id": "hub::ADMI",
+      "kind": "hub",
+      "label": "ADMI",
+      "x": 207.9,
+      "y": 400.8,
+      "r": 29.6,
+      "color": "#FD741E",
+      "count": 6
+    },
+    {
+      "id": "event::admi26",
+      "kind": "event",
+      "label": "HackHPC@ADMI26",
+      "x": 173.0,
+      "y": 455.8,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2026",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/admi26/",
+      "date_display": "June 22\u201326, 2026",
+      "category": "ADMI"
+    },
+    {
+      "id": "event::admi25",
+      "kind": "event",
+      "label": "HackHPC@ADMI25",
+      "x": 168.3,
+      "y": 345.3,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2025",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/admi25/",
+      "date_display": "June 23\u201327, 2025",
+      "category": "ADMI"
+    },
+    {
+      "id": "event::codeathonatadmi24",
+      "kind": "event",
+      "label": "Codeathon@ADMI24 \u2013 Take a Ride on the ISS",
+      "x": 91.5,
+      "y": 384.7,
+      "r": 7,
+      "color": "#B84B0F",
+      "year": "2024",
+      "type": "codeathon",
+      "url": "https://hackhpc.github.io/codeathonatadmi24/",
+      "date_display": "Apr 4\u20136, 2024",
+      "category": "ADMI"
+    },
+    {
+      "id": "event::sgx3admi24",
+      "kind": "event",
+      "label": "SGX3's HackHPC@ADMI24",
+      "x": 116.7,
+      "y": 446.6,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2024",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/sgx3admi24/",
+      "date_display": "June 24\u201328, 2024",
+      "category": "ADMI"
+    },
+    {
+      "id": "event::admi23",
+      "kind": "event",
+      "label": "HackHPC@ADMI23",
+      "x": 113.6,
+      "y": 354.0,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2023",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/admi23/",
+      "date_display": "June 26\u201330, 2023 (Virtual)",
+      "category": "ADMI"
+    },
+    {
+      "id": "event::ADMI22",
+      "kind": "event",
+      "label": "HackHPC@ADMI22",
+      "x": 90.0,
+      "y": 417.2,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2022",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/ADMI22/",
+      "date_display": "Mar 31\u2013Apr 4, 2022",
+      "category": "ADMI"
+    },
+    {
+      "id": "hub::Gateways",
+      "kind": "hub",
+      "label": "Gateways",
+      "x": 1093.1,
+      "y": 370.4,
+      "r": 27.0,
+      "color": "#FD741E",
+      "count": 5
+    },
+    {
+      "id": "event::facultyhack-gateways26",
+      "kind": "event",
+      "label": "SGX3's FacultyHack@Gateways26",
+      "x": 1137.5,
+      "y": 315.0,
+      "r": 7,
+      "color": "#5B2FB8",
+      "year": "2026",
+      "type": "faculty",
+      "url": "https://hackhpc.github.io/facultyhack-gateways26/",
+      "date_display": "Virtual Aug 3\u201314, 2026; Gateways Conference Sep 23\u201325, 2026",
+      "category": "Gateways"
+    },
+    {
+      "id": "event::facultyhack-gateways25",
+      "kind": "event",
+      "label": "FacultyHack@Gateways25",
+      "x": 1202.0,
+      "y": 396.0,
+      "r": 7,
+      "color": "#5B2FB8",
+      "year": "2025",
+      "type": "faculty",
+      "url": "https://hackhpc.github.io/facultyhack-gateways25/",
+      "date_display": "Sep 15\u201326, 2025 (Virtual); Gateways Conference Oct 28\u201330",
+      "category": "Gateways"
+    },
+    {
+      "id": "event::facultyhack-gateways24",
+      "kind": "event",
+      "label": "FacultyHack@Gateways24",
+      "x": 1153.6,
+      "y": 417.3,
+      "r": 7,
+      "color": "#5B2FB8",
+      "year": "2024",
+      "type": "faculty",
+      "url": "https://hackhpc.github.io/facultyhack-gateways24/",
+      "date_display": "Sep 16\u201320, 2024 (Virtual); Gateways Conference Oct 8\u201310",
+      "category": "Gateways"
+    },
+    {
+      "id": "event::facultyhack-gateways23",
+      "kind": "event",
+      "label": "FacultyHack@Gateways23",
+      "x": 1191.1,
+      "y": 328.6,
+      "r": 7,
+      "color": "#5B2FB8",
+      "year": "2023",
+      "type": "faculty",
+      "url": "https://hackhpc.github.io/facultyhack-gateways23/",
+      "date_display": "Oct 19\u201322, 2023; Gateways Conference Oct 30\u2013Nov 1",
+      "category": "Gateways"
+    },
+    {
+      "id": "event::FacultyHack-Gateways22",
+      "kind": "event",
+      "label": "FacultyHack@Gateways22",
+      "x": 1210.0,
+      "y": 361.3,
+      "r": 7,
+      "color": "#5B2FB8",
+      "year": "2022",
+      "type": "faculty",
+      "url": "https://hackhpc.github.io/FacultyHack-Gateways22/",
+      "date_display": "Training Sep 15\u2013Oct 13, 2022; Poster Session Oct 18",
+      "category": "Gateways"
+    },
+    {
+      "id": "hub::SGX3",
+      "kind": "hub",
+      "label": "SGX3",
+      "x": 921.7,
+      "y": 627.5,
+      "r": 27.0,
+      "color": "#FD741E",
+      "count": 5
+    },
+    {
+      "id": "event::sgx3-spring-training-2026",
+      "kind": "event",
+      "label": "SGX3 Spring Training 2026",
+      "x": 890.7,
+      "y": 685.7,
+      "r": 7,
+      "color": "#147041",
+      "year": "2026",
+      "type": "training",
+      "url": "https://hackhpc.github.io/sgx3-spring-training-2026/",
+      "date_display": "Feb\u2013Apr 2026",
+      "category": "SGX3"
+    },
+    {
+      "id": "event::sgx3codinginstitute26",
+      "kind": "event",
+      "label": "SGX3 Coding Institute & Hackathon 2026",
+      "x": 992.2,
+      "y": 689.5,
+      "r": 7,
+      "color": "#147041",
+      "year": "2026",
+      "type": "training",
+      "url": "https://hackhpc.github.io/sgx3codinginstitute26/",
+      "date_display": "2026",
+      "category": "SGX3"
+    },
+    {
+      "id": "event::sgx3codeathontraining25",
+      "kind": "event",
+      "label": "SGX3 Codeathon Training 2025",
+      "x": 942.8,
+      "y": 702.7,
+      "r": 7,
+      "color": "#B84B0F",
+      "year": "2025",
+      "type": "codeathon",
+      "url": "https://hackhpc.github.io/sgx3codeathontraining25/",
+      "date_display": "2025",
+      "category": "SGX3"
+    },
+    {
+      "id": "event::sgx3codinginstitute25",
+      "kind": "event",
+      "label": "SGX3 Coding Institute 2025",
+      "x": 1024.7,
+      "y": 661.5,
+      "r": 7,
+      "color": "#147041",
+      "year": "2025",
+      "type": "training",
+      "url": "https://hackhpc.github.io/sgx3codinginstitute25/",
+      "date_display": "June 2\u201327, 2025",
+      "category": "SGX3"
+    },
+    {
+      "id": "event::sgx3-fall-training-2025",
+      "kind": "event",
+      "label": "SGX3 Fall Training 2025 Institute",
+      "x": 1013.9,
+      "y": 623.5,
+      "r": 7,
+      "color": "#147041",
+      "year": "2025",
+      "type": "training",
+      "url": "https://hackhpc.github.io/sgx3-fall-training-2025/",
+      "date_display": "Fall 2025",
+      "category": "SGX3"
+    },
+    {
+      "id": "hub::HPC in the City",
+      "kind": "hub",
+      "label": "HPC in the City",
+      "x": 483.1,
+      "y": 653.7,
+      "r": 27.0,
+      "color": "#FD741E",
+      "count": 5
+    },
+    {
+      "id": "event::hpcinthecity23",
+      "kind": "event",
+      "label": "HPC in the City: Pandemics (SC23)",
+      "x": 530.1,
+      "y": 707.1,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2023",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/hpcinthecity23/",
+      "date_display": "Nov 3\u20137, 2023",
+      "category": "HPC in the City"
+    },
+    {
+      "id": "event::HPCintheCity22",
+      "kind": "event",
+      "label": "HPC in the City: Dallas (SC22)",
+      "x": 483.5,
+      "y": 730.0,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2022",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/HPCintheCity22/",
+      "date_display": "Nov 3\u20137, 2022",
+      "category": "HPC in the City"
+    },
+    {
+      "id": "event::StudentHackatSC22",
+      "kind": "event",
+      "label": "StudentHack@SC22 \u2013 Pandemic!",
+      "x": 431.1,
+      "y": 723.1,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2022",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/StudentHackatSC22/",
+      "date_display": "Nov 13, 2022",
+      "category": "HPC in the City"
+    },
+    {
+      "id": "event::HPCintheCity21",
+      "kind": "event",
+      "label": "HPC in the City: St. Louis (SC21)",
+      "x": 391.7,
+      "y": 699.2,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2021",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/HPCintheCity21/",
+      "date_display": "Nov 4\u20138, 2021",
+      "category": "HPC in the City"
+    },
+    {
+      "id": "event::HPCintheCity20",
+      "kind": "event",
+      "label": "HPC in the City: Atlanta (SC20)",
+      "x": 391.5,
+      "y": 660.2,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2020",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/HPCintheCity20/",
+      "date_display": "Nov 5\u20139, 2020",
+      "category": "HPC in the City"
+    },
+    {
+      "id": "hub::TACC",
+      "kind": "hub",
+      "label": "TACC",
+      "x": 540.4,
+      "y": 181.6,
+      "r": 21.8,
+      "color": "#FD741E",
+      "count": 3
+    },
+    {
+      "id": "event::tacc-codeathon23",
+      "kind": "event",
+      "label": "TACC Codeathon 2023",
+      "x": 498.4,
+      "y": 110.5,
+      "r": 7,
+      "color": "#B84B0F",
+      "year": "2023",
+      "type": "codeathon",
+      "url": "https://hackhpc.github.io/tacc-codeathon23/",
+      "date_display": "June 6\u20138, 2023",
+      "category": "TACC"
+    },
+    {
+      "id": "event::HacktheThreat23",
+      "kind": "event",
+      "label": "Hack the Threat 2023",
+      "x": 457.7,
+      "y": 139.5,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2023",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/HacktheThreat23/",
+      "date_display": "Mar 2\u20136, 2023 (Virtual)",
+      "category": "TACC"
+    },
+    {
+      "id": "event::HackatTACC-2022",
+      "kind": "event",
+      "label": "Hack@TACC22",
+      "x": 558.0,
+      "y": 115.4,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2022",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/HackatTACC-2022/",
+      "date_display": "June 6\u201310, 2022",
+      "category": "TACC"
+    },
+    {
+      "id": "hub::MS-CC",
+      "kind": "hub",
+      "label": "MS-CC",
+      "x": 801.4,
+      "y": 354.6,
+      "r": 16.6,
+      "color": "#FD741E",
+      "count": 1
+    },
+    {
+      "id": "event::codeatms-cc23",
+      "kind": "event",
+      "label": "Code@MS-CC23",
+      "x": 865.1,
+      "y": 329.6,
+      "r": 7,
+      "color": "#B84B0F",
+      "year": "2023",
+      "type": "codeathon",
+      "url": "https://hackhpc.github.io/codeatms-cc23/",
+      "date_display": "May 9\u201310, 2023, Atlanta, GA",
+      "category": "MS-CC"
+    },
+    {
+      "id": "hub::International",
+      "kind": "hub",
+      "label": "International",
+      "x": 674.1,
+      "y": 504.5,
+      "r": 16.6,
+      "color": "#FD741E",
+      "count": 1
+    },
+    {
+      "id": "event::BigDataHack-2022",
+      "kind": "event",
+      "label": "Big Data Hack @ RedCONARE / Costa Rica Big Data School",
+      "x": 678.6,
+      "y": 553.4,
+      "r": 7,
+      "color": "#147041",
+      "year": "2022",
+      "type": "training",
+      "url": "https://hackhpc.github.io/BigDataHack-2022/",
+      "date_display": "Dec 5\u20139, 2022",
+      "category": "International"
+    },
+    {
+      "id": "hub::PEARC",
+      "kind": "hub",
+      "label": "PEARC",
+      "x": 837.4,
+      "y": 165.7,
+      "r": 24.4,
+      "color": "#FD741E",
+      "count": 4
+    },
+    {
+      "id": "event::Pearc21",
+      "kind": "event",
+      "label": "HackHPC@PEARC21",
+      "x": 910.5,
+      "y": 106.1,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2021",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/Pearc21/",
+      "date_display": "July 8\u201312, 2021",
+      "category": "PEARC"
+    },
+    {
+      "id": "event::Pearc20",
+      "kind": "event",
+      "label": "HackHPC@PEARC20",
+      "x": 860.5,
+      "y": 90.0,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2020",
+      "type": "hackathon",
+      "url": "https://hackhpc.github.io/Pearc20/",
+      "date_display": "July 27\u201330, 2020",
+      "category": "PEARC"
+    },
+    {
+      "id": "event::pearc19",
+      "kind": "event",
+      "label": "HackHPC@PEARC19",
+      "x": 929.1,
+      "y": 142.4,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2019",
+      "type": "hackathon",
+      "url": "http://hackhpc.org/pasthacks/#pearc19",
+      "date_display": "July 28 \u2013 August 1, 2019, Hyatt Regency Chicago",
+      "category": "PEARC"
+    },
+    {
+      "id": "event::pearc18",
+      "kind": "event",
+      "label": "HackHPC@PEARC18",
+      "x": 806.8,
+      "y": 103.5,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2018",
+      "type": "hackathon",
+      "url": "http://hackhpc.org/pasthacks/#pearc18",
+      "date_display": "July 26\u201327, 2018, Wyndham Grand Pittsburgh Downtown",
+      "category": "PEARC"
+    },
+    {
+      "id": "hub::SC",
+      "kind": "hub",
+      "label": "SC",
+      "x": 489.5,
+      "y": 325.3,
+      "r": 19.2,
+      "color": "#FD741E",
+      "count": 2
+    },
+    {
+      "id": "event::sc19",
+      "kind": "event",
+      "label": "Cloud HPC Hack @ SC19",
+      "x": 443.9,
+      "y": 276.8,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2019",
+      "type": "hackathon",
+      "url": "http://hackhpc.org/pasthacks/#sc19",
+      "date_display": "November 17\u201322, 2019, Denver, CO",
+      "category": "SC"
+    },
+    {
+      "id": "event::sc18",
+      "kind": "event",
+      "label": "Cloud HPC Hack @ SC18",
+      "x": 408.3,
+      "y": 319.8,
+      "r": 7,
+      "color": "#0954C7",
+      "year": "2018",
+      "type": "hackathon",
+      "url": "http://hackhpc.org/pasthacks/#sc18",
+      "date_display": "November 11\u201316, 2018, Dallas, TX",
+      "category": "SC"
+    }
+  ],
+  "edges": [
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 207.9,
+      "y2": 400.8
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 1093.1,
+      "y2": 370.4
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 921.7,
+      "y2": 627.5
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 483.1,
+      "y2": 653.7
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 540.4,
+      "y2": 181.6
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 801.4,
+      "y2": 354.6
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 674.1,
+      "y2": 504.5
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 837.4,
+      "y2": 165.7
+    },
+    {
+      "kind": "root-hub",
+      "x1": 668.6,
+      "y1": 403.8,
+      "x2": 489.5,
+      "y2": 325.3
+    },
+    {
+      "kind": "hub-event",
+      "x1": 207.9,
+      "y1": 400.8,
+      "x2": 173.0,
+      "y2": 455.8
+    },
+    {
+      "kind": "hub-event",
+      "x1": 207.9,
+      "y1": 400.8,
+      "x2": 168.3,
+      "y2": 345.3
+    },
+    {
+      "kind": "hub-event",
+      "x1": 207.9,
+      "y1": 400.8,
+      "x2": 91.5,
+      "y2": 384.7
+    },
+    {
+      "kind": "hub-event",
+      "x1": 207.9,
+      "y1": 400.8,
+      "x2": 116.7,
+      "y2": 446.6
+    },
+    {
+      "kind": "hub-event",
+      "x1": 207.9,
+      "y1": 400.8,
+      "x2": 113.6,
+      "y2": 354.0
+    },
+    {
+      "kind": "hub-event",
+      "x1": 207.9,
+      "y1": 400.8,
+      "x2": 90.0,
+      "y2": 417.2
+    },
+    {
+      "kind": "hub-event",
+      "x1": 1093.1,
+      "y1": 370.4,
+      "x2": 1137.5,
+      "y2": 315.0
+    },
+    {
+      "kind": "hub-event",
+      "x1": 1093.1,
+      "y1": 370.4,
+      "x2": 1202.0,
+      "y2": 396.0
+    },
+    {
+      "kind": "hub-event",
+      "x1": 1093.1,
+      "y1": 370.4,
+      "x2": 1153.6,
+      "y2": 417.3
+    },
+    {
+      "kind": "hub-event",
+      "x1": 1093.1,
+      "y1": 370.4,
+      "x2": 1191.1,
+      "y2": 328.6
+    },
+    {
+      "kind": "hub-event",
+      "x1": 1093.1,
+      "y1": 370.4,
+      "x2": 1210.0,
+      "y2": 361.3
+    },
+    {
+      "kind": "hub-event",
+      "x1": 921.7,
+      "y1": 627.5,
+      "x2": 890.7,
+      "y2": 685.7
+    },
+    {
+      "kind": "hub-event",
+      "x1": 921.7,
+      "y1": 627.5,
+      "x2": 992.2,
+      "y2": 689.5
+    },
+    {
+      "kind": "hub-event",
+      "x1": 921.7,
+      "y1": 627.5,
+      "x2": 942.8,
+      "y2": 702.7
+    },
+    {
+      "kind": "hub-event",
+      "x1": 921.7,
+      "y1": 627.5,
+      "x2": 1024.7,
+      "y2": 661.5
+    },
+    {
+      "kind": "hub-event",
+      "x1": 921.7,
+      "y1": 627.5,
+      "x2": 1013.9,
+      "y2": 623.5
+    },
+    {
+      "kind": "hub-event",
+      "x1": 483.1,
+      "y1": 653.7,
+      "x2": 530.1,
+      "y2": 707.1
+    },
+    {
+      "kind": "hub-event",
+      "x1": 483.1,
+      "y1": 653.7,
+      "x2": 483.5,
+      "y2": 730.0
+    },
+    {
+      "kind": "hub-event",
+      "x1": 483.1,
+      "y1": 653.7,
+      "x2": 431.1,
+      "y2": 723.1
+    },
+    {
+      "kind": "hub-event",
+      "x1": 483.1,
+      "y1": 653.7,
+      "x2": 391.7,
+      "y2": 699.2
+    },
+    {
+      "kind": "hub-event",
+      "x1": 483.1,
+      "y1": 653.7,
+      "x2": 391.5,
+      "y2": 660.2
+    },
+    {
+      "kind": "hub-event",
+      "x1": 540.4,
+      "y1": 181.6,
+      "x2": 498.4,
+      "y2": 110.5
+    },
+    {
+      "kind": "hub-event",
+      "x1": 540.4,
+      "y1": 181.6,
+      "x2": 457.7,
+      "y2": 139.5
+    },
+    {
+      "kind": "hub-event",
+      "x1": 540.4,
+      "y1": 181.6,
+      "x2": 558.0,
+      "y2": 115.4
+    },
+    {
+      "kind": "hub-event",
+      "x1": 801.4,
+      "y1": 354.6,
+      "x2": 865.1,
+      "y2": 329.6
+    },
+    {
+      "kind": "hub-event",
+      "x1": 674.1,
+      "y1": 504.5,
+      "x2": 678.6,
+      "y2": 553.4
+    },
+    {
+      "kind": "hub-event",
+      "x1": 837.4,
+      "y1": 165.7,
+      "x2": 910.5,
+      "y2": 106.1
+    },
+    {
+      "kind": "hub-event",
+      "x1": 837.4,
+      "y1": 165.7,
+      "x2": 860.5,
+      "y2": 90.0
+    },
+    {
+      "kind": "hub-event",
+      "x1": 837.4,
+      "y1": 165.7,
+      "x2": 929.1,
+      "y2": 142.4
+    },
+    {
+      "kind": "hub-event",
+      "x1": 837.4,
+      "y1": 165.7,
+      "x2": 806.8,
+      "y2": 103.5
+    },
+    {
+      "kind": "hub-event",
+      "x1": 489.5,
+      "y1": 325.3,
+      "x2": 443.9,
+      "y2": 276.8
+    },
+    {
+      "kind": "hub-event",
+      "x1": 489.5,
+      "y1": 325.3,
+      "x2": 408.3,
+      "y2": 319.8
+    }
+  ]
+}

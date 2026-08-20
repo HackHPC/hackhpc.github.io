@@ -152,25 +152,40 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
     <p>HackHPC began in 2018 as a pair of hackathons — <a href="http://hackhpc.org/pasthacks/#pearc18">HackHPC@PEARC18</a> that July in Pittsburgh, and <a href="http://hackhpc.org/pasthacks/#sc18">Cloud HPC Hack @ SC18</a> that November in Dallas — built on a simple premise: put students on a team, pair them with a mentor from a national lab or research computing center, and give them a few intense days to build something real with high-performance computing. The format held up, and it multiplied. What started as one-off hackathons at partner conferences grew into a recurring, multi-track program: annual hackathons at the ADMI Symposium on Computing at Minority Institutions since 2022, a faculty-focused counterpart (FacultyHack@Gateways) built with the Science Gateways Community Institute, an "HPC in the City" hackathon series that ran alongside the Supercomputing (SC) conference for several years, and codeathons and training institutes run with the SGX3 Center of Excellence.</p>
     <p>The program has long been organized by <a href="/about/organizers.html#je-aime-powell">Je'aime Powell</a>, <a href="/about/organizers.html#linda-hayden">Linda Bailey Hayden</a>, <a href="/about/organizers.html#amy-cannon">Amy Cannon</a>, <a href="/about/organizers.html#boyd-wilson">Boyd Wilson</a>, <a href="/about/organizers.html#alexander-nolte">Alexander Nolte</a>, and <a href="/about/organizers.html#charlie-dey">Charlie Dey</a>, and its approach has been documented in its own right — the "HackHPC Model" was formalized in a peer-reviewed paper at Gateways 2022, with follow-on research on FacultyHack's format and on hackathon research more broadly published through 2024 (see <a href="/research/">Research</a>). Today that's {{ site.data.events.size }} events and counting, run in partnership with national laboratories, research computing centers, and industry, with most leaving behind a public GitHub repository of what the teams actually built — browsable event by event on the timeline below.</p>
 
-    {% assign events_by_year = site.data.events | sort: "start_date" | group_by_exp: "e", "e.start_date | slice: 0, 4" %}
-    <p class="small timeline-h-hint">← Scroll to explore all {{ site.data.events.size }} events →</p>
-    <div class="timeline-h-scroll">
-      <div class="timeline-h">
-        {% for group in events_by_year %}
-        <div class="timeline-h-year">
-          <div class="timeline-h-stem timeline-h-stem--up">
-            {% for event in group.items %}{% assign m = forloop.index0 | modulo: 2 %}{% if m == 0 %}<a href="{{ event.url }}" class="timeline-h-branch">{{ event.name }}</a>{% endif %}{% endfor %}
-          </div>
-          <div class="timeline-h-node">
-            <span class="timeline-h-dot" aria-hidden="true"></span>
-            <span class="timeline-h-year-label">{{ group.name }}</span>
-          </div>
-          <div class="timeline-h-stem timeline-h-stem--down">
-            {% for event in group.items %}{% assign m = forloop.index0 | modulo: 2 %}{% if m == 1 %}<a href="{{ event.url }}" class="timeline-h-branch">{{ event.name }}</a>{% endif %}{% endfor %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
+    {% assign net = site.data.events_network %}
+    <p class="small timeline-h-hint">Every event, grouped by the conference or program that hosted it — hover a dot for details, click to open its site.</p>
+    <div class="events-network-wrap">
+      <svg class="events-network" viewBox="0 0 {{ net.width }} {{ net.height }}" role="img" aria-label="Network diagram of HackHPC events grouped by hosting conference or program">
+        <g class="events-network-edges">
+          {% for e in net.edges %}
+          <line x1="{{ e.x1 }}" y1="{{ e.y1 }}" x2="{{ e.x2 }}" y2="{{ e.y2 }}" class="events-network-edge events-network-edge--{{ e.kind }}"></line>
+          {% endfor %}
+        </g>
+        <g class="events-network-nodes">
+          {% for n in net.nodes %}
+          {% if n.kind == "event" %}
+          <a href="{{ n.url }}" class="events-network-node events-network-node--event" target="_blank" rel="noopener">
+            <title>{{ n.label }} — {{ n.date_display }}</title>
+            <circle cx="{{ n.x }}" cy="{{ n.y }}" r="{{ n.r }}" fill="{{ n.color }}"></circle>
+          </a>
+          {% else %}
+          <g class="events-network-node events-network-node--{{ n.kind }}">
+            <title>{{ n.label }}{% if n.count %} — {{ n.count }} events{% endif %}</title>
+            <circle cx="{{ n.x }}" cy="{{ n.y }}" r="{{ n.r }}" fill="{{ n.color }}"></circle>
+            <text x="{{ n.x }}" y="{{ n.y | minus: n.r | minus: 10 }}" text-anchor="middle" class="events-network-label">{{ n.label }}</text>
+          </g>
+          {% endif %}
+          {% endfor %}
+        </g>
+      </svg>
+    </div>
+    <div class="events-network-legend">
+      <span class="events-network-legend-item"><span class="events-network-swatch" style="background:#022292;"></span>HackHPC</span>
+      <span class="events-network-legend-item"><span class="events-network-swatch" style="background:#FD741E;"></span>Conference / Program</span>
+      <span class="events-network-legend-item"><span class="events-network-swatch" style="background:#0954C7;"></span>Hackathon</span>
+      <span class="events-network-legend-item"><span class="events-network-swatch" style="background:#B84B0F;"></span>Codeathon</span>
+      <span class="events-network-legend-item"><span class="events-network-swatch" style="background:#5B2FB8;"></span>Faculty Dev</span>
+      <span class="events-network-legend-item"><span class="events-network-swatch" style="background:#147041;"></span>Training</span>
     </div>
 
     <div class="cta-row">
