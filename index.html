@@ -13,6 +13,22 @@ description: >-
 {% assign featured = upcoming | default: recent %}
 {% assign core_partners = site.data.partners | where: "tier", "core" %}
 {% assign earliest_year = events | map: "start_date" | sort | first | slice: 0, 4 %}
+{% assign all_events_by_date = events | sort: "start_date" | reverse %}
+
+<aside class="events-rail">
+  <div class="events-rail-header">
+    <div class="events-rail-title">All {{ events.size }} Events</div>
+    <div class="events-rail-subtitle">Newest first</div>
+  </div>
+  <ul class="events-rail-list">
+    {% for event in all_events_by_date %}
+    <li><a href="{{ event.url }}">{{ event.name }}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="events-rail-footer">
+    <a href="/events/">Browse the Full Archive →</a>
+  </div>
+</aside>
 
 <section class="hero section--dark">
   <div class="container hero-content">
@@ -43,6 +59,10 @@ description: >-
       <div class="metric-card">
         <div class="metric-value">{{ site.data.partners.size }}</div>
         <div class="metric-label">Partner Organizations</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">{{ site.data.schools.size }}</div>
+        <div class="metric-label">Academic Institutions</div>
       </div>
       <div class="metric-card">
         <div class="metric-value">4</div>

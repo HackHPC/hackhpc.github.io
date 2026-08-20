@@ -32,7 +32,7 @@
     "mentions": 6,
     "tier": "core",
     "description": "Long-running annual hackathon and codeathon host at the ADMI Symposium on Computing at Minority Institutions.",
-    "icon": null,
+    "icon": "/assets/icons/favicons/ADMI-text-border.svg",
     "fa_icon": null
   },
   {
@@ -95,7 +95,7 @@
     "mentions": 4,
     "tier": "program",
     "description": "Data-tooling sponsor across ADMI and HPC in the City events.",
-    "icon": null,
+    "icon": "/assets/icons/favicons/voltron-data.svg",
     "fa_icon": null
   },
   {
@@ -194,7 +194,7 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "Costa Rica's national research and education network, co-host of the Big Data School.",
-    "icon": null,
+    "icon": "/assets/icons/favicons/redconare-color-Custom.svg",
     "fa_icon": null
   },
   {
@@ -239,7 +239,7 @@
     "mentions": 1,
     "tier": "collaborating",
     "description": "National cyberinfrastructure program partner for HackHPC@PEARC21.",
-    "icon": "/assets/img/partners/xsede-extreme-science-and-engineering-discovery-environment.svg",
+    "icon": "/assets/icons/favicons/XSEDE.svg",
     "fa_icon": null
   },
   {

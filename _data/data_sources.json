@@ -1,0 +1,359 @@
+[
+  {
+    "name": "World Bank Open Data",
+    "description": "Free and open access to global development data",
+    "url": "https://data.worldbank.org/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/data-worldbank-org.svg"
+  },
+  {
+    "name": "CIA World Factbook",
+    "description": "The World Factbook",
+    "url": "https://www.cia.gov/library/publications/the-world-factbook/geos/xx.html",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-cia-gov.svg"
+  },
+  {
+    "name": "Global Open Data Index",
+    "description": "Search for national datasets",
+    "url": "https://index.okfn.org/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "Eurostat",
+    "description": "European statistics",
+    "url": "https://ec.europa.eu/eurostat/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ec-europa-eu.svg"
+  },
+  {
+    "name": "Open Data (UK)",
+    "description": "United Kingdom open data",
+    "url": "https://data.gov.uk/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/data-gov-uk.svg"
+  },
+  {
+    "name": "Data.gov",
+    "description": "Home of the US government's open data",
+    "url": "https://www.data.gov/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-data-gov.svg"
+  },
+  {
+    "name": "SEER Datasets",
+    "description": "National Cancer Institute",
+    "url": "https://seer.cancer.gov/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/seer-cancer-gov.svg"
+  },
+  {
+    "name": "NOAA",
+    "description": "Weather data links",
+    "url": "https://www.ncdc.noaa.gov/data-access/quick-links",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-ncdc-noaa-gov.svg"
+  },
+  {
+    "name": "Census.gov",
+    "description": "US Census",
+    "url": "https://www.census.gov/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-census-gov.svg"
+  },
+  {
+    "name": "BLS Datasets and API",
+    "description": "US Bureau of Labor Statistics",
+    "url": "https://www.bls.gov/data/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-bls-gov.svg"
+  },
+  {
+    "name": "FiveThirtyEight Datasets",
+    "description": "Journalism-driven public datasets",
+    "url": "https://data.fivethirtyeight.com/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "Missouri Data Portal",
+    "description": "State of Missouri data portal",
+    "url": "https://data.mo.gov/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/data-mo-gov.svg"
+  },
+  {
+    "name": "data.georgia.gov",
+    "description": "Georgia government open data",
+    "url": "https://data.georgia.gov/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "Open Georgia",
+    "description": "Transparency in government spending",
+    "url": "http://www.open.georgia.gov/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "GDOT Data",
+    "description": "Georgia Department of Transportation data",
+    "url": "http://www.dot.ga.gov/DS/Data",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-dot-ga-gov.svg"
+  },
+  {
+    "name": "OASIS and PHIP",
+    "description": "Georgia Department of Public Health",
+    "url": "https://dph.georgia.gov/health-data-and-statistics",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/dph-georgia-gov.svg"
+  },
+  {
+    "name": "GADOE Data & Reporting",
+    "description": "Georgia Department of Education",
+    "url": "https://www.gadoe.org/Pages/Home.aspx",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-gadoe-org.svg"
+  },
+  {
+    "name": "St Louis Open Data",
+    "description": "City of St. Louis open data",
+    "url": "https://www.stlouis-mo.gov/data/index.cfm",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-stlouis-mo-gov.svg"
+  },
+  {
+    "name": "St. Louis Regional Data Exchange",
+    "description": "Regional data exchange",
+    "url": "https://rdx.stldata.org/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "Open Government St. Louis",
+    "description": "St. Louis County open data",
+    "url": "https://data.stlouisco.com/pages/open-data",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/data-stlouisco-com.svg"
+  },
+  {
+    "name": "Code For Atlanta (GitHub)",
+    "description": "Code For Atlanta open data links",
+    "url": "https://github.com/codeforatlanta/open-data",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "name": "Code For Atlanta Homepage",
+    "description": "Code For Atlanta brigade site",
+    "url": "https://www.codeforatlanta.org/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-codeforatlanta-org.svg"
+  },
+  {
+    "name": "Knoema Georgia Data",
+    "description": "Georgia-specific datasets on Knoema",
+    "url": "https://knoema.com/atlas/United-States-of-America/Georgia/datasets",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/knoema-com.svg"
+  },
+  {
+    "name": "Atlanta Police Department",
+    "description": "APD open data",
+    "url": "http://opendata.atlantapd.org/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "Atlanta Regional Commission",
+    "description": "Regional planning data",
+    "url": "https://atlantaregional.org/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/atlantaregional-org.svg"
+  },
+  {
+    "name": "Atlanta GIS Data",
+    "description": "City of Atlanta GIS data",
+    "url": "https://gis.atlantaga.gov/",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "name": "DataAtlanta",
+    "description": "One-stop shop for Atlanta's data transparency efforts",
+    "url": "https://www.atlantaga.gov/government/mayor-s-office/executive-offices/office-of-innovation-delivery-and-performance/dataatlanta",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-atlantaga-gov.svg"
+  },
+  {
+    "name": "Focus On Results Atlanta",
+    "description": "Downloadable data (linked at bottom of page)",
+    "url": "http://foratlanta.github.io/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/foratlanta-github-io.svg"
+  },
+  {
+    "name": "Police Data Initiative",
+    "description": "Data for 130 local law enforcement agencies",
+    "url": "https://www.policedatainitiative.org/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-policedatainitiative-org.svg"
+  },
+  {
+    "name": "Inside AirBnB",
+    "description": "Regional AirBnB datasets",
+    "url": "http://insideairbnb.com/get-the-data.html",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/insideairbnb-com.svg"
+  },
+  {
+    "name": "Twitter Developer Docs",
+    "description": "Twitter API/data docs",
+    "url": "https://developer.twitter.com/en/docs",
+    "icon_type": "fa-brand",
+    "icon": "x-twitter"
+  },
+  {
+    "name": "Global Petrol Prices",
+    "description": "Global energy price datasets",
+    "url": "https://www.globalpetrolprices.com/data/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-globalpetrolprices-com.svg"
+  },
+  {
+    "name": "Climate.gov",
+    "description": "Climate datasets",
+    "url": "https://www.climate.gov/maps-data/datasets",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-climate-gov.svg"
+  },
+  {
+    "name": "Wunderground",
+    "description": "Weather API (requires account)",
+    "url": "https://www.wunderground.com/member/api-keys",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-wunderground-com.svg"
+  },
+  {
+    "name": "IMF Data",
+    "description": "Macroeconomic and financial data",
+    "url": "https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&sId=1479329328660",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/data-imf-org.svg"
+  },
+  {
+    "name": "WTO Bulk Downloads",
+    "description": "World Trade Organization trade datasets",
+    "url": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-wto-org.svg"
+  },
+  {
+    "name": "CDC",
+    "description": "Center for Disease Control",
+    "url": "https://www.cdc.gov/nchs/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-cdc-gov.svg"
+  },
+  {
+    "name": "FBI Data Tables",
+    "description": "UCR/NIBRS crime data",
+    "url": "https://ucr.fbi.gov/nibrs/2012/data-tables",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ucr-fbi-gov.svg"
+  },
+  {
+    "name": "COVID-19 Data Repository (JHU CSSE)",
+    "description": "Johns Hopkins COVID-19 data",
+    "url": "https://github.com/CSSEGISandData/COVID-19",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "name": "Google Dataset Search",
+    "description": "Search engine for datasets",
+    "url": "https://datasetsearch.research.google.com/",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "name": "BigQuery Public Datasets",
+    "description": "Google Cloud Platform public datasets",
+    "url": "https://cloud.google.com/bigquery/public-data/",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "name": "Registry of Open Data on AWS",
+    "description": "Amazon Web Services datasets",
+    "url": "https://registry.opendata.aws/",
+    "icon_type": "fa-brand",
+    "icon": "aws"
+  },
+  {
+    "name": "Microsoft Research Open Data",
+    "description": "Datasets by category",
+    "url": "https://msropendata.com/",
+    "icon_type": "fa-brand",
+    "icon": "microsoft"
+  },
+  {
+    "name": "Awesome Public Datasets (GitHub)",
+    "description": "Curated list of public datasets",
+    "url": "https://github.com/awesomedata/awesome-public-datasets",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "name": "Reddit r/datasets",
+    "description": "Community-shared datasets",
+    "url": "https://www.reddit.com/r/datasets/",
+    "icon_type": "fa-brand",
+    "icon": "reddit"
+  },
+  {
+    "name": "BuzzFeedNews (GitHub)",
+    "description": "BuzzFeed News open datasets",
+    "url": "https://github.com/BuzzFeedNews/everything",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "name": "ProPublica Data Sets",
+    "description": "Journalism datasets (some free)",
+    "url": "https://www.propublica.org/datastore/datasets",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-propublica-org.svg"
+  },
+  {
+    "name": "ProPublica Datastore APIs",
+    "description": "ProPublica APIs (some free)",
+    "url": "https://www.propublica.org/datastore/apis",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-propublica-org.svg"
+  },
+  {
+    "name": "Kaggle",
+    "description": "Community dataset platform",
+    "url": "https://www.kaggle.com/datasets",
+    "icon_type": "fa-brand",
+    "icon": "kaggle"
+  },
+  {
+    "name": "Data.world",
+    "description": "Dataset platform (requires account)",
+    "url": "https://data.world/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/data-world.svg"
+  },
+  {
+    "name": "Knoema",
+    "description": "Global data platform (requires account)",
+    "url": "https://knoema.com/",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/knoema-com.svg"
+  }
+]

@@ -1,0 +1,1370 @@
+[
+  {
+    "category": "Science Gateways",
+    "name": "CISA",
+    "url": "https://www.cisa.gov",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency providing cybersecurity guidance, alerts, best practices, and educational materials.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-cisa-gov.svg"
+  },
+  {
+    "category": "Science Gateways",
+    "name": "DesignSafe-CI",
+    "url": "https://www.designsafe-ci.org",
+    "description": "NSF cyberinfrastructure supporting natural hazards research with cloud storage, HPC, data management, and collaboration tools.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-designsafe-ci-org.svg"
+  },
+  {
+    "category": "Science Gateways",
+    "name": "projectEUREKA!",
+    "url": "https://projecteureka.ai",
+    "description": "Browser-based Science Gateway platform that enables instructors and researchers to provide HPC applications without requiring Linux expertise.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/projecteureka-ai.svg"
+  },
+  {
+    "category": "Science Gateways",
+    "name": "Science Gateways Catalog",
+    "url": "https://catalog.sciencegateways.org",
+    "description": "Searchable directory of Science Gateways across many scientific disciplines. Useful for discovering existing gateways and classroom examples.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/catalog-sciencegateways-org.svg"
+  },
+  {
+    "category": "Science Gateways",
+    "name": "Science Gateways Community Institute (SGCI)",
+    "url": "https://sciencegateways.org",
+    "description": "National organization that provides training, consulting, software, and community support for developing and sustaining Science Gateways.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/sciencegateways-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "ACCESS",
+    "url": "https://access-ci.org",
+    "description": "NSF-funded program providing researchers and educators access to national supercomputers, storage, GPUs, and training.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/access-ci-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Amazon SageMaker",
+    "url": "https://aws.amazon.com/sagemaker",
+    "description": "Fully managed platform for building, training, and deploying machine learning models.",
+    "icon_type": "fa-brand",
+    "icon": "aws"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Amazon Web Services (AWS)",
+    "url": "https://aws.amazon.com",
+    "description": "Cloud computing platform with extensive HPC and data services.",
+    "icon_type": "fa-brand",
+    "icon": "aws"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Anvil Supercomputer",
+    "url": "https://www.rcac.purdue.edu/anvil#overview",
+    "description": "Purdue Research Computing Access (RCAC)'s high-performance computing facility. Features peta-scale computing, data storage, and visualization resources for research across all disciplines.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-rcac-purdue-edu.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Apptainer",
+    "url": "https://apptainer.org/",
+    "description": "Open-source container platform designed for HPC and scientific computing. Successor to Singularity, enabling reproducible, portable computing environments for research workflows.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/apptainer-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "AWS Educate",
+    "url": "https://aws.amazon.com/education/awseducate",
+    "description": "Amazon's educational program providing cloud learning resources, labs, and credits for students and educators.",
+    "icon_type": "fa-brand",
+    "icon": "aws"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Google Cloud Platform",
+    "url": "https://cloud.google.com",
+    "description": "Google's cloud computing services for compute, storage, and ML.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Google Cloud Skills Boost",
+    "url": "https://www.cloudskillsboost.google",
+    "description": "Interactive cloud learning platform with guided labs covering Google Cloud, AI, Kubernetes, and data analytics.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Google Colaboratory",
+    "url": "https://colab.research.google.com",
+    "description": "Free cloud-hosted Jupyter Notebook environment with optional GPU and TPU access. Excellent for classroom activities.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "HPC-ED",
+    "url": "https://hpc-ed.github.io",
+    "description": "Federated repository for discovering and sharing HPC training materials, curriculum, and workforce-development resources, part of NSF's CyberTraining initiative.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hpc-ed-github-io.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Jetstream2",
+    "url": "https://jetstream-cloud.org",
+    "description": "NSF-supported research cloud providing virtual machines for education, research, software development, and teaching.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/jetstream-cloud-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "marimo",
+    "url": "https://marimo.io/",
+    "description": "Programmable notebook environment with reactive, live-updating notebooks for data exploration and collaboration. Improved reproducibility over traditional formats.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/marimo-io.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Microsoft Azure",
+    "url": "https://portal.azure.com",
+    "description": "Microsoft cloud platform for computing, databases, and AI services.",
+    "icon_type": "fa-brand",
+    "icon": "microsoft"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "NAIRR Pilot Portal",
+    "url": "https://nairrpilot.org",
+    "description": "The National Artificial Intelligence Research Resource pilot portal managed by SGX3 for the NSF to share computing and AI resources across the research community.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/nairrpilot-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "NRP (National Research Platform)",
+    "url": "https://nrp.ai",
+    "description": "Provides accessible cloud-based computational resources, data science tools, and computing infrastructure for researchers and students across all disciplines.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/nrp-ai.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Oak Ridge National Laboratory (ORNL)",
+    "url": "https://www.ornl.gov",
+    "description": "U.S. Department of Energy laboratory that hosts leadership-class supercomputers and advanced research facilities.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-ornl-gov.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "OLCF Documentation",
+    "url": "https://docs.olcf.ornl.gov",
+    "description": "Documentation for the Oak Ridge Leadership Computing Facility covering system access, software, and tutorials.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/docs-olcf-ornl-gov.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "PATh/Open Science Pool",
+    "url": "https://osg-htc.org/",
+    "description": "Open Science Pool provides a massive, shared pool of computing resources for research and education. PATh connects researchers to these distributed computing resources across academic and cloud environments.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/osg-htc-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "SciServer",
+    "url": "https://www.sciserver.org",
+    "description": "Collaborative scientific computing platform providing browser-based notebooks, datasets, and computing resources.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-sciserver-org.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "TACC Analysis Portal (TAP)",
+    "url": "https://tap.tacc.utexas.edu",
+    "description": "Web-based interface for launching HPC applications and workflows directly from a browser without command-line experience.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/tap-tacc-utexas-edu.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Texas A&M High Performance Research Computing",
+    "url": "https://hprc.tamu.edu",
+    "description": "University HPC center offering computing resources, documentation, and training materials.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hprc-tamu-edu.svg"
+  },
+  {
+    "category": "Computing & Infrastructure",
+    "name": "Texas Advanced Computing Center (TACC)",
+    "url": "https://www.tacc.utexas.edu",
+    "description": "One of the world's leading academic supercomputing centers offering HPC systems, consulting, training, and educational resources.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-tacc-utexas-edu.svg"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Anaconda",
+    "url": "https://www.anaconda.com",
+    "description": "Python distribution that simplifies installation of scientific computing libraries and development environments.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-anaconda-com.svg"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Git Novice Introduction",
+    "url": "https://swcarpentry.github.io/git-novice/",
+    "description": "Software Carpentry course introducing version control with Git.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/swcarpentry-github-io.svg"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "GitHub",
+    "url": "https://github.com",
+    "description": "Industry-standard platform for version control, collaboration, issue tracking, and software development.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "GitHub Codespaces",
+    "url": "https://github.com/features/codespaces",
+    "description": "Cloud-hosted development environment that allows students to begin coding without installing software locally.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "GitHub Hello World",
+    "url": "https://docs.github.com/en/get-started/start-your-journey/hello-world",
+    "description": "Official beginner tutorial for learning GitHub workflows, repositories, commits, branches, and pull requests.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "GitHub Markdown Reference",
+    "url": "https://github.github.com/gfm",
+    "description": "Complete guide to GitHub Flavored Markdown syntax.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "GitHub Pages",
+    "url": "https://pages.github.com",
+    "description": "Free static website hosting service integrated with GitHub repositories. Ideal for course and project websites.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Introduction to GitHub",
+    "url": "https://lab.github.com/githubtraining/introduction-to-github",
+    "description": "Interactive GitHub training course for beginners.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Jupyter",
+    "url": "https://jupyter.org",
+    "description": "Interactive notebook platform supporting Python, Julia, R, and other languages for data science and education.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/jupyter-org.svg"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Markdown Cheatsheet",
+    "url": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+    "description": "Quick reference for Markdown syntax, distinct from the Markdown Guide above.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Markdown Guide",
+    "url": "https://www.markdownguide.org",
+    "description": "Comprehensive reference for writing Markdown documentation used in GitHub repositories.",
+    "icon_type": "fa-brand",
+    "icon": "markdown"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Posit Cloud",
+    "url": "https://posit.cloud",
+    "description": "Cloud-based environment for R and Python development (formerly RStudio Cloud).",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/posit-cloud.svg"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "Software Carpentry",
+    "url": "https://software-carpentry.org",
+    "description": "International organization offering workshops and curriculum for scientific programming and reproducible research.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/software-carpentry-org.svg"
+  },
+  {
+    "category": "Programming & Software Development",
+    "name": "VS Code",
+    "url": "https://code.visualstudio.com/",
+    "description": "Lightweight, powerful source code editor with built-in debugging.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/code-visualstudio-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "10 Usability Heuristics",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "description": "Nielsen's classic principles for good user interface design.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-nngroup-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "4 Rules for Intuitive UX",
+    "url": "https://www.learnui.design/blog/4-rules-intuitive-ux.html",
+    "description": "Essential guidelines for creating intuitive user experiences.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-learnui-design.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Canva",
+    "url": "https://www.canva.com",
+    "description": "Online drag-and-drop design tool for creating presentations, posters, graphics, and UI mockups.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-canva-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "CSS Cheat Sheet",
+    "url": "https://htmlcheatsheet.com/css",
+    "description": "Reference guide for CSS properties, layouts, and styling techniques.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/htmlcheatsheet-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "D3.js",
+    "url": "https://d3js.org",
+    "description": "JavaScript library for producing dynamic, interactive data visualizations in web browsers using SVG, HTML5, and CSS.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/d3js-org.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Docsy",
+    "url": "https://www.docsy.dev",
+    "description": "Documentation theme for Hugo designed for technical documentation and educational websites.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-docsy-dev.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Figma",
+    "url": "https://www.figma.com",
+    "description": "Collaborative browser-based interface design and prototyping platform.",
+    "icon_type": "fa-brand",
+    "icon": "figma"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Font Awesome",
+    "url": "https://fontawesome.com",
+    "description": "Free icon library commonly used in modern web development.",
+    "icon_type": "fa-brand",
+    "icon": "font-awesome"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "HTML Cheat Sheet",
+    "url": "https://htmlcheatsheet.com",
+    "description": "Quick reference guide covering common HTML tags and syntax.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/htmlcheatsheet-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Hugo",
+    "url": "https://gohugo.io",
+    "description": "Fast static site generator suitable for documentation and educational websites.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/gohugo-io.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "JavaScript Cheat Sheet",
+    "url": "https://htmlcheatsheet.com/js",
+    "description": "Handy reference for JavaScript syntax, functions, and programming concepts.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/htmlcheatsheet-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Jekyll",
+    "url": "https://jekyllrb.com",
+    "description": "Static site generator used by GitHub Pages to build documentation and educational websites.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/jekyllrb-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Jekyll + GitHub Pages Setup Guide",
+    "url": "https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll",
+    "description": "Guide to creating and deploying sites with Jekyll and GitHub Pages, complementing the Jekyll site above.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Jekyll Themes",
+    "url": "https://jekyllthemes.io",
+    "description": "Collection of themes for rapidly creating GitHub Pages websites.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/jekyllthemes-io.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Learn UI Design",
+    "url": "https://learnui.design",
+    "description": "Educational resource teaching modern interface and visual design principles.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/learnui-design.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Liquid Template Language",
+    "url": "https://shopify.github.io/liquid",
+    "description": "Templating language used by Jekyll for dynamic content generation.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/shopify-github-io.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Nielsen Norman Group",
+    "url": "https://www.nngroup.com",
+    "description": "Industry-leading research and guidance on usability, user experience, and interface design.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-nngroup-com.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Origami Studio",
+    "url": "https://origami.design",
+    "description": "Advanced prototyping tool developed by Meta for interactive UI design.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/origami-design.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org",
+    "description": "Free, open structured knowledge base storing semantic relationships for Wikipedia and beyond; queryable via SPARQL.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-wikidata-org.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "Wikipedia / MediaWiki API",
+    "url": "https://www.mediawiki.org/wiki/API:Main_page",
+    "description": "Web API for accessing Wikipedia content — articles, links, categories, revision history, and metadata programmatically.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-mediawiki-org.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "wikipedia-api (Python)",
+    "url": "https://pypi.org/project/Wikipedia-API/",
+    "description": "Lightweight Python wrapper for the MediaWiki API simplifying Wikipedia article retrieval, link traversal, and category extraction.",
+    "icon_type": "fa-brand",
+    "icon": "python"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "YAML",
+    "url": "https://yaml.org",
+    "description": "Official YAML language specification and documentation used for GitHub Actions and Jekyll configuration.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/yaml-org.svg"
+  },
+  {
+    "category": "Web Development & Design",
+    "name": "YAML Tutorial",
+    "url": "https://spacelift.io/blog/yaml",
+    "description": "A friendlier walkthrough of YAML syntax for configuration files and data, complementing the official spec above.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/spacelift-io.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Beautiful Soup",
+    "url": "https://www.crummy.com/software/BeautifulSoup/",
+    "description": "Python library for parsing HTML and XML to scrape and extract structured data from web pages.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-crummy-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Chart Chooser",
+    "url": "https://www.juiceanalytics.com/chartchooser",
+    "description": "Interactive tool to help select the right visualization type.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-juiceanalytics-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Dash",
+    "url": "https://dash.plotly.com",
+    "description": "Python framework for building interactive web dashboards using Plotly.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/dash-plotly-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Dash Deployment Guide",
+    "url": "https://dash.plotly.com/deployment",
+    "description": "Official documentation for deploying Dash applications to production environments.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/dash-plotly-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "HackHPC Datasets",
+    "url": "http://hackhpc.org/data",
+    "description": "Collection of datasets provided for HackHPC projects.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hackhpc-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Kaggle",
+    "url": "https://www.kaggle.com",
+    "description": "Data science and machine learning community platform with datasets, competitions, and hosted Jupyter notebooks with free GPU access.",
+    "icon_type": "fa-brand",
+    "icon": "kaggle"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Matplotlib",
+    "url": "https://matplotlib.org",
+    "description": "Comprehensive Python library for creating static, animated, and interactive 2D plots and charts.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/matplotlib-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "NetworkX",
+    "url": "https://networkx.org",
+    "description": "Python library for building and analyzing complex networks and graphs; supports PageRank, centrality metrics, and community detection.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/networkx-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "NumPy",
+    "url": "https://numpy.org",
+    "description": "Fundamental Python package for scientific computing with N-dimensional arrays, linear algebra, and random number generation.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/numpy-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Openscapes",
+    "url": "https://openscapes.github.io/series",
+    "description": "Training materials promoting reproducible, collaborative, and open science workflows.",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Pandas",
+    "url": "https://pandas.pydata.org",
+    "description": "Fast, flexible Python library for data analysis and manipulation using DataFrame structures.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/pandas-pydata-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Plotly",
+    "url": "https://plotly.com",
+    "description": "Python and JavaScript visualization library for creating interactive charts and dashboards.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/plotly-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Plotly (Python)",
+    "url": "https://plotly.com/python/",
+    "description": "Python-specific documentation for the Plotly interactive graphing library, complementing the general Plotly site above.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/plotly-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Python",
+    "url": "https://www.python.org",
+    "description": "General-purpose, high-level programming language widely used for data science, machine learning, and AI development.",
+    "icon_type": "fa-brand",
+    "icon": "python"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "PyVis",
+    "url": "https://pyvis.readthedocs.io",
+    "description": "Python wrapper around vis.js for building interactive, browser-based network graph visualizations.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/pyvis-readthedocs-io.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "R for Data Science",
+    "url": "https://r4ds.hadley.nz",
+    "description": "Free online textbook introducing modern data science techniques using R.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/r4ds-hadley-nz.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "scikit-learn",
+    "url": "https://scikit-learn.org",
+    "description": "Open-source Python library for machine learning, offering simple, efficient tools for classification, regression, clustering, and more.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/scikit-learn-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "TensorFlow",
+    "url": "https://www.tensorflow.org",
+    "description": "Open-source end-to-end platform for machine learning, with tools for building, training, and deploying deep learning models at scale.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-tensorflow-org.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Tidy Data Paper",
+    "url": "https://vita.had.co.nz/papers/tidy-data.pdf",
+    "description": "Foundational paper by Hadley Wickham explaining principles for organizing data for analysis.",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "Towards Data Science",
+    "url": "https://towardsdatascience.com",
+    "description": "Collection of articles, tutorials, and datasets covering machine learning and data science topics.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/towardsdatascience-com.svg"
+  },
+  {
+    "category": "Data Science & Visualization",
+    "name": "XGBoost",
+    "url": "https://xgboost.ai",
+    "description": "Gradient boosting ML library optimized for speed and performance; highly praised for tabular data analysis and prediction.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/xgboost-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Abundant Frontier Institute (AFI)",
+    "url": "https://abundantfrontier.org",
+    "description": "Nonprofit bridging the technology gap through hands-on experiential learning — empowering educators at under-resourced institutions to teach AI and emerging technologies, and helping organizations build internal AI capability through project-based training.",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "AI Credits Directory",
+    "url": "https://aicredits.dev",
+    "description": "Community-maintained index of free AI API credits, GPU grants, and cloud programs, including instant-signup providers and student-specific offers.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/aicredits-dev.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "AI Perks Free API Credits Guide (2026)",
+    "url": "https://www.getaiperks.com/en/ai/free-ai-api-credits-guide-2026",
+    "description": "Step-by-step guide to aggregating over $10,000 in free AI API credits from OpenAI, Anthropic, Mistral, Cerebras, Groq, and more.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-getaiperks-com.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "AI Squared Student Program (UNIFI)",
+    "url": "https://studentprogram.aisquared.ai",
+    "description": "Free access to AI Squared's UNIFI platform for students, for building, deploying, and integrating AI applications with existing business systems.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/studentprogram-aisquared-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com/",
+    "description": "AI safety company creating Claude and other language models.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-anthropic-com.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Cerebras Cloud (Inference API)",
+    "url": "https://cloud.cerebras.ai",
+    "description": "Ultra-fast LLM inference on Wafer-Scale Engine hardware, with 1,000,000 free tokens per day, permanently. No .edu email, credit card, or waitlist required.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/cloud-cerebras-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Exa AI (Neural Search API)",
+    "url": "https://exa.ai",
+    "description": "Neural search and web crawling API for AI agents and research workflows, with structured search results and full-page content extraction. $10 in free credits on student signup.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/exa-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Free AI Tools GitHub List",
+    "url": "https://github.com/ShaikhWarsi/free-ai-tools",
+    "description": "Community-maintained, curated list of free and low-cost AI tools, LLM APIs, IDEs, agent frameworks, and infrastructure options.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Free.ai Education",
+    "url": "https://free.ai/edu",
+    "description": "Unified AI platform giving students Pro-tier access to hundreds of AI tools and models, including GPT-4o, Claude, and Gemini. Includes 500,000 tokens/month and full API access; no credit card required. Requires a .edu email to sign up, re-verified monthly.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/free-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "GitHub Student Developer Pack",
+    "url": "https://education.github.com/pack",
+    "description": "Bundle of 100+ professional developer tools, AI coding assistants, and cloud credits, including GitHub Copilot Pro (with Claude 3.5 Sonnet and GPT-4.1 access), Azure and DigitalOcean credits, and JetBrains IDEs. Requires .edu email or school ID verification, 1-3 business day approval.",
+    "icon_type": "fa-brand",
+    "icon": "github"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Google AI Studio (Gemini API)",
+    "url": "https://aistudio.google.com",
+    "description": "Google's developer environment for the Gemini model family, with a generous free API tier. No .edu email or credit card required — sign in with any Google account for an instant API key.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Google Gemini",
+    "url": "https://gemini.google.com/",
+    "description": "Google's advanced AI assistant for creative work.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Groq Cloud",
+    "url": "https://console.groq.com",
+    "description": "High-speed LLM inference on Groq LPU hardware, with roughly 500K-1M free tokens/day across Llama, Qwen, and DeepSeek models. No .edu email or credit card required.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/console-groq-com.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co/",
+    "description": "Open-source platform for machine learning models and datasets.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/huggingface-co.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai",
+    "description": "Desktop app for discovering, downloading, and running local large language models with a graphical interface, no coding required.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/lmstudio-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Microsoft Copilot",
+    "url": "https://copilot.microsoft.com/",
+    "description": "AI assistant powered by OpenAI technology.",
+    "icon_type": "fa-brand",
+    "icon": "microsoft"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Ollama",
+    "url": "https://ollama.com",
+    "description": "Tool for running open-source large language models locally on your own machine, with a simple command-line interface and model library.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ollama-com.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "OpenAI",
+    "url": "https://openai.com/",
+    "description": "Leading AI research lab with ChatGPT and other models.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/openai-com.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "description": "Unified API gateway routing to 315+ models across providers (OpenAI, Anthropic, Google, Meta, Mistral) through one OpenAI-compatible endpoint. 50 free requests/day across 32+ free models; no .edu required.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/openrouter-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Perplexity + Comet (1-Year Bundle)",
+    "url": "https://perplexity.ai",
+    "description": "Perplexity's Comet browser plus a full year of Pro access, free for students who verify with a .edu email (normally a $240/year value).",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/perplexity-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Perplexity AI",
+    "url": "https://www.perplexity.ai/",
+    "description": "AI-powered search and research engine.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-perplexity-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Perplexity Pro (Education Plan)",
+    "url": "https://perplexity.ai",
+    "description": "AI-powered search and research assistant with deep citations, file uploads, and access to GPT-5, Claude Sonnet, and Gemini Pro. One month of Pro free on .edu signup via SheerID verification, then $10/month.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/perplexity-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Qwen",
+    "url": "https://qwen.ai",
+    "description": "AI chat platform from Alibaba featuring the Qwen family of language models.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/qwen-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "StudentOffers — AI & ML Directory",
+    "url": "https://www.studentoffers.co/ai-and-machine-learning",
+    "description": "Curated directory of verified student discounts and free offers across AI and ML tools, including API credits and unified gateways. Most offers require .edu email verification.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-studentoffers-co.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "StudentOffers — Free LLM API Proxy",
+    "url": "https://www.studentoffers.co/offer/freellmapi",
+    "description": "Self-hosted OpenAI-compatible proxy aggregating free-tier API keys from 11+ providers across 60+ models — over 1 billion free tokens per month from a single endpoint. Requires setting up your own accounts with each underlying provider.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-studentoffers-co.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "xAI Grok API",
+    "url": "https://console.x.ai",
+    "description": "API access to xAI's Grok models, with $25 in free one-time API credits on signup. Students with a .edu email also get 60 days of SuperGrok premium chat access free.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/console-x-ai.svg"
+  },
+  {
+    "category": "AI Tools & Resources",
+    "name": "Z.ai",
+    "url": "https://z.ai",
+    "description": "AI chat platform from Zhipu AI featuring the GLM family of language models.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/z-ai.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "ACCESS Campus Champions",
+    "url": "https://access-ci.org/campus-champions",
+    "description": "National network of research computing advocates helping researchers and students access ACCESS cyberinfrastructure resources, training, and technical expertise.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/access-ci-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "ACM",
+    "url": "https://www.acm.org",
+    "description": "Association for Computing Machinery — the world's largest educational and scientific computing society. Student memberships, SIGs, and conferences.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-acm-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "ACM SIGHPC",
+    "url": "https://www.sighpc.org",
+    "description": "ACM's Special Interest Group on High Performance Computing. Career support through awards, fellowships, and travel grants; hosts conferences including SC; operates chapters building diverse participation in HPC.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-sighpc-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "Black in AI",
+    "url": "https://www.blackinai.org/",
+    "description": "Global community broadening Black representation in AI through conferences, workshops, mentorship, and career development.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-blackinai-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "CaRCC (Coalition for Academic Scientific Computation)",
+    "url": "https://carcc.org",
+    "description": "Coalition advancing research computing and data careers through professionalization, workforce development, and community building. Career tracks, mentoring, and working groups.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/carcc-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "HackHPC",
+    "url": "https://hackhpc.org",
+    "description": "Community focused on hackathons, HPC education, and workforce development through collaborative learning.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hackhpc-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "IEEE Computer Society",
+    "url": "https://www.computer.org",
+    "description": "IEEE Computer Society advancing computing theory and practice. Student memberships and specialized technical committees.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-computer-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "Latinas in STEM",
+    "url": "https://www.latinasinstem.com/",
+    "description": "Advancing Latinas in scientific and technical careers through mentoring, advocacy, scholarships, and professional development.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-latinasinstem-com.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "MS-CC (Minority Serving Institutions Cyberinfrastructure Consortium)",
+    "url": "https://ms-cc.org",
+    "description": "Consortium supporting cyberinfrastructure capacity building at Minority Serving Institutions. Develops CS/IT programs and research infrastructure at HBCUs, MSIs, community colleges.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ms-cc-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "NSBE (National Society of Black Engineers)",
+    "url": "https://nsbe.org",
+    "description": "The largest and most visible member-serving organization committed to the success and academic achievement of Black engineers. Offers mentorship, professional development, career fairs, and HPC/scholarship programs.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/nsbe-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "Omnibond Systems",
+    "url": "https://www.omnibond.com",
+    "description": "Company developing projectEUREKA! and research computing software solutions.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-omnibond-com.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "Open HPC",
+    "url": "https://openhpc.community/",
+    "description": "Industry consortium driving HPC infrastructure innovation through open-source collaboration. Provides standardized HPC distributions, interoperability specifications, and a community platform for vendors, researchers, and users to advance HPC systems and software.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/openhpc-community.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "PathwaysToScience.org",
+    "url": "https://pathwaystoscience.org",
+    "description": "Comprehensive hub connecting Indigenous, Black, Hispanic/Latinx, and LGBTQ+ students and professionals with STEM career resources, fellowships, conferences, and funding.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/pathwaystoscience-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "SACNAS (Society for Advancement of Chicanos/Hispanics and Native Americans in Science)",
+    "url": "https://www.sacnas.org/",
+    "description": "Leading STEM organization advancing Hispanic and Native American scientists. Provides mentorship, professional development, networking events, and scholarships at all career stages.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-sacnas-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "SHPE (Society of Hispanic Professional Engineers)",
+    "url": "https://shpe.org/",
+    "description": "The world's largest resource for empowering the Latinx community to achieve their goals as engineers and scientists. Offers conferences, scholarships, career fairs, and professional development.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/shpe-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "University of Tartu",
+    "url": "https://ut.ee/en",
+    "description": "European research university with active HPC and computational science initiatives.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ut-ee.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "US-RSE (Research Software Engineering Association)",
+    "url": "https://us-rse.org/",
+    "description": "Professional organization for Scientific Computing and Research Software Engineering. Offers networking, professional development, job opportunities, and community building.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/us-rse-org.svg"
+  },
+  {
+    "category": "Organizations & Communities",
+    "name": "Women in HPC (WHPC)",
+    "url": "https://womeninhpc.org",
+    "description": "International community supporting women and underrepresented groups in HPC through mentoring, networking, leadership development, conferences, and career opportunities.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/womeninhpc-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "ACCESS Careers",
+    "url": "https://access-ci.org/news/careers/",
+    "description": "ACCESS career board listing computing and cyberinfrastructure positions at academic and research institutions nationwide.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/access-ci-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "Benjamin Gilman Scholarship",
+    "url": "https://gilmanscholarship.org",
+    "description": "A scholarship program (provided by the U.S. Department of State) providing funding for students engaging in study abroad opportunities.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/gilmanscholarship-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "CaRCC HR Job Family Matrix",
+    "url": "https://carcc.org/jobs-and-careers/",
+    "description": "Framework for research computing and data career paths, including salary benchmarks and job family definitions.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/carcc-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "Chicago Quantum Exchange Job Board",
+    "url": "https://jobs.chicagoquantum.org/jobs",
+    "description": "A dedicated job board to browse and sign up for alerts regarding entry-level jobs and internships in quantum computing, sensing, and networks.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/jobs-chicagoquantum-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "Cloudbank ACCESS",
+    "url": "https://allocations.access-ci.org/resources/cloudbank.access-ci.org",
+    "description": "A computational resource allocation service provided by the ACCESS program.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/allocations-access-ci-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "DOE CSGF",
+    "url": "https://www.krellinst.org/csgf/",
+    "description": "Department of Energy Computational Science Graduate Fellowship for Ph.D. students using high-performance computing in science and engineering research. Provides a $45,000 annual stipend, full tuition, and a research practicum at a DOE laboratory.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-krellinst-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "Google Summer of Code (GSoC)",
+    "url": "https://summerofcode.withgoogle.com",
+    "description": "Google's program for undergraduate students worldwide to contribute to open source development with mentorship.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "HPCWire",
+    "url": "https://www.hpcwire.com",
+    "description": "Leading publication covering the high-performance computing industry, news, insights, and thought leadership.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-hpcwire-com.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "NASA SEED",
+    "url": "https://www.nasa.gov/seeds/",
+    "description": "NASA Space Engineering Research and Design program for undergraduate and graduate students on real NASA missions.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-nasa-gov.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "NCAR Internships",
+    "url": "https://ncar.ucar.edu/opportunities/internships",
+    "description": "High-performance computing and data science internship opportunities at the National Center for Atmospheric Research (NCAR).",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ncar-ucar-edu.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "NSF GRFP",
+    "url": "https://www.nsf.gov/fellowships/",
+    "description": "National Science Foundation Graduate Research Fellowship Program for STEM students pursuing research-based careers.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-nsf-gov.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "NSF REU Search Tool",
+    "url": "https://www.nsf.gov/funding/initiatives/reu/search",
+    "description": "Advanced search tool to find NSF-funded REU sites beyond the main listing page. Filter by state, institution type, discipline, and funding source.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-nsf-gov.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "NSF REU Sites",
+    "url": "https://www.nsf.gov/od/oia/reu/",
+    "description": "NSF Research Experiences for Undergraduates program listing undergraduate research internships at US institutions.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-nsf-gov.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "Open Quantum Initiative (OQI) Undergraduate Fellowship",
+    "url": "https://chicagoquantum.org/oqi-undergraduate-fellowship",
+    "description": "A 10-week, fully funded summer research opportunity placing students at quantum research sites across the Midwest, including a $7,000 stipend and travel coverage.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/chicagoquantum-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "Q-Ready Program",
+    "url": "https://chicagoquantum.org/q-ready",
+    "description": "An online program that helps students and postdocs explore quantum careers, prepare for career paths, and meet scientists hiring for these roles.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/chicagoquantum-org.svg"
+  },
+  {
+    "category": "Careers & Opportunities",
+    "name": "SULI Program (Science Undergraduate Laboratory Internships)",
+    "url": "https://science.osti.gov/wdts/suli",
+    "description": "A Department of Energy (DOE) program that offers hands-on research internship opportunities for undergraduates at national laboratories.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/science-osti-gov.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "ACCESS Workshops",
+    "url": "https://access-ci.org/events/",
+    "description": "Workshops and training events covering HPC, data science, visualization, and cyberinfrastructure tools.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/access-ci-org.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "BSSW - Formal Course Resources for Learning About HPC",
+    "url": "https://bssw.io/items/formal-course-resources-for-learning-about-hpc",
+    "description": "Argonne/Sandia-curated article compiling university courses and educational materials on high-performance computing.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/bssw-io.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "The Carpentries - Adopting HPC Carpentry",
+    "url": "https://carpentries.org/blog/2026/02/adopting-hpc-carpentry/",
+    "description": "Carpentries blog post on strategies, lessons learned, and resources for institutions adopting HPC Carpentry workshops.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/carpentries-org.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "Google AI Professional Certificate",
+    "url": "https://grow.google/ai-professional/",
+    "description": "Google's online professional certificate covering foundational AI and ML concepts — prompt engineering, LLMs, and practical AI applications.",
+    "icon_type": "fa-brand",
+    "icon": "google"
+  },
+  {
+    "category": "Training & Education",
+    "name": "HSF Training - Singularity Container Training",
+    "url": "https://hsf-training.github.io/hsf-training-singularity-webpage/",
+    "description": "High Energy Physics community's training material on Singularity containers for HPC. Covers container basics, workflows, data management, and security.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hsf-training-github-io.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "Intro to HPC - SLURM Training (Cambi)",
+    "url": "https://cambiotraining.github.io/hpc-intro/materials/03-slurm.html",
+    "description": "Free online self-study module covering SLURM workload manager basics — job submission, resource requests, batch scripting, squeue/sinfo/sbatch commands, and job arrays.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/cambiotraining-github-io.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "NCAR Explorer Series",
+    "url": "https://edec.ucar.edu/public/ncar-explorer-series",
+    "description": "Public lectures and educational outreach materials published by NCAR.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/edec-ucar-edu.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "NCAR PI-WRF Teaching Box",
+    "url": "https://ncar.github.io/piwrf-teachingbox/pages/about.html",
+    "description": "Educational resources and teaching boxes provided by NCAR for weather modeling.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/ncar-github-io.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "NCSA Learn",
+    "url": "https://learn.ncsa.illinois.edu/",
+    "description": "NCSA's free online learning portal featuring self-paced courses on HPC, Linux, Python, Git, CUDA, and research computing.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/learn-ncsa-illinois-edu.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "Quantum Education Landscape (RIT)",
+    "url": "https://www.rit.edu/quantumeducationandworkforce/education-landscape",
+    "description": "An overview of programs, courses, minors, and majors focused on quantum information science and engineering at various institutions.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-rit-edu.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "Quantum Learning Resources",
+    "url": "https://chicagoquantum.org/quantum_learning",
+    "description": "Do-it-yourself educational resources to practice and learn quantum coding using kits like IBM's Qiskit and Xanadu's Pennylane.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/chicagoquantum-org.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "SGX3 Fall & Spring Training",
+    "url": "https://sciencegateways.org/education-training",
+    "description": "Upcoming advanced computational training sessions (Fall runs Oct-Dec, Wednesday nights) offering a $500 stipend to students, continuing the education from the summer Coding Institute.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/sciencegateways-org.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "TACC Undergraduate & Graduate Education",
+    "url": "https://tacc.utexas.edu/education/undergraduates-graduates",
+    "description": "Texas Advanced Computing Center's education programs for undergraduate and graduate students. Includes REU programs, training workshops, graduate fellowships, and hands-on research experiences.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/tacc-utexas-edu.svg"
+  },
+  {
+    "category": "Training & Education",
+    "name": "WeTeachCS",
+    "url": "https://weteachcs.org",
+    "description": "An educational program run by TACC designed to prepare K-12 teachers for computer science certifications.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/weteachcs-org.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "HPDC (High-Performance Parallel Computing)",
+    "url": "https://hpdc.sci.utah.edu",
+    "description": "ACM International Symposium on High-Performance Parallel and Distributed Computing, the premier venue for research on clusters, grids, clouds, and multicore computing systems.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hpdc-sci-utah-edu.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "IEEE Cluster Computing",
+    "url": "https://cluster.org/",
+    "description": "IEEE International Conference on Cluster Computing. Covers cluster computing architectures, middleware, algorithms, and applications for scientific and commercial use.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/cluster-org.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "IEEE IPDPS (International Parallel and Distributed Processing Symposium)",
+    "url": "https://www.ipdps.org",
+    "description": "IEEE Computer Society's premier symposium on parallel and distributed processing, featuring technical sessions, workshops, tutorials, and exhibits.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-ipdps-org.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "ISC High Performance",
+    "url": "https://www.isc-hpc.com/",
+    "description": "International conference and exhibition for high-performance computing, data analytics, and networking. Major European HPC conference with global participation.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-isc-hpc-com.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "PEARC (Practical and Extreme Computing Conference)",
+    "url": "https://pearc.acm.org/",
+    "description": "Flagship conference for research computing professionals and students. Offers tutorials, short courses, and student travel support.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/pearc-acm-org.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "SC (Supercomputing Conference)",
+    "url": "https://sc.supercomputing.org/",
+    "description": "Premier international conference for HPC, data analytics, and supercomputing. Largest gathering of HPC professionals worldwide with technical sessions, exhibitions, and networking.",
+    "icon_type": "fa-solid",
+    "icon": "globe"
+  },
+  {
+    "category": "Conferences",
+    "name": "SIAM CSI (Computing in Science and Engineering)",
+    "url": "https://www.siam.org/conferences/cm/conference/csi/",
+    "description": "SIAM conference showcasing computational research across engineering, science, and mathematics. Bridges theory and practice in computational methods.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-siam-org.svg"
+  },
+  {
+    "category": "Conferences",
+    "name": "SIAM PP (Parallel Processing for Scientific Computing)",
+    "url": "https://www.siam.org/conferences/cm/conference/pp/",
+    "description": "SIAM conference focused on parallel computing for scientific computing. Brings together researchers developing parallel algorithms and applications.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/www-siam-org.svg"
+  },
+  {
+    "category": "Hackathon",
+    "name": "Hack the Hackathon",
+    "url": "https://hackthehackathon.org/",
+    "description": "Global community of hackathon organizers, participants, and researchers exploring how hackathons foster scientific collaboration, learning, and civic engagement through yearly workshops, virtual community spaces, and shared resources.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hackthehackathon-org.svg"
+  },
+  {
+    "category": "Hackathon",
+    "name": "HackHPC Code of Conduct",
+    "url": "http://hackhpc.org/codeofconduct",
+    "description": "Community standards and expected behavior for HackHPC events.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hackhpc-org.svg"
+  },
+  {
+    "category": "Hackathon",
+    "name": "HackHPC Past Events",
+    "url": "http://hackhpc.github.io",
+    "description": "Archive of past HackHPC hackathon events and results.",
+    "icon_type": "img",
+    "icon": "/assets/icons/favicons/hackhpc-github-io.svg"
+  }
+]

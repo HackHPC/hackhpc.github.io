@@ -145,3 +145,67 @@
   searchInput.addEventListener('input', applyFilter);
   applyFilter();
 })();
+
+// Resource library search (Resources page)
+(function () {
+  var container = document.getElementById('resourceLibraryContainer');
+  if (!container) return;
+
+  var searchInput = document.getElementById('resourceLibrarySearch');
+  var resultsCount = document.getElementById('resourceLibraryResultsCount');
+  var noResults = document.getElementById('resourceLibraryNoResults');
+  var groups = Array.prototype.slice.call(container.querySelectorAll('.resource-category-group'));
+
+  function applyFilter() {
+    var query = (searchInput.value || '').toLowerCase().trim();
+    var visible = 0;
+
+    groups.forEach(function (group) {
+      var cards = Array.prototype.slice.call(group.querySelectorAll('.resource-item-card'));
+      var groupVisible = 0;
+
+      cards.forEach(function (card) {
+        var show = !query || card.dataset.search.indexOf(query) !== -1;
+        card.style.display = show ? '' : 'none';
+        if (show) groupVisible++;
+      });
+
+      group.style.display = groupVisible === 0 ? 'none' : '';
+      visible += groupVisible;
+    });
+
+    resultsCount.textContent = visible + (visible === 1 ? ' resource' : ' resources');
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  searchInput.addEventListener('input', applyFilter);
+  applyFilter();
+})();
+
+// Data sources search (Resources page)
+(function () {
+  var grid = document.getElementById('dataSourcesGrid');
+  if (!grid) return;
+
+  var searchInput = document.getElementById('dataSourceSearch');
+  var resultsCount = document.getElementById('dataSourceResultsCount');
+  var noResults = document.getElementById('dataSourcesNoResults');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.data-source-card'));
+
+  function applyFilter() {
+    var query = (searchInput.value || '').toLowerCase().trim();
+    var visible = 0;
+
+    cards.forEach(function (card) {
+      var show = !query || card.dataset.search.indexOf(query) !== -1;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    resultsCount.textContent = visible + (visible === 1 ? ' source' : ' sources');
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  searchInput.addEventListener('input', applyFilter);
+  applyFilter();
+})();

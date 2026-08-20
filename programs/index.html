@@ -31,3 +31,75 @@ description: Ways to engage with HackHPC as a participant, mentor, or faculty me
     </div>
   </div>
 </section>
+
+{% assign hackathons = site.data.events | where: "type", "hackathon" | sort: "start_date" | reverse %}
+{% assign codeathons = site.data.events | where: "type", "codeathon" | sort: "start_date" | reverse %}
+{% assign facultyhacks = site.data.events | where: "type", "faculty" | sort: "start_date" | reverse %}
+
+<section class="section--tight section--soft">
+  <div class="container">
+    <span class="eyebrow">Event Formats</span>
+    <h2 class="mt-0">Three kinds of HackHPC events</h2>
+    <p style="max-width:720px;"><strong>Hackathons</strong> are multi-day, open-ended team build challenges for students. <strong>Codeathons</strong> are shorter, more structured coding sprints built around a guided dataset or challenge. <strong>FacultyHacks</strong> are multi-week course-redesign institutes for instructors, not students. All three run in-person, virtually, or as a hybrid of both, depending on the event.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Hackathons</span>
+    <h2 class="mt-0">{{ hackathons.size }} multi-day, team-based build challenges</h2>
+    <p style="max-width:720px;">HackHPC's core format. Students form teams, get paired with a mentor from a national lab, research computing center, or industry partner, and spend a few intense days building a working prototype with high-performance computing, AI, or science gateway resources — culminating in team presentations or demos. Hackathons run alongside partner conferences like the ADMI Symposium on Computing at Minority Institutions, and past events have run alongside PEARC and the Supercomputing (SC) conference.</p>
+    <div class="events-grid" style="margin-top:1.5rem;">
+      {% for event in hackathons limit: 3 %}
+      <div class="card event-card">
+        <span class="badge badge-hackathon">hackathon</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <p>{{ event.description }}</p>
+        <div class="card-links"><a href="{{ event.url }}" class="btn btn-outline btn-small">View Event</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="cta-row"><a href="/programs/participants.html" class="btn btn-outline">Join a Hackathon</a></div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Codeathons</span>
+    <h2 class="mt-0">{{ codeathons.size }} guided, dataset-driven coding sprints</h2>
+    <p style="max-width:720px;">A shorter, more structured counterpart to the hackathon. Instead of an open-ended build, participants work through guided exercises around a specific dataset or challenge — a way to introduce HPC and science gateway tools without requiring prior experience. Codeathons have run with partners including SGX3, TACC, and the Minority Serving–Cyberinfrastructure Consortium (MS-CC).</p>
+    <div class="events-grid" style="margin-top:1.5rem;">
+      {% for event in codeathons limit: 3 %}
+      <div class="card event-card">
+        <span class="badge badge-codeathon">codeathon</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <p>{{ event.description }}</p>
+        <div class="card-links"><a href="{{ event.url }}" class="btn btn-outline btn-small">View Event</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="cta-row"><a href="/programs/participants.html" class="btn btn-outline">Join a Codeathon</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">FacultyHacks</span>
+    <h2 class="mt-0">{{ facultyhacks.size }} multi-week course-redesign institutes for instructors</h2>
+    <p style="max-width:720px;">The only format built for faculty, not students. FacultyHack@Gateways, run with the Science Gateways Community Institute (SGX3), pairs instructors with mentors over several weeks to redesign a real course — integrating high-performance computing, AI tools, and reproducible workflows — with a concrete course deliverable due by the end, not just a lecture or two.</p>
+    <div class="events-grid" style="margin-top:1.5rem;">
+      {% for event in facultyhacks limit: 3 %}
+      <div class="card event-card">
+        <span class="badge badge-faculty">faculty</span>
+        <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
+        <div class="event-date">{{ event.date_display }}</div>
+        <p>{{ event.description }}</p>
+        <div class="card-links"><a href="{{ event.url }}" class="btn btn-outline btn-small">View Event</a></div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="cta-row"><a href="/programs/faculty.html" class="btn btn-outline">Learn About FacultyHack</a></div>
+  </div>
+</section>

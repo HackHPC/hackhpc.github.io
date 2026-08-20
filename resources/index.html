@@ -32,39 +32,103 @@ description: HackHPC repositories, curricula, and the mentor directory.
 <section class="section section--soft">
   <div class="container">
     <span class="eyebrow">FacultyHack Modified Courses</span>
-    <h2 class="mt-0">{{ site.data.courses.size }} courses redesigned with HPC & science gateways</h2>
-    <p style="max-width:760px;">Every FacultyHack@Gateways cohort redesigns a real course to integrate high-performance computing, AI, and science gateway resources — from intro programming to bioinformatics to public administration. Browse what faculty have built:</p>
+    <details class="section-collapse">
+      <summary><h2 class="mt-0">{{ site.data.courses.size }} courses redesigned with HPC & science gateways</h2></summary>
+      <div class="section-collapse-body">
+        <p style="max-width:760px;">Every FacultyHack@Gateways cohort redesigns a real course to integrate high-performance computing, AI, and science gateway resources — from intro programming to bioinformatics to public administration. Browse what faculty have built:</p>
 
-    {% assign event_labels = site.data.courses | map: "event" | uniq | reverse %}
-    <div class="filters">
-      <input type="search" id="courseSearch" placeholder="Search by course, school, or topic...">
-      <select id="courseEventFilter">
-        <option value="">All Years</option>
-        {% for label in event_labels %}
-        {% assign sample = site.data.courses | where: "event", label | first %}
-        <option value="{{ sample.event_id }}">{{ label }}</option>
-        {% endfor %}
-      </select>
-    </div>
-    <p class="results-count"><span id="courseResultsCount">{{ site.data.courses.size }} courses</span> shown</p>
-
-    <div id="coursesGrid" class="events-grid">
-      {% for c in site.data.courses %}
-      {% assign ev = site.data.events | where: "id", c.event_id | first %}
-      {% assign search_blob = c.course_name | append: " " | append: c.course_number | append: " " | append: c.school | append: " " | append: c.description | downcase %}
-      <div class="card course-card" data-event="{{ c.event_id }}" data-search="{{ search_blob }}">
-        {% if c.course_number %}<span class="badge">{{ c.course_number }}</span>{% endif %}
-        <h3 class="mt-0">{{ c.course_name }}</h3>
-        <div class="event-date">{{ c.school }}</div>
-        <p class="small">{{ c.description }}</p>
-        <div class="card-links">
-          {% if ev %}<a href="{{ ev.url }}" class="small">{{ c.event }}</a>{% else %}<span class="small">{{ c.event }}</span>{% endif %}
-          {% if c.github %}<a href="{{ c.github }}" class="small repo-link" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo ↗</a>{% endif %}
+        {% assign event_labels = site.data.courses | map: "event" | uniq | reverse %}
+        <div class="filters">
+          <input type="search" id="courseSearch" placeholder="Search by course, school, or topic...">
+          <select id="courseEventFilter">
+            <option value="">All Years</option>
+            {% for label in event_labels %}
+            {% assign sample = site.data.courses | where: "event", label | first %}
+            <option value="{{ sample.event_id }}">{{ label }}</option>
+            {% endfor %}
+          </select>
         </div>
+        <p class="results-count"><span id="courseResultsCount">{{ site.data.courses.size }} courses</span> shown</p>
+
+        <div id="coursesGrid" class="events-grid">
+          {% for c in site.data.courses %}
+          {% assign ev = site.data.events | where: "id", c.event_id | first %}
+          {% assign search_blob = c.course_name | append: " " | append: c.course_number | append: " " | append: c.school | append: " " | append: c.description | downcase %}
+          <div class="card course-card" data-event="{{ c.event_id }}" data-search="{{ search_blob }}">
+            {% if c.course_number %}<span class="badge">{{ c.course_number }}</span>{% endif %}
+            <h3 class="mt-0">{{ c.course_name }}</h3>
+            <div class="event-date">{{ c.school }}</div>
+            <p class="small">{{ c.description }}</p>
+            <div class="card-links">
+              {% if ev %}<a href="{{ ev.url }}" class="small">{{ c.event }}</a>{% else %}<span class="small">{{ c.event }}</span>{% endif %}
+              {% if c.github %}<a href="{{ c.github }}" class="small repo-link" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo ↗</a>{% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <p id="coursesNoResults" class="no-results">No courses match your search.</p>
       </div>
-      {% endfor %}
-    </div>
-    <p id="coursesNoResults" class="no-results">No courses match your search.</p>
+    </details>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Data Sources</span>
+    <details class="section-collapse">
+      <summary><h2 class="mt-0">{{ site.data.data_sources.size }} open data sources for hack projects</h2></summary>
+      <div class="section-collapse-body">
+        <p style="max-width:760px;">Public and government datasets frequently used for HackHPC and FacultyHack projects, spanning global, national, state, and regional sources.</p>
+        <div class="filters">
+          <input type="search" id="dataSourceSearch" placeholder="Search data sources by name or description...">
+        </div>
+        <p class="results-count"><span id="dataSourceResultsCount">{{ site.data.data_sources.size }} sources</span> shown</p>
+        <div id="dataSourcesGrid" class="events-grid">
+          {% for d in site.data.data_sources %}
+          {% assign search_blob = d.name | append: " " | append: d.description | downcase %}
+          <div class="card data-source-card" data-search="{{ search_blob }}">
+            <h3 class="mt-0">{% include resource-icon.html icon_type=d.icon_type icon=d.icon %}<a href="{{ d.url }}" target="_blank" rel="noopener">{{ d.name }}</a></h3>
+            <p class="small">{{ d.description }}</p>
+          </div>
+          {% endfor %}
+        </div>
+        <p id="dataSourcesNoResults" class="no-results">No data sources match your search.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <span class="eyebrow">Resource Library</span>
+    <details class="section-collapse">
+      <summary><h2 class="mt-0">{{ site.data.external_resources.size }} curated resources for science gateways, HPC & AI</h2></summary>
+      <div class="section-collapse-body">
+        <p style="max-width:760px;">A shared library of science gateways, computing platforms, dev tools, datasets, AI tools, communities, and career resources, compiled from the <a href="https://hackhpc.github.io/facultyhack-gateways26/resources/" target="_blank" rel="noopener">FacultyHack@Gateways 2026 resource page</a>.</p>
+        <div class="filters">
+          <input type="search" id="resourceLibrarySearch" placeholder="Search the resource library by name, category, or description...">
+        </div>
+        <p class="results-count"><span id="resourceLibraryResultsCount">{{ site.data.external_resources.size }} resources</span> shown</p>
+        {% assign resource_groups = site.data.external_resources | group_by: "category" %}
+        <div id="resourceLibraryContainer">
+          {% for group in resource_groups %}
+          <div class="resource-category-group">
+            <h3 class="category-heading">{{ group.name }} <span class="small">({{ group.items.size }})</span></h3>
+            <div class="events-grid">
+              {% for item in group.items %}
+              {% assign search_blob = item.name | append: " " | append: item.category | append: " " | append: item.description | downcase %}
+              <div class="card resource-item-card" data-search="{{ search_blob }}">
+                <h3 class="mt-0">{% include resource-icon.html icon_type=item.icon_type icon=item.icon %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a></h3>
+                <p class="small">{{ item.description }}</p>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <p id="resourceLibraryNoResults" class="no-results">No resources match your search.</p>
+      </div>
+    </details>
   </div>
 </section>
 
