@@ -637,6 +637,23 @@
         "github": "https://github.com/LaJoshua/Mobility-and-Social-Vulnerability-Index",
         "award": "Viewer\u2019s Choice"
       }
+    ],
+    "videos": [
+      {
+        "name": "[HPC in the City: Pandemics] Kick Off Session",
+        "summary": "Opening broadcast introducing public health data tracks, mentor pitches, and epidemiological challenge areas.",
+        "url": "https://www.youtube.com/watch?v=e2GqVwT1q1E"
+      },
+      {
+        "name": "[HPC in the City: Pandemics] Team Introductions",
+        "summary": "Student teams present their roster, selected pandemic modeling themes, and dataset integrations.",
+        "url": "https://www.youtube.com/watch?v=aG9EVY_j3ic"
+      },
+      {
+        "name": "[HPC in the City: Pandemics] SGX3 Overview & Team Progress Updates",
+        "summary": "Mid-event check-in reviewing Science Gateways (SGX3) toolsets alongside team milestone progress updates.",
+        "url": "https://www.youtube.com/watch?v=4CLBz-ZFhx4"
+      }
     ]
   },
   {
@@ -737,6 +754,18 @@
         "name": "Bug Busters",
         "github": "https://github.com/CierrahW/Hacking4HPC",
         "award": "Judges Choice Award 1st Place"
+      }
+    ],
+    "videos": [
+      {
+        "name": "[HackHPC@ADMI23] Kick-Off!",
+        "summary": "Opening stream outlining competition tracks, mentor introductions, schedules, and initial hackathon prompts.",
+        "url": "https://www.youtube.com/watch?v=w1TYSF3z_IY"
+      },
+      {
+        "name": "[HackHPC@ADMI23] Team Introductions",
+        "summary": "Livestream recording where participating teams introduce their members, research themes, and project scopes.",
+        "url": "https://www.youtube.com/watch?v=8bbOohYJumg"
       }
     ]
   },
@@ -910,6 +939,63 @@
         "github": "https://github.com/hunter154321/2022HPC-Genie-LAMMPS",
         "award": "Judges Award"
       }
+    ],
+    "videos": [
+      {
+        "name": "[HPC in the City: Dallas] Mentor Overview Recording",
+        "summary": "Briefing session for mentors covering communication platforms, technical support protocols, and timelines.",
+        "url": "https://youtu.be/rFUWWrZ0fnc"
+      },
+      {
+        "name": "[HPC in the City: Dallas] CloudyCluster and Google Cloud Platform Overview",
+        "summary": "Technical onboarding guide on deploying scalable compute clusters on GCP using CloudyCluster.",
+        "url": "https://youtu.be/-W9JBCZ_tpw"
+      },
+      {
+        "name": "[HPC in the City: Dallas] GitHub and Discord Overview",
+        "summary": "Practical training session covering version control collaboration on GitHub and team communications on Discord.",
+        "url": "https://youtu.be/_GLn5D7NTr8"
+      },
+      {
+        "name": "[HPC in the City: Dallas] Code of Conduct & Rules",
+        "summary": "Walkthrough of participant expectations, collaborative standards, and official competition guidelines.",
+        "url": "https://youtu.be/cNbmYDpcj-s"
+      },
+      {
+        "name": "[HPC in the City: Dallas] Judging Criteria",
+        "summary": "Detailed breakdown of the scoring categories and evaluation weights for team projects.",
+        "url": "https://youtu.be/MaF6TqzgW00"
+      },
+      {
+        "name": "[HPC in the City: Dallas] Kick-Off Session",
+        "summary": "Event kickoff featuring introductory remarks, problem track reveals, and team formation activities.",
+        "url": "https://youtu.be/5N4u6PXmLoo"
+      },
+      {
+        "name": "[HPC in the City: Dallas] Team Introductions Video",
+        "summary": "Checkpoint where formed student teams introduce their members, problem spaces, and technical goals.",
+        "url": "https://youtu.be/zew1BgIjBVU"
+      },
+      {
+        "name": "[HPC in the City: Dallas] Team Goals Video",
+        "summary": "Project check-in where teams present their planned milestones, architecture, and target deliverables.",
+        "url": "https://www.youtube.com/watch?v=6TQnIcOEJqU"
+      },
+      {
+        "name": "[HPC in the City: Dallas] \u201cMr. Roger\u2019s - 20 Min Neighborhoods\u201d Team Trailer",
+        "summary": "Student project pitch highlighting an urban computing analysis of walkable 20-minute Dallas neighborhoods.",
+        "url": "https://www.youtube.com/watch?v=KXJeITr-d7s"
+      },
+      {
+        "name": "[HPC in the City: Dallas] \u201cJazz Frogs\u201d Team Trailer",
+        "summary": "Project showcase introducing team members, architecture, and analytical tools used during the Dallas hackathon.",
+        "url": "https://www.youtube.com/watch?v=RIBLnTeJYCE"
+      },
+      {
+        "name": "[HPC in the City: Dallas] \u201cEcoLocation\u201d Team Trailer",
+        "summary": "Team pitch video for the EcoLocation environmental project (HPC Impact Award winner).",
+        "url": "https://www.youtube.com/watch?v=blV6x6pX6vI"
+      }
     ]
   },
   {
@@ -1014,6 +1100,13 @@
         "github": null,
         "award": null
       }
+    ],
+    "videos": [
+      {
+        "name": "[FacultyHack@Gateways22] Checkin #2 Team Introductions & Poster Training",
+        "summary": "Check-in covering faculty project milestones, HPC course integration, and guidance on conference poster design.",
+        "url": "https://www.youtube.com/watch?v=uIxhKxyGUT0"
+      }
     ]
   },
   {
@@ -1066,6 +1159,43 @@
         "name": "Voracious Vikings",
         "github": "https://github.com/dancarlam/Voracious-Vikings-ADMI22",
         "award": null
+      }
+    ],
+    "videos": [
+      {
+        "name": "[HackHPC@ADMI22] Mentor Overview",
+        "summary": "Orientation and logistics session preparing volunteer mentors to assist undergraduate teams throughout the event.",
+        "url": "https://www.youtube.com/watch?v=R0kcxZKj8AM"
+      },
+      {
+        "name": "[HackHPC@ADMI22] Judging Criteria",
+        "summary": "Walkthrough explaining the evaluation rubric, score breakdowns, and essential deliverable requirements.",
+        "url": "https://www.youtube.com/watch?v=OVEBEJ2xZN0"
+      },
+      {
+        "name": "[HackHPC@ADMI22] Hackathon Beginning to End Overview",
+        "summary": "End-to-end guidance by veteran mentors covering hackathon milestones, timelines, and project development.",
+        "url": "https://www.youtube.com/watch?v=u510fjsC2nM"
+      },
+      {
+        "name": "[HackHPC@ADMI22] Google Cloud Platform and Cloudy Cluster Training",
+        "summary": "Technical training session explaining how to configure and deploy cloud-based HPC environments using GCP and Cloudy Cluster.",
+        "url": "https://www.youtube.com/watch?v=2d5bJcgxG2Y"
+      },
+      {
+        "name": "[HackHPC@ADMI22] Data to Dashboard Training Session",
+        "summary": "Hands-on tutorial guiding participants through dataset curation, data cleaning, analysis, and dashboard deployment.",
+        "url": "https://www.youtube.com/watch?v=7YSgERvi3Lc"
+      },
+      {
+        "name": "[HackHPC@ADMI22] SpelHouse Tiguars Team Trailer",
+        "summary": "Team introductory trailer outlining the SpelHouse Tiguars' project scope, research goals, and team members.",
+        "url": "https://www.youtube.com/watch?v=HzJEI9kDkNs"
+      },
+      {
+        "name": "[HackHPC@ADMI22] SpelHouse Tiguars Team Introduction",
+        "summary": "Short member spotlight introducing the students and defined project roles for the SpelHouse Tiguars team.",
+        "url": "https://www.youtube.com/watch?v=kbo5j_JgNCc"
       }
     ]
   },
@@ -1185,6 +1315,33 @@
         "name": "The Equalizers",
         "github": "https://github.com/Jazzcattrap/TheEqualizers",
         "award": null
+      }
+    ],
+    "videos": [
+      {
+        "name": "SC21 [HPC in the City: St. Louis] Kick Off Session",
+        "summary": "Official kickoff meeting recording featuring mentor project pitches and problem statements prior to team formation.",
+        "url": "https://www.youtube.com/watch?v=3VOIj6O-cps"
+      },
+      {
+        "name": "SC21 [HPC in the City: St. Louis] Mentor Training",
+        "summary": "Mentor preparation session covering hackathon workflows, scheduling, and student support strategies.",
+        "url": "https://www.youtube.com/watch?v=1rYF8_H6k2I"
+      },
+      {
+        "name": "SC21 [HPC in the City: St. Louis] TheEqualizers Team Trailer",
+        "summary": "Project trailer highlighting an HPC investigation into systemic racial disparities in public services across St. Louis.",
+        "url": "https://www.youtube.com/watch?v=H2PH-6qg6Tg"
+      },
+      {
+        "name": "SC21 [HPC in the City: St. Louis] Brick by Brick Team Trailer",
+        "summary": "Team trailer presenting an urban data science challenge addressing regional infrastructure and data analysis.",
+        "url": "https://www.youtube.com/watch?v=CLqSTrCt6UU"
+      },
+      {
+        "name": "SC21 [HPC in the City: St. Louis] Final Presentations",
+        "summary": "Showcase recording of all student teams delivering their final project presentations and Q&A to the judging panel.",
+        "url": "https://www.youtube.com/watch?v=x7E2vG_6D9E"
       }
     ]
   },
@@ -1379,6 +1536,13 @@
         "name": "Quick Viz (Charlies Angels)",
         "github": "https://github.com/hectorsantiago5/pearc20_quickviz",
         "award": null
+      }
+    ],
+    "videos": [
+      {
+        "name": "HackHPC PEARC20 Mentors Overview",
+        "summary": "Informational orientation session for mentors detailing student team guidance, judging criteria, and deliverables.",
+        "url": "https://www.youtube.com/watch?v=ROAXB6DCkyQ"
       }
     ]
   },

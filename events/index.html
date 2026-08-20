@@ -50,10 +50,27 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
     </div>
     <p class="results-count"><span id="resultsCount">{{ events.size }} events</span> shown</p>
 
+    {% assign general_videos = site.data.general_videos %}
+    {% if general_videos and general_videos.size > 0 %}
+    <details class="videos-toggle videos-toggle--general">
+      <summary>Event Videos <span class="small">(General &amp; Community)</span></summary>
+      <ul class="video-list">
+        {% for v in general_videos %}
+        <li class="video-item">
+          <a href="{{ v.url }}" target="_blank" rel="noopener" class="video-name"><i class="fa-brands fa-youtube" aria-hidden="true"></i> {{ v.name }}</a>
+          <p class="video-summary">{{ v.summary }}</p>
+        </li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+
     <div id="eventsGrid" class="events-grid">
       {% for event in events %}
+      {% assign partner_names = event.partners | join: " " %}
       {% assign team_names = event.teams | map: "name" | join: " " %}
-      {% assign search_blob = event.name | append: " " | append: event.category | append: " " | append: event.partners | join: " " | append: " " | append: team_names | downcase %}
+      {% assign video_names = event.videos | map: "name" | join: " " %}
+      {% assign search_blob = event.name | append: " " | append: event.category | append: " " | append: partner_names | append: " " | append: team_names | append: " " | append: video_names | downcase %}
       <div class="card event-card" id="event-{{ event.id }}" data-event-id="{{ event.id }}" data-type="{{ event.type }}" data-year="{{ event.start_date | slice: 0, 4 }}" data-search="{{ search_blob }}">
         <span class="badge badge-{{ event.type }}">{{ event.type }}</span>
         <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
@@ -78,6 +95,19 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
               <span class="team-name">{{ t.name }}</span>
               {% if t.award %}<span class="team-award">🏆 {{ t.award }}</span>{% endif %}
               {% if t.github %}<a href="{{ t.github }}" target="_blank" rel="noopener" class="team-repo"><i class="fa-brands fa-github" aria-hidden="true"></i> Repo</a>{% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </details>
+        {% endif %}
+        {% if event.videos and event.videos.size > 0 %}
+        <details class="videos-toggle">
+          <summary>Event Videos <span class="small">({{ event.videos.size }})</span></summary>
+          <ul class="video-list">
+            {% for v in event.videos %}
+            <li class="video-item">
+              <a href="{{ v.url }}" target="_blank" rel="noopener" class="video-name"><i class="fa-brands fa-youtube" aria-hidden="true"></i> {{ v.name }}</a>
+              <p class="video-summary">{{ v.summary }}</p>
             </li>
             {% endfor %}
           </ul>
