@@ -1,0 +1,22 @@
+- name: X-Twitter
+  url: "https://twitter.com/ccloudhack"
+  username: ccloudhack
+  icon: "fa-brands fa-x-twitter"
+
+- name: Instagram
+  url: "https://www.instagram.com/hack_hpc"
+  username: hack_hpc
+  icon: "fa-brands fa-instagram"
+
+- name: Linkedin
+  url: "https://www.linkedin.com/groups/8859728"
+  icon: "fa-brands fa-linkedin"
+
+- name: GitHub
+  url: "https://github.com/HackHPC"
+  username: HackHPC
+  icon: "fa-brands fa-github"
+
+- name: YouTube
+  url: "https://www.youtube.com/@hackhpc2069"
+  icon: "fa-brands fa-youtube"

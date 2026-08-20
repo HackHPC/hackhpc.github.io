@@ -4,6 +4,11 @@
       <div>
         <img src="/assets/img/logos/HackHPC-bar-blackbg.svg" alt="HackHPC" style="height:36px;">
         <p class="small" style="color:#B9CBEF; margin-top:1rem; max-width:320px;">Building the next generation of research computing innovators through hackathons, codeathons, and faculty development.</p>
+        <div class="footer-socials">
+          {% for s in site.data.socials %}
+          <a href="{{ s.url }}" target="_blank" rel="noopener" aria-label="{{ s.name }}"><i class="{{ s.icon }}" aria-hidden="true"></i></a>
+          {% endfor %}
+        </div>
       </div>
       <div>
         <h4>Explore</h4>

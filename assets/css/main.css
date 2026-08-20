@@ -376,6 +376,13 @@ code, .mono { font-family: var(--font-mono); }
 .footer-grid li { margin-bottom: 0.5rem; }
 .footer-grid a { color: #E0EAFB; }
 .footer-grid a:hover { color: var(--neutral-white); }
+.footer-socials { display: flex; gap: 0.75rem; margin-top: 1.25rem; }
+.footer-socials a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1); color: #E0EAFB; font-size: 0.95rem;
+}
+.footer-socials a:hover { background: var(--accent-orange); color: var(--neutral-white); }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.15); margin-top: 2.5rem; padding-top: 1.5rem;
   font-size: 0.85rem; color: #B9CBEF; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
