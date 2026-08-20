@@ -32,13 +32,29 @@ description: Browse every HackHPC hackathon, codeathon, training institute, and 
         <option value="">All Years</option>
         {% for y in year_list %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
       </select>
+      <select id="teamFilter">
+        <option value="">Find a Team...</option>
+        {% assign teams_index = "" | split: "" %}
+        {% for event in events %}
+          {% for t in event.teams %}
+            {% assign entry = t.name | append: "|||" | append: event.id | append: "|||" | append: event.name %}
+            {% assign teams_index = teams_index | push: entry %}
+          {% endfor %}
+        {% endfor %}
+        {% assign teams_index = teams_index | sort %}
+        {% for entry in teams_index %}
+        {% assign parts = entry | split: "|||" %}
+        <option value="{{ parts[1] }}">{{ parts[0] }} — {{ parts[2] }}</option>
+        {% endfor %}
+      </select>
     </div>
     <p class="results-count"><span id="resultsCount">{{ events.size }} events</span> shown</p>
 
     <div id="eventsGrid" class="events-grid">
       {% for event in events %}
-      {% assign search_blob = event.name | append: " " | append: event.category | append: " " | append: event.partners | join: " " | downcase %}
-      <div class="card event-card" data-type="{{ event.type }}" data-year="{{ event.start_date | slice: 0, 4 }}" data-search="{{ search_blob }}">
+      {% assign team_names = event.teams | map: "name" | join: " " %}
+      {% assign search_blob = event.name | append: " " | append: event.category | append: " " | append: event.partners | join: " " | append: " " | append: team_names | downcase %}
+      <div class="card event-card" id="event-{{ event.id }}" data-event-id="{{ event.id }}" data-type="{{ event.type }}" data-year="{{ event.start_date | slice: 0, 4 }}" data-search="{{ search_blob }}">
         <span class="badge badge-{{ event.type }}">{{ event.type }}</span>
         <h3><a href="{{ event.url }}">{{ event.name }}</a></h3>
         <div class="event-date">{{ event.date_display }}</div>

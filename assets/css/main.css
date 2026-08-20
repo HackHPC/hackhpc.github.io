@@ -163,8 +163,10 @@ code, .mono { font-family: var(--font-mono); }
 .filters input[type="search"], .filters select {
   font-family: var(--font-sans); padding: 0.6rem 0.9rem; border-radius: 8px;
   border: 1px solid var(--line-gray); background: var(--neutral-white); font-size: 0.95rem;
+  max-width: 100%;
 }
 .filters input[type="search"] { flex: 1 1 220px; }
+#teamFilter { flex: 1 1 220px; }
 .results-count { font-size: 0.9rem; color: #4b5563; margin-bottom: 1rem; }
 
 .events-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
@@ -186,6 +188,8 @@ code, .mono { font-family: var(--font-mono); }
 .partner-tag { font-size: 0.75rem; background: var(--soft-gray); border: 1px solid var(--line-gray); border-radius: 6px; padding: 0.15rem 0.5rem; color: var(--neutral-ink); }
 .event-card .card-links { margin-top: auto; display: flex; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.75rem; align-items: center; }
 .repo-link { display: inline-flex; align-items: center; gap: 0.3rem; }
+.event-card { scroll-margin-top: 6rem; transition: box-shadow 0.3s ease, border-color 0.3s ease; }
+.event-card--highlight { box-shadow: 0 0 0 3px var(--accent-orange); border-color: var(--accent-orange); }
 .teams-toggle { margin-top: 0.6rem; border-top: 1px solid var(--line-gray); padding-top: 0.6rem; }
 .teams-toggle summary { cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ui-blue); }
 .teams-toggle summary:hover { text-decoration: underline; }
@@ -193,7 +197,9 @@ code, .mono { font-family: var(--font-mono); }
 .team-item {
   display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem;
   font-size: 0.82rem; background: var(--soft-gray); border-radius: 8px; padding: 0.4rem 0.65rem;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
+.team-item--highlight { background: #FFE9D6; box-shadow: 0 0 0 2px var(--accent-orange); }
 .team-name { font-weight: 600; color: var(--neutral-ink); }
 .team-award { font-size: 0.75rem; color: #9a5b00; }
 .team-repo { margin-left: auto; font-size: 0.78rem; display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }

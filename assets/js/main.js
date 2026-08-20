@@ -27,6 +27,7 @@
   var searchInput = document.getElementById('eventSearch');
   var typeFilter = document.getElementById('typeFilter');
   var yearFilter = document.getElementById('yearFilter');
+  var teamFilter = document.getElementById('teamFilter');
   var resultsCount = document.getElementById('resultsCount');
   var noResults = document.getElementById('noResults');
   var cards = Array.prototype.slice.call(grid.querySelectorAll('.event-card'));
@@ -35,13 +36,15 @@
     var query = (searchInput.value || '').toLowerCase().trim();
     var type = typeFilter.value;
     var year = yearFilter.value;
+    var teamEventId = teamFilter ? teamFilter.value : '';
     var visible = 0;
 
     cards.forEach(function (card) {
       var matchesQuery = !query || card.dataset.search.indexOf(query) !== -1;
       var matchesType = !type || card.dataset.type === type;
       var matchesYear = !year || card.dataset.year === year;
-      var show = matchesQuery && matchesType && matchesYear;
+      var matchesTeam = !teamEventId || card.dataset.eventId === teamEventId;
+      var show = matchesQuery && matchesType && matchesYear && matchesTeam;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
@@ -53,6 +56,32 @@
   searchInput.addEventListener('input', applyFilters);
   typeFilter.addEventListener('change', applyFilters);
   yearFilter.addEventListener('change', applyFilters);
+
+  if (teamFilter) {
+    teamFilter.addEventListener('change', function () {
+      applyFilters();
+      var eventId = teamFilter.value;
+      if (!eventId) return;
+
+      var card = grid.querySelector('[data-event-id="' + eventId + '"]');
+      if (!card) return;
+
+      var teamName = teamFilter.options[teamFilter.selectedIndex].textContent.split(' — ')[0];
+      var toggle = card.querySelector('.teams-toggle');
+      if (toggle) toggle.open = true;
+      var teamItem = Array.prototype.slice.call(card.querySelectorAll('.team-name'))
+        .find(function (el) { return el.textContent === teamName; });
+
+      card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      card.classList.add('event-card--highlight');
+      if (teamItem) teamItem.closest('.team-item').classList.add('team-item--highlight');
+      setTimeout(function () {
+        card.classList.remove('event-card--highlight');
+        if (teamItem) teamItem.closest('.team-item').classList.remove('team-item--highlight');
+      }, 2500);
+    });
+  }
+
   applyFilters();
 })();
 
