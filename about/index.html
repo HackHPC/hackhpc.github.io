@@ -64,6 +64,117 @@ description: HackHPC's mission, history, and the network of hackathons, codeatho
   </div>
 </section>
 
+<section class="section">
+  <div class="container viz-root">
+    {% assign d = site.data.participants_dashboard %}
+    <span class="eyebrow">Community Dashboard</span>
+    <h2 class="mt-0">Who shows up, and where</h2>
+    <p style="max-width:760px;">Aggregated from HackHPC's participant records since 2018 — counted per person, not per sign-up, so someone who's come back for five events is counted once here. No names or contact information are included in these figures.</p>
+
+    <div class="metrics-grid" style="margin-top:2rem;">
+      <div class="metric-card">
+        <div class="metric-value">{{ d.total_unique_participants }}</div>
+        <div class="metric-label">Unique Participants</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">{{ d.total_mentors }}</div>
+        <div class="metric-label">Mentors</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">{{ d.years_active }}</div>
+        <div class="metric-label">Years of Data (2018–{{ d.events_by_year_chart | last | map: "year" }})</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value">{{ d.institutions_and_orgs }}</div>
+        <div class="metric-label">Institutions & Organizations</div>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin-top:2rem;">
+      <div class="chart-title">Participation records by year and event</div>
+      <div class="stacked-chart-scroll">
+        <div class="stacked-chart">
+          {% for y in d.events_by_year_chart %}
+          {% assign bar_h = y.total | times: 100.0 | divided_by: d.max_year_total %}
+          <div class="stacked-bar-col">
+            <div class="stacked-bar-total">{{ y.total }}</div>
+            <div class="stacked-bar-plot">
+              <div class="stacked-bar" style="height: {{ bar_h }}%;">
+                {% for seg in y.segments %}
+                <div class="stacked-segment viz-series-{{ seg.slot }}" style="flex: {{ seg.count }} 0 0;" title="{{ seg.label }}: {{ seg.count }} in {{ y.year }}"></div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="stacked-bar-year">{{ y.year }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="chart-legend">
+        {% for c in d.conference_legend %}
+        <span class="chart-legend-item"><span class="chart-legend-swatch viz-series-{{ c.slot }}"></span>{{ c.label }}</span>
+        {% endfor %}
+        <span class="chart-legend-item"><span class="chart-legend-swatch viz-series-0"></span>Other</span>
+      </div>
+      <p class="dashboard-note">Counts are participation records (a person joining two events in the same year counts twice here) — hover a segment for its exact count.</p>
+    </div>
+
+    <div class="grid-2" style="display:grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
+      <div class="chart-card">
+        <div class="chart-title">Gender</div>
+        <div class="hbar-chart">
+          {% assign gmax = d.gender.first.count %}
+          {% for g in d.gender %}
+          {% assign w = g.count | times: 100.0 | divided_by: gmax %}
+          <div class="hbar-row">
+            <div class="hbar-label">{{ g.label }}</div>
+            <div class="hbar-track"><div class="hbar-fill viz-series-{{ forloop.index }}" style="width: {{ w }}%;"></div></div>
+            <div class="hbar-value">{{ g.count }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">MSI Type</div>
+        <div class="hbar-chart">
+          {% assign mmax = d.msi_type.first.count %}
+          {% for m in d.msi_type %}
+          {% assign w = m.count | times: 100.0 | divided_by: mmax %}
+          <div class="hbar-row">
+            <div class="hbar-label">{{ m.label }}</div>
+            <div class="hbar-track"><div class="hbar-fill viz-series-{{ forloop.index }}" style="width: {{ w }}%;"></div></div>
+            <div class="hbar-value">{{ m.count }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-card" style="margin-top:1.5rem;">
+      <div class="chart-title">Major / Subject of Study</div>
+      <div class="hbar-chart">
+        {% assign jmax = d.majors.first.count %}
+        {% for j in d.majors %}
+        {% assign w = j.count | times: 100.0 | divided_by: jmax %}
+        <div class="hbar-row">
+          <div class="hbar-label">{{ j.label }}</div>
+          <div class="hbar-track"><div class="hbar-fill viz-series-{{ forloop.index }}" style="width: {{ w }}%;"></div></div>
+          <div class="hbar-value">{{ j.count }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      <p class="dashboard-note">Majors are self-reported by student participants; mentors, organizers, and staff records generally don't include one, so this reflects the {{ d.majors_reporting_total }} people who reported a field of study, not everyone in the dataset.</p>
+    </div>
+
+    <div class="card card--soft" style="margin-top:1.5rem;">
+      <h3 class="mt-0">Reading the trend</h3>
+      <p>HackHPC opened with two tracks in 2018 — PEARC and SC-colocated hackathons — and stayed a two-track program through 2021. 2022 was the inflection point: ADMI and FacultyHack@Gateways joined the lineup, plus one-off collaborations (a TACC REU codeathon, the Costa Rica Big Data School), pushing that year to its high-water mark of 176 unique participants across five concurrent tracks. 2023 added Code@MS-CC and Hack the Threat and stayed close to that peak.</p>
+      <p>2024 was a contraction — only ADMI and Gateways ran that year, and unique participants dropped to 36, the steepest single-year fall in the dataset. SC-colocated events don't appear in the records after 2023 at all. 2025 and 2026 show a partial rebound as SGX3's Coding Institute joins ADMI and Gateways as a third recurring track, bringing participation back toward 50-60 unique people a year — smaller than the 2022 peak, but on a steadier three-track footing rather than a wide, one-off-heavy spread.</p>
+      <p>Demographically, the roster leans HBCU: of the {% assign msi_yes = d.msi_affiliated | where: "label", "MSI-affiliated" | first %}{{ msi_yes.count }} people with an MSI type on record, {% assign hbcu = d.msi_type | where: "label", "HBCU" | first %}{{ hbcu.count }} are from HBCUs. Computer Science is the dominant major by a wide margin, but the roster spans real breadth beyond it — mathematics, computer/electrical engineering, data science, and more.</p>
+    </div>
+  </div>
+</section>
+
 <section class="section text-center">
   <div class="container">
     <h2>Questions about HackHPC?</h2>

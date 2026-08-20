@@ -1,0 +1,328 @@
+{
+  "generated_note": "Aggregate statistics only, computed from a participant roster. No names, emails, or other individual-level fields are stored here.",
+  "total_unique_participants": 656,
+  "total_mentors": 93,
+  "total_participation_records": 882,
+  "years_active": 9,
+  "institutions_and_orgs": 116,
+  "gender": [
+    {
+      "label": "Male",
+      "count": 330
+    },
+    {
+      "label": "Female",
+      "count": 208
+    },
+    {
+      "label": "Not specified",
+      "count": 108
+    },
+    {
+      "label": "Non-Binary",
+      "count": 8
+    },
+    {
+      "label": "Prefer not to say",
+      "count": 2
+    }
+  ],
+  "msi_affiliated": [
+    {
+      "label": "MSI-affiliated",
+      "count": 361
+    },
+    {
+      "label": "Not specified",
+      "count": 295
+    }
+  ],
+  "msi_type": [
+    {
+      "label": "Not specified",
+      "count": 295
+    },
+    {
+      "label": "HBCU",
+      "count": 276
+    },
+    {
+      "label": "SIP",
+      "count": 84
+    },
+    {
+      "label": "TCCU",
+      "count": 1
+    }
+  ],
+  "majors": [
+    {
+      "label": "Computer Science",
+      "count": 211
+    },
+    {
+      "label": "Computer Information Systems\\Technology",
+      "count": 22
+    },
+    {
+      "label": "Mathematics(Applied/Statistics)",
+      "count": 19
+    },
+    {
+      "label": "Computer Engineering",
+      "count": 19
+    },
+    {
+      "label": "Engineering (Bio/Chem/EC/Mech/Ind)",
+      "count": 17
+    },
+    {
+      "label": "Data Science",
+      "count": 16
+    },
+    {
+      "label": "Data Science/ Machine Learning",
+      "count": 6
+    },
+    {
+      "label": "Other",
+      "count": 47
+    }
+  ],
+  "majors_reporting_total": 357,
+  "max_year_total": 196,
+  "conference_legend": [
+    {
+      "label": "SC",
+      "slot": 1
+    },
+    {
+      "label": "ADMI",
+      "slot": 2
+    },
+    {
+      "label": "PEARC",
+      "slot": 3
+    },
+    {
+      "label": "Gateways",
+      "slot": 4
+    },
+    {
+      "label": "TACC REU",
+      "slot": 5
+    },
+    {
+      "label": "MS-CC Annual Meeting",
+      "slot": 6
+    },
+    {
+      "label": "Costa Rica Big Data School",
+      "slot": 7
+    },
+    {
+      "label": "Hack the Threat",
+      "slot": 8
+    }
+  ],
+  "events_by_year_chart": [
+    {
+      "year": "2018",
+      "total": 28,
+      "unique_participants": 28,
+      "segments": [
+        {
+          "label": "SC",
+          "count": 9,
+          "slot": 1
+        },
+        {
+          "label": "PEARC",
+          "count": 19,
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "total": 68,
+      "unique_participants": 66,
+      "segments": [
+        {
+          "label": "SC",
+          "count": 36,
+          "slot": 1
+        },
+        {
+          "label": "PEARC",
+          "count": 32,
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "total": 95,
+      "unique_participants": 89,
+      "segments": [
+        {
+          "label": "SC",
+          "count": 64,
+          "slot": 1
+        },
+        {
+          "label": "PEARC",
+          "count": 31,
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "total": 148,
+      "unique_participants": 126,
+      "segments": [
+        {
+          "label": "SC",
+          "count": 93,
+          "slot": 1
+        },
+        {
+          "label": "PEARC",
+          "count": 55,
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "total": 196,
+      "unique_participants": 176,
+      "segments": [
+        {
+          "label": "SC",
+          "count": 71,
+          "slot": 1
+        },
+        {
+          "label": "ADMI",
+          "count": 69,
+          "slot": 2
+        },
+        {
+          "label": "Gateways",
+          "count": 9,
+          "slot": 4
+        },
+        {
+          "label": "TACC REU",
+          "count": 16,
+          "slot": 5
+        },
+        {
+          "label": "Costa Rica Big Data School",
+          "count": 31,
+          "slot": 7
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "total": 183,
+      "unique_participants": 162,
+      "segments": [
+        {
+          "label": "SC",
+          "count": 52,
+          "slot": 1
+        },
+        {
+          "label": "ADMI",
+          "count": 29,
+          "slot": 2
+        },
+        {
+          "label": "Gateways",
+          "count": 19,
+          "slot": 4
+        },
+        {
+          "label": "TACC REU",
+          "count": 20,
+          "slot": 5
+        },
+        {
+          "label": "MS-CC Annual Meeting",
+          "count": 34,
+          "slot": 6
+        },
+        {
+          "label": "Hack the Threat",
+          "count": 29,
+          "slot": 8
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "total": 38,
+      "unique_participants": 36,
+      "segments": [
+        {
+          "label": "ADMI",
+          "count": 18,
+          "slot": 2
+        },
+        {
+          "label": "Gateways",
+          "count": 20,
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "year": "2025",
+      "total": 67,
+      "unique_participants": 54,
+      "segments": [
+        {
+          "label": "ADMI",
+          "count": 29,
+          "slot": 2
+        },
+        {
+          "label": "Gateways",
+          "count": 25,
+          "slot": 4
+        },
+        {
+          "label": "Other",
+          "count": 13,
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "year": "2026",
+      "total": 59,
+      "unique_participants": 50,
+      "segments": [
+        {
+          "label": "ADMI",
+          "count": 22,
+          "slot": 2
+        },
+        {
+          "label": "Gateways",
+          "count": 24,
+          "slot": 4
+        },
+        {
+          "label": "Other",
+          "count": 13,
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

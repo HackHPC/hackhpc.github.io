@@ -364,6 +364,56 @@ code, .mono { font-family: var(--font-mono); }
   font-family: var(--font-sans); font-weight: 800; font-size: 0.95rem; color: var(--accent-orange);
 }
 
+/* Dashboard charts — categorical palette validated with scripts/validate_palette.js
+   (dataviz skill): fixed hue order, never cycled/reassigned per filter. */
+.viz-root {
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100;
+  --series-5: #e87ba4; --series-6: #008300; --series-7: #4a3aa7; --series-8: #e34948;
+  --series-other: #9a9890;
+}
+.chart-card { background: var(--neutral-white); border: 1px solid var(--line-gray); border-radius: var(--radius); padding: 1.5rem; }
+.chart-title { font-family: var(--font-sans); font-weight: 700; color: var(--dark-blue); font-size: 1rem; margin-bottom: 1rem; }
+
+/* Horizontal bar chart */
+.hbar-chart { display: flex; flex-direction: column; gap: 0.6rem; }
+.hbar-row { display: grid; grid-template-columns: minmax(90px, 34%) 1fr auto; align-items: center; gap: 0.6rem; }
+.hbar-label { font-size: 0.82rem; color: var(--neutral-ink); text-align: right; }
+.hbar-track { background: var(--soft-gray); border-radius: 4px; height: 14px; position: relative; }
+.hbar-fill {
+  height: 100%; border-radius: 4px; background: var(--series-1);
+  min-width: 4px; transition: filter 0.15s ease;
+}
+.hbar-row:hover .hbar-fill { filter: brightness(0.92); }
+.hbar-value { font-size: 0.78rem; font-weight: 700; color: var(--dark-blue); min-width: 2.5em; font-variant-numeric: tabular-nums; }
+
+/* Stacked bar chart (events by year) */
+.stacked-chart-scroll { overflow-x: auto; padding-bottom: 0.5rem; }
+.stacked-chart { display: flex; align-items: flex-end; gap: 1rem; min-width: max-content; height: 220px; padding: 0 0.5rem; }
+.stacked-bar-col { display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%; width: 56px; }
+.stacked-bar-total { font-size: 0.75rem; font-weight: 700; color: var(--dark-blue); margin-bottom: 0.3rem; font-variant-numeric: tabular-nums; }
+.stacked-bar-plot { height: 160px; width: 100%; display: flex; align-items: flex-end; }
+.stacked-bar { display: flex; flex-direction: column-reverse; width: 100%; border-radius: 4px 4px 0 0; overflow: hidden; }
+.stacked-segment { width: 100%; }
+.stacked-segment + .stacked-segment { border-top: 2px solid var(--neutral-white); }
+.stacked-bar-year { font-size: 0.78rem; font-weight: 600; color: var(--neutral-ink); margin-top: 0.5rem; }
+
+/* Shared legend */
+.chart-legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-top: 1.25rem; }
+.chart-legend-item { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.78rem; color: var(--neutral-ink); }
+.chart-legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+.viz-series-1 { background: var(--series-1); }
+.viz-series-2 { background: var(--series-2); }
+.viz-series-3 { background: var(--series-3); }
+.viz-series-4 { background: var(--series-4); }
+.viz-series-5 { background: var(--series-5); }
+.viz-series-6 { background: var(--series-6); }
+.viz-series-7 { background: var(--series-7); }
+.viz-series-8 { background: var(--series-8); }
+.viz-series-0 { background: var(--series-other); }
+
+.dashboard-note { font-size: 0.82rem; color: #4b5563; margin-top: 1rem; }
+
 /* Utility */
 .text-center { text-align: center; }
 .mt-0 { margin-top: 0; }
