@@ -500,7 +500,7 @@ code, .mono { font-family: var(--font-mono); }
   .events-rail-list li:last-child { border-bottom: none; }
   .events-rail-list a {
     display: block; padding: 0.55rem 1rem; font-size: 0.8rem; line-height: 1.35;
-    color: var(--neutral-ink);
+    color: var(--neutral-ink); font-weight: 700;
   }
   .events-rail-list a:hover { background: var(--soft-gray); color: var(--ui-blue); text-decoration: none; }
   .events-rail-footer {

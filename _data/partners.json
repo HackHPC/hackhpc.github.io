@@ -48,7 +48,7 @@
     "name": "Intel",
     "url": "https://www.intel.com/",
     "mentions": 5,
-    "tier": "core",
+    "tier": "program",
     "description": "Industry sponsor across HPC in the City and PEARC events.",
     "icon": "/assets/img/partners/intel.svg",
     "fa_icon": null
@@ -57,7 +57,7 @@
     "name": "Supercomputing Conference (SC)",
     "url": "https://supercomputing.org/",
     "mentions": 5,
-    "tier": "core",
+    "tier": "program",
     "description": "Annual host conference for the HPC in the City hackathon series (SC20\u2013SC23).",
     "icon": "/assets/img/partners/supercomputing-conference-sc.svg",
     "fa_icon": null
